@@ -32,8 +32,6 @@ public enum ModelFunctionEnum {
 
     private String desc;
 
-
-
     ModelFunctionEnum(String method, String modelCode, String functionCode, String desc) {
         this.method = method;
         this.modelCode = modelCode;

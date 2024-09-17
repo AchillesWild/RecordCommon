@@ -35,11 +35,8 @@ public enum ModelEnum {
 
     ModelEnum(Integer key, String code, String value) {
         this.key = key;
-        this.value = value;
-    }
-
-    ModelEnum(String code) {
         this.code = code;
+        this.value = value;
     }
 
     public Integer getKey() {
