@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.achilles</groupId>
-    <artifactId>do</artifactId>
+    <artifactId>RecordCommon</artifactId>
     <version>1.0</version>
 
     <properties>
@@ -27,7 +27,7 @@
                             <addClasspath>true</addClasspath>
                             <!--   MANIFEST.MF 中 Class-Path -->
                             <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>com.achilles.tool.GenerateRandomString</mainClass>
+<!--                            <mainClass>com.achilles.tool.GenerateRandomString</mainClass>-->
                         </manifest>
                     </archive>
                     <outputDirectory>D:\jar</outputDirectory>
