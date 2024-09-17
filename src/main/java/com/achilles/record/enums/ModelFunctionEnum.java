@@ -5,7 +5,7 @@ import java.util.*;
 public enum ModelFunctionEnum {
 
     //--------------------------------------------- mission  start ----------------------------------------------------------------
-    MISSION_ADD(ClzConstant.MISSION + ".add", ModelEnum.MISSION.getKey(),1, ModelEnum.MISSION.getValue() + "_新增"),
+    MISSION_ADD(ClzConstant.MISSION + ".add", ModelEnum.MISSION.getCode(),"add", ModelEnum.MISSION.getValue() + "_新增"),
 //    MISSION_DEL("com.achilles.server.controller.mission.MissionCommandController.delete",501, "待办_删除"),
 //    MISSION_UPDATE("com.achilles.server.controller.mission.MissionCommandController.update",502, "待办_修改"),
 //    MISSION_UPDATE_INITIAL("com.achilles.server.controller.mission.MissionCommandController.updateInitial",503, "待办_改为未处理"),
@@ -26,15 +26,15 @@ public enum ModelFunctionEnum {
 
     private String method;
 
-    private Integer modelCode;
+    private String modelCode;
 
-    private Integer functionCode;
+    private String functionCode;
 
     private String desc;
 
 
 
-    ModelFunctionEnum(String method, Integer modelCode, Integer functionCode, String desc) {
+    ModelFunctionEnum(String method, String modelCode, String functionCode, String desc) {
         this.method = method;
         this.modelCode = modelCode;
         this.functionCode = functionCode;
@@ -45,11 +45,11 @@ public enum ModelFunctionEnum {
         return method;
     }
 
-    public Integer getModelCode() {
+    public String getModelCode() {
         return modelCode;
     }
 
-    public Integer getFunctionCode() {
+    public String getFunctionCode() {
         return functionCode;
     }
 
@@ -57,7 +57,7 @@ public enum ModelFunctionEnum {
         return desc;
     }
 
-    public static Integer getFunctionCode(String method) {
+    public static String getFunctionCode(String method) {
         return methodToFunctionCodeMap.get(method);
     }
 
@@ -65,9 +65,9 @@ public enum ModelFunctionEnum {
         return functionToDescMap.get(function);
     }
 
-    public static Map<String, Integer> methodToModelCodeMap = new HashMap<>();
+    public static Map<String, String> methodToModelCodeMap = new HashMap<>();
 
-    public static Map<String, Integer> methodToFunctionCodeMap = new HashMap<>();
+    public static Map<String, String> methodToFunctionCodeMap = new HashMap<>();
 
     public static Map<String, String> functionToDescMap = new HashMap<>();
 
