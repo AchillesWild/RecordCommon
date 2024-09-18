@@ -120,6 +120,27 @@ public enum ModelFunctionEnum {
     GOODS_TRADE_MONTH_GET_DOWNLOAD(ClzConstant.GOODS_TRADE_MONTH_QUERY + ".download", ModelEnum.GOODS_TRADE_MONTH.getCode(),"download", ModelEnum.GOODS_TRADE_MONTH.getValue() + "_下载"),
     GOODS_TRADE_MONTH_GET_DOWNLOAD_DETAIL(ClzConstant.GOODS_TRADE_MONTH_QUERY + ".downloadMonthDetail", ModelEnum.GOODS_TRADE_MONTH.getCode(),"downloadMonthDetail", ModelEnum.GOODS_TRADE_MONTH.getValue() + "_下载某月明细"),
 
+    GOODS_ADD(ClzConstant.GOODS_COMMAND + ".add", ModelEnum.GOODS.getCode(),"add", ModelEnum.GOODS.getValue() + "_新增"),
+    GOODS_DEL(ClzConstant.GOODS_COMMAND + ".delete", ModelEnum.GOODS.getCode(),"delete", ModelEnum.GOODS.getValue() + "_删除"),
+    GOODS_UPDATE(ClzConstant.GOODS_COMMAND + ".update", ModelEnum.GOODS.getCode(),"update", ModelEnum.GOODS.getValue() + "_修改"),
+
+    GOODS_DOWNLOAD(ClzConstant.GOODS_QUERY + ".download", ModelEnum.GOODS.getCode(),"download", ModelEnum.GOODS.getValue() + "_下载"),
+    GOODS_GET(ClzConstant.GOODS_QUERY + ".get", ModelEnum.GOODS.getCode(),"get", ModelEnum.GOODS.getValue() + "_查询一个"),
+    GOODS_GET_BIG_IMG(ClzConstant.GOODS_QUERY + ".getBigImg", ModelEnum.GOODS.getCode(),"getBigImg", ModelEnum.GOODS.getValue() + "_查询大图"),
+    GOODS_LIST(ClzConstant.GOODS_QUERY + ".getPageList", ModelEnum.GOODS.getCode(),"getPageList", ModelEnum.GOODS.getValue() + "_查询列表"),
+    GOODS_GET_SELECT(ClzConstant.GOODS_QUERY + ".getSelect", ModelEnum.GOODS.getCode(),"getSelect", ModelEnum.GOODS.getValue() + "_查询下拉"),
+
+    SUPPLIER_ADD(ClzConstant.SUPPLIER_COMMAND + ".add", ModelEnum.SUPPLIER.getCode(),"add", ModelEnum.SUPPLIER.getValue() + "_新增"),
+    SUPPLIER_DEL(ClzConstant.SUPPLIER_COMMAND + ".delete", ModelEnum.SUPPLIER.getCode(),"delete", ModelEnum.SUPPLIER.getValue() + "_删除"),
+    SUPPLIER_UPDATE(ClzConstant.SUPPLIER_COMMAND + ".update", ModelEnum.SUPPLIER.getCode(),"update", ModelEnum.SUPPLIER.getValue() + "_修改"),
+
+    SUPPLIER_LIST(ClzConstant.SUPPLIER_QUERY + ".getPageList", ModelEnum.SUPPLIER.getCode(),"getPageList", ModelEnum.SUPPLIER.getValue() + "_查询列表"),
+    SUPPLIERS_GET(ClzConstant.SUPPLIER_QUERY + ".get", ModelEnum.SUPPLIER.getCode(),"get", ModelEnum.SUPPLIER.getValue() + "_查询一个"),
+    SUPPLIERS_GET_BY_UUID(ClzConstant.SUPPLIER_QUERY + ".getByUuid", ModelEnum.SUPPLIER.getCode(),"getByUuid", ModelEnum.SUPPLIER.getValue() + "_根据uuid查询一个"),
+    SUPPLIERS_DOWNLOAD(ClzConstant.SUPPLIER_QUERY + ".download", ModelEnum.SUPPLIER.getCode(),"download", ModelEnum.SUPPLIER.getValue() + "_下载"),
+    SUPPLIERS_GET_SUPPLIER_TYPE(ClzConstant.SUPPLIER_QUERY + ".getSupplierType", ModelEnum.SUPPLIER.getCode(),"getSupplierType", ModelEnum.SUPPLIER.getValue() + "_获取供应商类型下拉"),
+    SUPPLIERS_GET_SELECT(ClzConstant.SUPPLIER_QUERY + ".getSelect", ModelEnum.SUPPLIER.getCode(),"getSelect", ModelEnum.SUPPLIER.getValue() + "_获取供应商下拉菜单"),
+
     ;
 
     private String method;
