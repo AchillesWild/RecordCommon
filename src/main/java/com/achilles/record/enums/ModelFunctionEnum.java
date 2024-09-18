@@ -88,7 +88,13 @@ public enum ModelFunctionEnum {
     PRODUCT_COMMAND_LIST(ClzConstant.PRODUCT_QUERY + ".getPageList", ModelEnum.PRODUCT.getCode(),"getPageList", ModelEnum.PRODUCT.getValue() + "_查询列表"),
     PRODUCT_COMMAND_GET_BIG_IMG(ClzConstant.PRODUCT_QUERY + ".getBigImg", ModelEnum.PRODUCT.getCode(),"getBigImg", ModelEnum.PRODUCT.getValue() + "_获取大图"),
 
-
+    PRODUCT_OUTPUT_MONTH_LIST(ClzConstant.PRODUCT_OUTPUT_MONTH_QUERY + ".getPageList", ModelEnum.PRODUCT_OUTPUT_MONTH.getCode(),"getPageList", ModelEnum.PRODUCT_OUTPUT_MONTH.getValue() + "_查询列表"),
+    PRODUCT_OUTPUT_MONTH_GET(ClzConstant.PRODUCT_OUTPUT_MONTH_QUERY + ".getByMonth", ModelEnum.PRODUCT_OUTPUT_MONTH.getCode(),"getByMonth", ModelEnum.PRODUCT_OUTPUT_MONTH.getValue() + "_查询某个月"),
+    PRODUCT_OUTPUT_MONTH_DOWNLOAD(ClzConstant.PRODUCT_OUTPUT_MONTH_QUERY + ".download", ModelEnum.PRODUCT_OUTPUT_MONTH.getCode(),"download", ModelEnum.PRODUCT_OUTPUT_MONTH.getValue() + "下载"),
+    PRODUCT_OUTPUT_MONTH_DOWNLOAD_DETAIL(ClzConstant.PRODUCT_OUTPUT_MONTH_QUERY + ".downloadMonthDetail", ModelEnum.PRODUCT_OUTPUT_MONTH.getCode(),"downloadMonthDetail", ModelEnum.PRODUCT_OUTPUT_MONTH.getValue() + "下载某月明细"),
+    PRODUCT_OUTPUT_MONTH_TO_SUM(ClzConstant.PRODUCT_OUTPUT_MONTH_QUERY + ".toSumOne", ModelEnum.PRODUCT_OUTPUT_MONTH.getCode(),"toSumOne", ModelEnum.PRODUCT_OUTPUT_MONTH.getValue() + "_汇总某个月"),
+    PRODUCT_OUTPUT_MONTH_TO_SUM_RECENT(ClzConstant.PRODUCT_OUTPUT_MONTH_QUERY + ".toSumRecent", ModelEnum.PRODUCT_OUTPUT_MONTH.getCode(),"toSumRecent", ModelEnum.PRODUCT_OUTPUT_MONTH.getValue() + "_汇总最近几个月"),
+    PRODUCT_OUTPUT_MONTH_GET_SUM(ClzConstant.PRODUCT_OUTPUT_MONTH_QUERY + ".getSumAmount", ModelEnum.PRODUCT_OUTPUT_MONTH.getCode(),"getSumAmount", ModelEnum.PRODUCT_OUTPUT_MONTH.getValue() + "_查询某个产品的汇总"),
 
     ;
 
