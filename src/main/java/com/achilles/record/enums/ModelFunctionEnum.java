@@ -141,6 +141,12 @@ public enum ModelFunctionEnum {
     SUPPLIERS_GET_SUPPLIER_TYPE(ClzConstant.SUPPLIER_QUERY + ".getSupplierType", ModelEnum.SUPPLIER.getCode(),"getSupplierType", ModelEnum.SUPPLIER.getValue() + "_获取供应商类型下拉"),
     SUPPLIERS_GET_SELECT(ClzConstant.SUPPLIER_QUERY + ".getSelect", ModelEnum.SUPPLIER.getCode(),"getSelect", ModelEnum.SUPPLIER.getValue() + "_获取供应商下拉菜单"),
 
+    //--------------------------------------------- share area  start ----------------------------------------------------------------
+    SHARE_AREA_ADD(ClzConstant.SHARE_AREA_COMMAND + ".add", ModelEnum.SHARE_AREA.getCode(),"add", ModelEnum.SHARE_AREA.getValue() + "_新增"),
+    SHARE_AREA_DEL(ClzConstant.SHARE_AREA_COMMAND + ".delete", ModelEnum.SHARE_AREA.getCode(),"delete", ModelEnum.SHARE_AREA.getValue() + "_删除"),
+
+    SHARE_AREA_LIST(ClzConstant.SHARE_AREA_QUERY + ".getPageList", ModelEnum.SHARE_AREA.getCode(),"getPageList", ModelEnum.SHARE_AREA.getValue() + "_查询列表"),
+
     ;
 
     private String method;

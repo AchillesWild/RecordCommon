@@ -2,7 +2,6 @@ package com.achilles.record.enums;
 
 public enum ModelEnum {
 
-//    SHARE(0,"分享区"),
     MISSION("mission", "待办"),
 
     NOTE("note", "笔记"),
@@ -19,6 +18,8 @@ public enum ModelEnum {
     GOODS( "goods","买/卖"),
     GOODS_TRADE("goods_trade","买/卖-明细"),
     GOODS_TRADE_MONTH("goods_trade_month","买/卖-月度"),
+
+    SHARE_AREA("share_area","信息板"),
 
     ;
 

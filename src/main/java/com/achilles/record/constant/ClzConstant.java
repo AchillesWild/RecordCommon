@@ -28,4 +28,6 @@ public class ClzConstant {
     public static final String SUPPLIER_COMMAND = "com.achilles.server.controller.goods.GoodsSupplierCommandController";
     public static final String SUPPLIER_QUERY= "com.achilles.server.controller.goods.GoodsSupplierQryController";
 
+    public static final String SHARE_AREA_COMMAND = "com.achilles.server.controller.share.ShareAreaCommandController";
+    public static final String SHARE_AREA_QUERY= "com.achilles.server.controller.share.ShareAreaQryController";
 }
