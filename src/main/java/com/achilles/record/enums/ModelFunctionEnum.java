@@ -69,16 +69,16 @@ public enum ModelFunctionEnum {
     FINANCE_TRANSACTION_TYPE_GET_SELECT(ClzConstant.FINANCE_TRANSACTION_TYPE_QUERY + ".getSelect", ModelEnum.FINANCE_TRANSACTION_TYPE.getCode(),"getSelect", ModelEnum.FINANCE_TRANSACTION_TYPE.getValue() + "_查询所有(下拉菜单)"),
 
     //--------------------------------------------- product  start ----------------------------------------------------------------
-    PRODUCT_OUTPUT_COMMAND_ADD(ClzConstant.PRODUCT_OUTPUT_COMMAND + ".add", ModelEnum.PRODUCT_OUTPUT.getCode(),"add", ModelEnum.PRODUCT_OUTPUT.getValue() + "_新增"),
-    PRODUCT_OUTPUT_COMMAND_DEL(ClzConstant.PRODUCT_OUTPUT_COMMAND + ".delete", ModelEnum.PRODUCT_OUTPUT.getCode(),"delete", ModelEnum.PRODUCT_OUTPUT.getValue() + "_删除"),
-    PRODUCT_OUTPUT_COMMAND_UPDATE(ClzConstant.PRODUCT_OUTPUT_COMMAND + ".update", ModelEnum.PRODUCT_OUTPUT.getCode(),"update", ModelEnum.PRODUCT_OUTPUT.getValue() + "_修改"),
-    PRODUCT_OUTPUT_COMMAND_COPY(ClzConstant.PRODUCT_OUTPUT_COMMAND + ".copy", ModelEnum.PRODUCT_OUTPUT.getCode(),"copy", ModelEnum.PRODUCT_OUTPUT.getValue() + "_复制"),
+    PRODUCT_OUTPUT_ADD(ClzConstant.PRODUCT_OUTPUT_COMMAND + ".add", ModelEnum.PRODUCT_OUTPUT.getCode(),"add", ModelEnum.PRODUCT_OUTPUT.getValue() + "_新增"),
+    PRODUCT_OUTPUT_DEL(ClzConstant.PRODUCT_OUTPUT_COMMAND + ".delete", ModelEnum.PRODUCT_OUTPUT.getCode(),"delete", ModelEnum.PRODUCT_OUTPUT.getValue() + "_删除"),
+    PRODUCT_OUTPUT_UPDATE(ClzConstant.PRODUCT_OUTPUT_COMMAND + ".update", ModelEnum.PRODUCT_OUTPUT.getCode(),"update", ModelEnum.PRODUCT_OUTPUT.getValue() + "_修改"),
+    PRODUCT_OUTPUT_COPY(ClzConstant.PRODUCT_OUTPUT_COMMAND + ".copy", ModelEnum.PRODUCT_OUTPUT.getCode(),"copy", ModelEnum.PRODUCT_OUTPUT.getValue() + "_复制"),
 
-    PRODUCT_OUTPUT_COMMAND_DOWNLOAD(ClzConstant.PRODUCT_OUTPUT_QUERY + ".download", ModelEnum.PRODUCT_OUTPUT.getCode(),"download", ModelEnum.PRODUCT_OUTPUT.getValue() + "_下载"),
-    PRODUCT_OUTPUT_COMMAND_GET(ClzConstant.PRODUCT_OUTPUT_QUERY + ".get", ModelEnum.PRODUCT_OUTPUT.getCode(),"get", ModelEnum.PRODUCT_OUTPUT.getValue() + "_根据id查询"),
-    PRODUCT_OUTPUT_COMMAND_LIST(ClzConstant.PRODUCT_OUTPUT_QUERY + ".getPageList", ModelEnum.PRODUCT_OUTPUT.getCode(),"getPageList", ModelEnum.PRODUCT_OUTPUT.getValue() + "_查询列表"),
-    PRODUCT_OUTPUT_COMMAND_GET_COUNT(ClzConstant.PRODUCT_OUTPUT_QUERY + ".getCount", ModelEnum.PRODUCT_OUTPUT.getCode(),"getCount", ModelEnum.PRODUCT_OUTPUT.getValue() + "_查询数据总数"),
-    PRODUCT_OUTPUT_COMMAND_GET_SUM(ClzConstant.PRODUCT_OUTPUT_QUERY + ".getSumAmount", ModelEnum.PRODUCT_OUTPUT.getCode(),"getSumAmount", ModelEnum.PRODUCT_OUTPUT.getValue() + "_查询汇总数量"),
+    PRODUCT_OUTPUT_DOWNLOAD(ClzConstant.PRODUCT_OUTPUT_QUERY + ".download", ModelEnum.PRODUCT_OUTPUT.getCode(),"download", ModelEnum.PRODUCT_OUTPUT.getValue() + "_下载"),
+    PRODUCT_OUTPUT_GET(ClzConstant.PRODUCT_OUTPUT_QUERY + ".get", ModelEnum.PRODUCT_OUTPUT.getCode(),"get", ModelEnum.PRODUCT_OUTPUT.getValue() + "_根据id查询"),
+    PRODUCT_OUTPUT_LIST(ClzConstant.PRODUCT_OUTPUT_QUERY + ".getPageList", ModelEnum.PRODUCT_OUTPUT.getCode(),"getPageList", ModelEnum.PRODUCT_OUTPUT.getValue() + "_查询列表"),
+    PRODUCT_OUTPUT_GET_COUNT(ClzConstant.PRODUCT_OUTPUT_QUERY + ".getCount", ModelEnum.PRODUCT_OUTPUT.getCode(),"getCount", ModelEnum.PRODUCT_OUTPUT.getValue() + "_查询数据总数"),
+    PRODUCT_OUTPUT_GET_SUM(ClzConstant.PRODUCT_OUTPUT_QUERY + ".getSumAmount", ModelEnum.PRODUCT_OUTPUT.getCode(),"getSumAmount", ModelEnum.PRODUCT_OUTPUT.getValue() + "_查询汇总数量"),
 
     PRODUCT_COMMAND_ADD(ClzConstant.PRODUCT_COMMAND + ".add", ModelEnum.PRODUCT.getCode(),"add", ModelEnum.PRODUCT.getValue() + "_新增"),
     PRODUCT_COMMAND_DEL(ClzConstant.PRODUCT_COMMAND + ".delete", ModelEnum.PRODUCT.getCode(),"delete", ModelEnum.PRODUCT.getValue() + "_删除"),
@@ -95,6 +95,20 @@ public enum ModelFunctionEnum {
     PRODUCT_OUTPUT_MONTH_TO_SUM(ClzConstant.PRODUCT_OUTPUT_MONTH_QUERY + ".toSumOne", ModelEnum.PRODUCT_OUTPUT_MONTH.getCode(),"toSumOne", ModelEnum.PRODUCT_OUTPUT_MONTH.getValue() + "_汇总某个月"),
     PRODUCT_OUTPUT_MONTH_TO_SUM_RECENT(ClzConstant.PRODUCT_OUTPUT_MONTH_QUERY + ".toSumRecent", ModelEnum.PRODUCT_OUTPUT_MONTH.getCode(),"toSumRecent", ModelEnum.PRODUCT_OUTPUT_MONTH.getValue() + "_汇总最近几个月"),
     PRODUCT_OUTPUT_MONTH_GET_SUM(ClzConstant.PRODUCT_OUTPUT_MONTH_QUERY + ".getSumAmount", ModelEnum.PRODUCT_OUTPUT_MONTH.getCode(),"getSumAmount", ModelEnum.PRODUCT_OUTPUT_MONTH.getValue() + "_查询某个产品的汇总"),
+
+    //--------------------------------------------- goods  start ----------------------------------------------------------------
+    GOODS_TRADE_ADD(ClzConstant.GOODS_TRADE_COMMAND + ".add", ModelEnum.GOODS_TRADE.getCode(),"add", ModelEnum.GOODS_TRADE.getValue() + "_新增"),
+    GOODS_TRADE_DEL(ClzConstant.GOODS_TRADE_COMMAND + ".delete", ModelEnum.GOODS_TRADE.getCode(),"delete", ModelEnum.GOODS_TRADE.getValue() + "_删除"),
+    GOODS_TRADE_UPDATE(ClzConstant.GOODS_TRADE_COMMAND + ".update", ModelEnum.GOODS_TRADE.getCode(),"update", ModelEnum.GOODS_TRADE.getValue() + "_修改"),
+    GOODS_TRADE_COPY(ClzConstant.GOODS_TRADE_COMMAND + ".copy", ModelEnum.GOODS_TRADE.getCode(),"copy", ModelEnum.GOODS_TRADE.getValue() + "_复制"),
+
+    GOODS_TRADE_DOWNLOAD(ClzConstant.GOODS_TRADE_QUERY + ".download", ModelEnum.GOODS_TRADE.getCode(),"download", ModelEnum.GOODS_TRADE.getValue() + "_下载"),
+    GOODS_TRADE_GET(ClzConstant.GOODS_TRADE_QUERY + ".get", ModelEnum.GOODS_TRADE.getCode(),"get", ModelEnum.GOODS_TRADE.getValue() + "_根据id查询"),
+    GOODS_TRADE_LIST(ClzConstant.GOODS_TRADE_QUERY + ".getPageList", ModelEnum.GOODS_TRADE.getCode(),"getPageList", ModelEnum.GOODS_TRADE.getValue() + "_查询列表"),
+    GOODS_TRADE_GET_COUNT(ClzConstant.GOODS_TRADE_QUERY + ".getCount", ModelEnum.GOODS_TRADE.getCode(),"getCount", ModelEnum.GOODS_TRADE.getValue() + "_查询数据总数"),
+    GOODS_TRADE_GET_SUM(ClzConstant.GOODS_TRADE_QUERY + ".getSumAmount", ModelEnum.GOODS_TRADE.getCode(),"getSumAmount", ModelEnum.GOODS_TRADE.getValue() + "_查询汇总金额"),
+    GOODS_TRADE_GET_BIG_IMG(ClzConstant.GOODS_TRADE_QUERY + ".getBigImg", ModelEnum.GOODS_TRADE.getCode(),"getBigImg", ModelEnum.GOODS_TRADE.getValue() + "_查询大图"),
+    GOODS_TRADE_GET_TRADE_TYPE(ClzConstant.GOODS_TRADE_QUERY + ".getTradeType", ModelEnum.GOODS_TRADE.getCode(),"getTradeType", ModelEnum.GOODS_TRADE.getValue() + "_查询交易类型"),
 
     ;
 

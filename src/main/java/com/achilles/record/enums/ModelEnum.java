@@ -15,11 +15,10 @@ public enum ModelEnum {
     PRODUCT_OUTPUT("product_output","计量"),
     PRODUCT_OUTPUT_MONTH("product_output_month","计量-月度"),
 
-//    SUPPLIER(9,"供应商"),
+    SUPPLIER("supplier","供应商"),
     GOODS( "goods","买/卖"),
-//    PRICE(11,"价目"),
-//    GOODS_TRADE(12,"进货/销售-明细"),
-//    GOODS_TRADE_MONTH(13,"进货/销售-月度"),
+    GOODS_TRADE("goods_trade","买/卖-明细"),
+    GOODS_TRADE_MONTH("goods_trade_month","买/卖-月度"),
 
     ;
 
