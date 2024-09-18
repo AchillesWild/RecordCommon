@@ -13,4 +13,8 @@ public class ClzConstant {
     public static final String FINANCE_MONTH_QUERY= "com.achilles.server.controller.finance.FinanceRecordMonthQryController";
     public static final String FINANCE_TRANSACTION_TYPE_COMMAND = "com.achilles.server.controller.finance.FinanceTransactionCommandController";
     public static final String FINANCE_TRANSACTION_TYPE_QUERY= "com.achilles.server.controller.finance.FinanceTransactionQryController";
+
+    public static final String PRODUCT_OUTPUT_COMMAND = "com.achilles.server.controller.product.ProductOutputCommandController";
+    public static final String PRODUCT_OUTPUT_QUERY= "com.achilles.server.controller.product.ProductOutputQryController";
+
 }

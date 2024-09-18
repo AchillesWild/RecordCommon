@@ -68,6 +68,17 @@ public enum ModelFunctionEnum {
     FINANCE_TRANSACTION_TYPE_LIST(ClzConstant.FINANCE_TRANSACTION_TYPE_QUERY + ".getPageList", ModelEnum.FINANCE_TRANSACTION_TYPE.getCode(),"getPageList", ModelEnum.FINANCE_TRANSACTION_TYPE.getValue() + "_查询列表"),
     FINANCE_TRANSACTION_TYPE_GET_SELECT(ClzConstant.FINANCE_TRANSACTION_TYPE_QUERY + ".getSelect", ModelEnum.FINANCE_TRANSACTION_TYPE.getCode(),"getSelect", ModelEnum.FINANCE_TRANSACTION_TYPE.getValue() + "_查询所有(下拉菜单)"),
 
+    //--------------------------------------------- product  start ----------------------------------------------------------------
+    PRODUCT_OUTPUT_COMMAND_ADD(ClzConstant.PRODUCT_OUTPUT_COMMAND + ".add", ModelEnum.PRODUCT_OUTPUT.getCode(),"add", ModelEnum.PRODUCT_OUTPUT.getValue() + "_新增"),
+    PRODUCT_OUTPUT_COMMAND_DEL(ClzConstant.PRODUCT_OUTPUT_COMMAND + ".delete", ModelEnum.PRODUCT_OUTPUT.getCode(),"delete", ModelEnum.PRODUCT_OUTPUT.getValue() + "_删除"),
+    PRODUCT_OUTPUT_COMMAND_UPDATE(ClzConstant.PRODUCT_OUTPUT_COMMAND + ".update", ModelEnum.PRODUCT_OUTPUT.getCode(),"update", ModelEnum.PRODUCT_OUTPUT.getValue() + "_修改"),
+    PRODUCT_OUTPUT_COMMAND_COPY(ClzConstant.PRODUCT_OUTPUT_COMMAND + ".copy", ModelEnum.PRODUCT_OUTPUT.getCode(),"copy", ModelEnum.PRODUCT_OUTPUT.getValue() + "_复制"),
+
+    PRODUCT_OUTPUT_COMMAND_DOWNLOAD(ClzConstant.PRODUCT_OUTPUT_QUERY + ".download", ModelEnum.PRODUCT_OUTPUT.getCode(),"download", ModelEnum.PRODUCT_OUTPUT.getValue() + "_下载"),
+    PRODUCT_OUTPUT_COMMAND_GET(ClzConstant.PRODUCT_OUTPUT_QUERY + ".get", ModelEnum.PRODUCT_OUTPUT.getCode(),"get", ModelEnum.PRODUCT_OUTPUT.getValue() + "_根据id查询"),
+    PRODUCT_OUTPUT_COMMAND_LIST(ClzConstant.PRODUCT_OUTPUT_QUERY + ".getPageList", ModelEnum.PRODUCT_OUTPUT.getCode(),"getPageList", ModelEnum.PRODUCT_OUTPUT.getValue() + "_查询列表"),
+    PRODUCT_OUTPUT_COMMAND_GET_COUNT(ClzConstant.PRODUCT_OUTPUT_QUERY + ".getCount", ModelEnum.PRODUCT_OUTPUT.getCode(),"getCount", ModelEnum.PRODUCT_OUTPUT.getValue() + "_查询数据总数"),
+    PRODUCT_OUTPUT_COMMAND_GET_SUM(ClzConstant.PRODUCT_OUTPUT_QUERY + ".getSumAmount", ModelEnum.PRODUCT_OUTPUT.getCode(),"getSumAmount", ModelEnum.PRODUCT_OUTPUT.getValue() + "_查询汇总数量"),
     ;
 
     private String method;
