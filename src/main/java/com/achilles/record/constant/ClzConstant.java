@@ -1,4 +1,4 @@
-package com.achilles.record.enums;
+package com.achilles.record.constant;
 
 public class ClzConstant {
 
@@ -11,4 +11,6 @@ public class ClzConstant {
     public static final String FINANCE_COMMAND = "com.achilles.server.controller.finance.FinanceRecordCommandController";
     public static final String FINANCE_QUERY= "com.achilles.server.controller.finance.FinanceRecordQryController";
     public static final String FINANCE_MONTH_QUERY= "com.achilles.server.controller.finance.FinanceRecordMonthQryController";
+    public static final String FINANCE_TRANSACTION_TYPE_COMMAND = "com.achilles.server.controller.finance.FinanceTransactionCommandController";
+    public static final String FINANCE_TRANSACTION_TYPE_QUERY= "com.achilles.server.controller.finance.FinanceTransactionQryController";
 }
