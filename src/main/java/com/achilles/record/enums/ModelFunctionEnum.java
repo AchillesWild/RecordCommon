@@ -110,6 +110,16 @@ public enum ModelFunctionEnum {
     GOODS_TRADE_GET_BIG_IMG(ClzConstant.GOODS_TRADE_QUERY + ".getBigImg", ModelEnum.GOODS_TRADE.getCode(),"getBigImg", ModelEnum.GOODS_TRADE.getValue() + "_查询大图"),
     GOODS_TRADE_GET_TRADE_TYPE(ClzConstant.GOODS_TRADE_QUERY + ".getTradeType", ModelEnum.GOODS_TRADE.getCode(),"getTradeType", ModelEnum.GOODS_TRADE.getValue() + "_查询交易类型"),
 
+    GOODS_TRADE_MONTH_LIST(ClzConstant.GOODS_TRADE_MONTH_QUERY + ".getPageList", ModelEnum.GOODS_TRADE_MONTH.getCode(),"getPageList", ModelEnum.GOODS_TRADE_MONTH.getValue() + "_查询列表"),
+    GOODS_TRADE_MONTH_TO_SUM(ClzConstant.GOODS_TRADE_MONTH_QUERY + ".toSum", ModelEnum.GOODS_TRADE_MONTH.getCode(),"toSum", ModelEnum.GOODS_TRADE_MONTH.getValue() + "_汇总某月"),
+    GOODS_TRADE_MONTH_TO_SUM_RECENT(ClzConstant.GOODS_TRADE_MONTH_QUERY + ".toSumRecent", ModelEnum.GOODS_TRADE_MONTH.getCode(),"toSumRecent", ModelEnum.GOODS_TRADE_MONTH.getValue() + "_汇总最近几月"),
+    GOODS_TRADE_MONTH_GET_CLASSIFIED_MONTH(ClzConstant.GOODS_TRADE_MONTH_QUERY + ".getClassifiedMonth", ModelEnum.GOODS_TRADE_MONTH.getCode(),"getClassifiedMonth", ModelEnum.GOODS_TRADE_MONTH.getValue() + "_按月查询分类汇总"),
+    GOODS_TRADE_MONTH_GET_CLASSIFIED_SUM(ClzConstant.GOODS_TRADE_MONTH_QUERY + ".getClassifiedSum", ModelEnum.GOODS_TRADE_MONTH.getCode(),"getClassifiedSum", ModelEnum.GOODS_TRADE_MONTH.getValue() + "_按条件查询分类汇总"),
+    GOODS_TRADE_MONTH_GET(ClzConstant.GOODS_TRADE_MONTH_QUERY + ".getByMonth", ModelEnum.GOODS_TRADE_MONTH.getCode(),"getByMonth", ModelEnum.GOODS_TRADE_MONTH.getValue() + "_查询某月"),
+    GOODS_TRADE_MONTH_GET_SUM(ClzConstant.GOODS_TRADE_MONTH_QUERY + ".getSumAmount", ModelEnum.GOODS_TRADE_MONTH.getCode(),"getSumAmount", ModelEnum.GOODS_TRADE_MONTH.getValue() + "_查询汇总金额"),
+    GOODS_TRADE_MONTH_GET_DOWNLOAD(ClzConstant.GOODS_TRADE_MONTH_QUERY + ".download", ModelEnum.GOODS_TRADE_MONTH.getCode(),"download", ModelEnum.GOODS_TRADE_MONTH.getValue() + "_下载"),
+    GOODS_TRADE_MONTH_GET_DOWNLOAD_DETAIL(ClzConstant.GOODS_TRADE_MONTH_QUERY + ".downloadMonthDetail", ModelEnum.GOODS_TRADE_MONTH.getCode(),"downloadMonthDetail", ModelEnum.GOODS_TRADE_MONTH.getValue() + "_下载某月明细"),
+
     ;
 
     private String method;
