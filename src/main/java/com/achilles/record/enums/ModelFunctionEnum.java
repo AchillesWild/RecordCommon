@@ -33,6 +33,21 @@ public enum ModelFunctionEnum {
     NOTE_COUNT(ClzConstant.NOTE_QUERY + ".getCount", ModelEnum.NOTE.getCode(),"getCount", ModelEnum.NOTE.getValue() + "_查询总数"),
     NOTE_TYPE(ClzConstant.NOTE_QUERY + ".getType", ModelEnum.NOTE.getCode(),"getType", ModelEnum.NOTE.getValue() + "_查询所有类型"),
     NOTE_GET_IMG(ClzConstant.NOTE_QUERY + ".getBigImg", ModelEnum.NOTE.getCode(),"getBigImg", ModelEnum.NOTE.getValue() + "_获取大图"),
+
+    //--------------------------------------------- finance  start ----------------------------------------------------------------
+    FINANCE_ADD(ClzConstant.FINANCE_COMMAND + ".add", ModelEnum.FINANCE.getCode(),"add", ModelEnum.NOTE.getValue() + "_新增"),
+    FINANCE_DEL(ClzConstant.FINANCE_COMMAND + ".delete", ModelEnum.FINANCE.getCode(),"delete", ModelEnum.NOTE.getValue() + "_删除"),
+    FINANCE_UPDATE(ClzConstant.FINANCE_COMMAND + ".update", ModelEnum.FINANCE.getCode(),"update", ModelEnum.NOTE.getValue() + "_修改"),
+    FINANCE_COPY(ClzConstant.FINANCE_COMMAND + ".copy", ModelEnum.FINANCE.getCode(),"copy", ModelEnum.NOTE.getValue() + "_复制"),
+
+    FINANCE_DOWNLOAD(ClzConstant.FINANCE_QUERY + ".download",ModelEnum.FINANCE.getCode(),"download", ModelEnum.FINANCE.getValue() + "_下载"),
+    FINANCE_GET(ClzConstant.FINANCE_QUERY + ".get", ModelEnum.FINANCE.getCode(),"get", ModelEnum.FINANCE.getValue() + "_根据id查询"),
+    FINANCE_LIST(ClzConstant.FINANCE_QUERY + ".getPageList", ModelEnum.FINANCE.getCode(),"getPageList", ModelEnum.FINANCE.getValue() + "_查询列表"),
+    FINANCE_COUNT(ClzConstant.FINANCE_QUERY + ".getCount", ModelEnum.FINANCE.getCode(),"getCount", ModelEnum.FINANCE.getValue() + "_查询总数"),
+    FINANCE_BIZ_TYPE(ClzConstant.FINANCE_QUERY + ".getBizType", ModelEnum.FINANCE.getCode(),"getBizType", ModelEnum.FINANCE.getValue() + "_查询所有业务类型"),
+    FINANCE_SUM(ClzConstant.FINANCE_QUERY + ".getSum", ModelEnum.FINANCE.getCode(),"getSum", ModelEnum.FINANCE.getValue() + "_查询汇总"),
+    FINANCE_GET_IMG(ClzConstant.FINANCE_QUERY + ".getBigImg", ModelEnum.FINANCE.getCode(),"getBigImg", ModelEnum.FINANCE.getValue() + "_获取大图"),
+
     ;
 
     private String method;

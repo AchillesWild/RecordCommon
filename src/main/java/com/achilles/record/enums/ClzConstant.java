@@ -7,4 +7,7 @@ public class ClzConstant {
 
     public static final String NOTE_COMMAND = "com.achilles.server.controller.note.NoteCommandController";
     public static final String NOTE_QUERY= "com.achilles.server.controller.note.NoteQryController";
+
+    public static final String FINANCE_COMMAND = "com.achilles.server.controller.finance.FinanceRecordCommandController";
+    public static final String FINANCE_QUERY= "com.achilles.server.controller.finance.FinanceRecordQryController";
 }
