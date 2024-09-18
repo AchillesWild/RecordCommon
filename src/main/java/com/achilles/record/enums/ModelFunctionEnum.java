@@ -79,6 +79,17 @@ public enum ModelFunctionEnum {
     PRODUCT_OUTPUT_COMMAND_LIST(ClzConstant.PRODUCT_OUTPUT_QUERY + ".getPageList", ModelEnum.PRODUCT_OUTPUT.getCode(),"getPageList", ModelEnum.PRODUCT_OUTPUT.getValue() + "_查询列表"),
     PRODUCT_OUTPUT_COMMAND_GET_COUNT(ClzConstant.PRODUCT_OUTPUT_QUERY + ".getCount", ModelEnum.PRODUCT_OUTPUT.getCode(),"getCount", ModelEnum.PRODUCT_OUTPUT.getValue() + "_查询数据总数"),
     PRODUCT_OUTPUT_COMMAND_GET_SUM(ClzConstant.PRODUCT_OUTPUT_QUERY + ".getSumAmount", ModelEnum.PRODUCT_OUTPUT.getCode(),"getSumAmount", ModelEnum.PRODUCT_OUTPUT.getValue() + "_查询汇总数量"),
+
+    PRODUCT_COMMAND_ADD(ClzConstant.PRODUCT_COMMAND + ".add", ModelEnum.PRODUCT.getCode(),"add", ModelEnum.PRODUCT.getValue() + "_新增"),
+    PRODUCT_COMMAND_DEL(ClzConstant.PRODUCT_COMMAND + ".delete", ModelEnum.PRODUCT.getCode(),"delete", ModelEnum.PRODUCT.getValue() + "_删除"),
+    PRODUCT_COMMAND_UPDATE(ClzConstant.PRODUCT_COMMAND + ".update", ModelEnum.PRODUCT.getCode(),"update", ModelEnum.PRODUCT.getValue() + "_修改"),
+
+    PRODUCT_COMMAND_GET(ClzConstant.PRODUCT_QUERY + ".get", ModelEnum.PRODUCT.getCode(),"get", ModelEnum.PRODUCT.getValue() + "_根据id查询"),
+    PRODUCT_COMMAND_LIST(ClzConstant.PRODUCT_QUERY + ".getPageList", ModelEnum.PRODUCT.getCode(),"getPageList", ModelEnum.PRODUCT.getValue() + "_查询列表"),
+    PRODUCT_COMMAND_GET_BIG_IMG(ClzConstant.PRODUCT_QUERY + ".getBigImg", ModelEnum.PRODUCT.getCode(),"getBigImg", ModelEnum.PRODUCT.getValue() + "_获取大图"),
+
+
+
     ;
 
     private String method;
