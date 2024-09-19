@@ -147,6 +147,16 @@ public enum ModelFunctionEnum {
 
     SHARE_AREA_LIST(ClzConstant.SHARE_AREA_QUERY + ".getPageList", ModelEnum.SHARE_AREA.getCode(),"getPageList", ModelEnum.SHARE_AREA.getValue() + "_查询列表"),
 
+    //--------------------------------------------- share user  start ----------------------------------------------------------------
+    SHARE_USER_ADD(ClzConstant.SHARE_USER_COMMAND + ".add", ModelEnum.SHARE_USER.getCode(),"add", ModelEnum.SHARE_USER.getValue() + "_新增"),
+    SHARE_USER_DEL(ClzConstant.SHARE_USER_COMMAND + ".delete", ModelEnum.SHARE_USER.getCode(),"delete", ModelEnum.SHARE_USER.getValue() + "_删除"),
+    SHARE_USER_UPDATE(ClzConstant.SHARE_USER_COMMAND + ".update", ModelEnum.SHARE_USER.getCode(),"update", ModelEnum.SHARE_USER.getValue() + "_修改"),
+    SHARE_USER_FREEZE(ClzConstant.SHARE_USER_COMMAND + ".freeze", ModelEnum.SHARE_USER.getCode(),"freeze", ModelEnum.SHARE_USER.getValue() + "_冻结"),
+    SHARE_USER_UNFREEZE(ClzConstant.SHARE_USER_COMMAND + ".unfreeze", ModelEnum.SHARE_USER.getCode(),"unfreeze", ModelEnum.SHARE_USER.getValue() + "_解冻"),
+
+    SHARE_USER_LIST(ClzConstant.SHARE_USER_QUERY + ".getList", ModelEnum.SHARE_USER.getCode(),"getList", ModelEnum.SHARE_USER.getValue() + "_查询列表"),
+    SHARE_USER_GET(ClzConstant.SHARE_USER_QUERY + ".get", ModelEnum.SHARE_USER.getCode(),"get", ModelEnum.SHARE_USER.getValue() + "_查询一个"),
+    SHARE_USER_COUNT(ClzConstant.SHARE_USER_QUERY + ".getCount", ModelEnum.SHARE_USER.getCode(),"getCount", ModelEnum.SHARE_USER.getValue() + "_查询总数"),
     ;
 
     private String method;

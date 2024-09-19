@@ -21,6 +21,8 @@ public enum ModelEnum {
 
     SHARE_AREA("share_area","信息板"),
 
+    SHARE_USER("share_user","分享用户"),
+
     ;
 
     private String code;
