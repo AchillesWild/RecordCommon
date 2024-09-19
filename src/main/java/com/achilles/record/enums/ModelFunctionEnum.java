@@ -18,8 +18,8 @@ public enum ModelFunctionEnum {
     MISSION_GET(ClzConstant.MISSION_QUERY + ".get", ModelEnum.MISSION.getCode(),"get", ModelEnum.MISSION.getValue() + "_根据id查询"),
     MISSION_LIST(ClzConstant.MISSION_QUERY + ".getPageList", ModelEnum.MISSION.getCode(),"getPageList", ModelEnum.MISSION.getValue() + "_查询列表"),
     MISSION_COUNT(ClzConstant.MISSION_QUERY + ".getCount", ModelEnum.MISSION.getCode(),"getCount", ModelEnum.MISSION.getValue() + "_查询总数"),
-    MISSION_TYPE(ClzConstant.MISSION_QUERY + ".getType", ModelEnum.MISSION.getCode(),"getType", ModelEnum.MISSION.getValue() + "_查询所有类型"),
-    MISSION_PACE(ClzConstant.MISSION_QUERY + ".getPace", ModelEnum.MISSION.getCode(),"getPace", ModelEnum.MISSION.getValue() + "_查询所有进度"),
+//    MISSION_TYPE(ClzConstant.MISSION_QUERY + ".getType", ModelEnum.MISSION.getCode(),"getType", ModelEnum.MISSION.getValue() + "_查询所有类型"),
+//    MISSION_PACE(ClzConstant.MISSION_QUERY + ".getPace", ModelEnum.MISSION.getCode(),"getPace", ModelEnum.MISSION.getValue() + "_查询所有进度"),
     MISSION_GET_IMG(ClzConstant.MISSION_QUERY + ".getBigImg", ModelEnum.MISSION.getCode(),"getBigImg", ModelEnum.MISSION.getValue() + "_获取大图"),
 
     //--------------------------------------------- diary  start ----------------------------------------------------------------
@@ -33,7 +33,7 @@ public enum ModelFunctionEnum {
     NOTE_GET(ClzConstant.NOTE_QUERY + ".get", ModelEnum.NOTE.getCode(),"get", ModelEnum.NOTE.getValue() + "_根据id查询"),
     NOTE_LIST(ClzConstant.NOTE_QUERY + ".getPageList", ModelEnum.NOTE.getCode(),"getPageList", ModelEnum.NOTE.getValue() + "_查询列表"),
     NOTE_COUNT(ClzConstant.NOTE_QUERY + ".getCount", ModelEnum.NOTE.getCode(),"getCount", ModelEnum.NOTE.getValue() + "_查询总数"),
-    NOTE_TYPE(ClzConstant.NOTE_QUERY + ".getType", ModelEnum.NOTE.getCode(),"getType", ModelEnum.NOTE.getValue() + "_查询所有类型"),
+//    NOTE_TYPE(ClzConstant.NOTE_QUERY + ".getType", ModelEnum.NOTE.getCode(),"getType", ModelEnum.NOTE.getValue() + "_查询所有类型"),
     NOTE_GET_IMG(ClzConstant.NOTE_QUERY + ".getBigImg", ModelEnum.NOTE.getCode(),"getBigImg", ModelEnum.NOTE.getValue() + "_获取大图"),
 
     //--------------------------------------------- finance  start ----------------------------------------------------------------
@@ -46,7 +46,7 @@ public enum ModelFunctionEnum {
     FINANCE_GET(ClzConstant.FINANCE_QUERY + ".get", ModelEnum.FINANCE.getCode(),"get", ModelEnum.FINANCE.getValue() + "_根据id查询"),
     FINANCE_LIST(ClzConstant.FINANCE_QUERY + ".getPageList", ModelEnum.FINANCE.getCode(),"getPageList", ModelEnum.FINANCE.getValue() + "_查询列表"),
     FINANCE_COUNT(ClzConstant.FINANCE_QUERY + ".getCount", ModelEnum.FINANCE.getCode(),"getCount", ModelEnum.FINANCE.getValue() + "_查询总数"),
-    FINANCE_BIZ_TYPE(ClzConstant.FINANCE_QUERY + ".getBizType", ModelEnum.FINANCE.getCode(),"getBizType", ModelEnum.FINANCE.getValue() + "_查询所有业务类型"),
+//    FINANCE_BIZ_TYPE(ClzConstant.FINANCE_QUERY + ".getBizType", ModelEnum.FINANCE.getCode(),"getBizType", ModelEnum.FINANCE.getValue() + "_查询所有业务类型"),
     FINANCE_GET_SUM(ClzConstant.FINANCE_QUERY + ".getSum", ModelEnum.FINANCE.getCode(),"getSum", ModelEnum.FINANCE.getValue() + "_查询汇总"),
     FINANCE_GET_IMG(ClzConstant.FINANCE_QUERY + ".getBigImg", ModelEnum.FINANCE.getCode(),"getBigImg", ModelEnum.FINANCE.getValue() + "_获取大图"),
 
@@ -108,7 +108,7 @@ public enum ModelFunctionEnum {
     GOODS_TRADE_GET_COUNT(ClzConstant.GOODS_TRADE_QUERY + ".getCount", ModelEnum.GOODS_TRADE.getCode(),"getCount", ModelEnum.GOODS_TRADE.getValue() + "_查询数据总数"),
     GOODS_TRADE_GET_SUM(ClzConstant.GOODS_TRADE_QUERY + ".getSumAmount", ModelEnum.GOODS_TRADE.getCode(),"getSumAmount", ModelEnum.GOODS_TRADE.getValue() + "_查询汇总金额"),
     GOODS_TRADE_GET_BIG_IMG(ClzConstant.GOODS_TRADE_QUERY + ".getBigImg", ModelEnum.GOODS_TRADE.getCode(),"getBigImg", ModelEnum.GOODS_TRADE.getValue() + "_查询大图"),
-    GOODS_TRADE_GET_TRADE_TYPE(ClzConstant.GOODS_TRADE_QUERY + ".getTradeType", ModelEnum.GOODS_TRADE.getCode(),"getTradeType", ModelEnum.GOODS_TRADE.getValue() + "_查询交易类型"),
+//    GOODS_TRADE_GET_TRADE_TYPE(ClzConstant.GOODS_TRADE_QUERY + ".getTradeType", ModelEnum.GOODS_TRADE.getCode(),"getTradeType", ModelEnum.GOODS_TRADE.getValue() + "_查询交易类型"),
 
     GOODS_TRADE_MONTH_LIST(ClzConstant.GOODS_TRADE_MONTH_QUERY + ".getPageList", ModelEnum.GOODS_TRADE_MONTH.getCode(),"getPageList", ModelEnum.GOODS_TRADE_MONTH.getValue() + "_查询列表"),
     GOODS_TRADE_MONTH_TO_SUM(ClzConstant.GOODS_TRADE_MONTH_QUERY + ".toSum", ModelEnum.GOODS_TRADE_MONTH.getCode(),"toSum", ModelEnum.GOODS_TRADE_MONTH.getValue() + "_汇总某月"),
@@ -128,7 +128,7 @@ public enum ModelFunctionEnum {
     GOODS_GET(ClzConstant.GOODS_QUERY + ".get", ModelEnum.GOODS.getCode(),"get", ModelEnum.GOODS.getValue() + "_查询一个"),
     GOODS_GET_BIG_IMG(ClzConstant.GOODS_QUERY + ".getBigImg", ModelEnum.GOODS.getCode(),"getBigImg", ModelEnum.GOODS.getValue() + "_查询大图"),
     GOODS_LIST(ClzConstant.GOODS_QUERY + ".getPageList", ModelEnum.GOODS.getCode(),"getPageList", ModelEnum.GOODS.getValue() + "_查询列表"),
-    GOODS_GET_SELECT(ClzConstant.GOODS_QUERY + ".getSelect", ModelEnum.GOODS.getCode(),"getSelect", ModelEnum.GOODS.getValue() + "_查询下拉"),
+//    GOODS_GET_SELECT(ClzConstant.GOODS_QUERY + ".getSelect", ModelEnum.GOODS.getCode(),"getSelect", ModelEnum.GOODS.getValue() + "_查询下拉"),
 
     SUPPLIER_ADD(ClzConstant.SUPPLIER_COMMAND + ".add", ModelEnum.SUPPLIER.getCode(),"add", ModelEnum.SUPPLIER.getValue() + "_新增"),
     SUPPLIER_DEL(ClzConstant.SUPPLIER_COMMAND + ".delete", ModelEnum.SUPPLIER.getCode(),"delete", ModelEnum.SUPPLIER.getValue() + "_删除"),
@@ -138,8 +138,8 @@ public enum ModelFunctionEnum {
     SUPPLIERS_GET(ClzConstant.SUPPLIER_QUERY + ".get", ModelEnum.SUPPLIER.getCode(),"get", ModelEnum.SUPPLIER.getValue() + "_查询一个"),
     SUPPLIERS_GET_BY_UUID(ClzConstant.SUPPLIER_QUERY + ".getByUuid", ModelEnum.SUPPLIER.getCode(),"getByUuid", ModelEnum.SUPPLIER.getValue() + "_根据uuid查询一个"),
     SUPPLIERS_DOWNLOAD(ClzConstant.SUPPLIER_QUERY + ".download", ModelEnum.SUPPLIER.getCode(),"download", ModelEnum.SUPPLIER.getValue() + "_下载"),
-    SUPPLIERS_GET_SUPPLIER_TYPE(ClzConstant.SUPPLIER_QUERY + ".getSupplierType", ModelEnum.SUPPLIER.getCode(),"getSupplierType", ModelEnum.SUPPLIER.getValue() + "_获取供应商类型下拉"),
-    SUPPLIERS_GET_SELECT(ClzConstant.SUPPLIER_QUERY + ".getSelect", ModelEnum.SUPPLIER.getCode(),"getSelect", ModelEnum.SUPPLIER.getValue() + "_获取供应商下拉菜单"),
+//    SUPPLIERS_GET_SUPPLIER_TYPE(ClzConstant.SUPPLIER_QUERY + ".getSupplierType", ModelEnum.SUPPLIER.getCode(),"getSupplierType", ModelEnum.SUPPLIER.getValue() + "_获取供应商类型下拉"),
+//    SUPPLIERS_GET_SELECT(ClzConstant.SUPPLIER_QUERY + ".getSelect", ModelEnum.SUPPLIER.getCode(),"getSelect", ModelEnum.SUPPLIER.getValue() + "_获取供应商下拉菜单"),
 
     //--------------------------------------------- share area  start ----------------------------------------------------------------
     SHARE_AREA_ADD(ClzConstant.SHARE_AREA_COMMAND + ".add", ModelEnum.SHARE_AREA.getCode(),"add", ModelEnum.SHARE_AREA.getValue() + "_新增"),
@@ -166,11 +166,9 @@ public enum ModelFunctionEnum {
 
     USER_GET(ClzConstant.USER_QUERY + ".get", ModelEnum.USER.getCode(),"get", ModelEnum.USER.getValue() + "_查询一个"),
     USER_GET_AVATAR(ClzConstant.USER_QUERY + ".getAvatar", ModelEnum.USER.getCode(),"getAvatar", ModelEnum.USER.getValue() + "_查询头像"),
-    USER_GET_GENDER(ClzConstant.USER_QUERY + ".getGender", ModelEnum.USER.getCode(),"getGender", ModelEnum.USER.getValue() + "_查询性别下拉"),
-    USER_GET_HOME_PAGE(ClzConstant.USER_QUERY + ".getHomePage", ModelEnum.USER.getCode(),"getHomePage", ModelEnum.USER.getValue() + "_查询可以选择的默认页菜单"),
+//    USER_GET_GENDER(ClzConstant.USER_QUERY + ".getGender", ModelEnum.USER.getCode(),"getGender", ModelEnum.USER.getValue() + "_查询性别下拉"),
+//    USER_GET_HOME_PAGE(ClzConstant.USER_QUERY + ".getHomePage", ModelEnum.USER.getCode(),"getHomePage", ModelEnum.USER.getValue() + "_查询可以选择的默认页菜单"),
     USER_GET_QUESTION_ANSWER(ClzConstant.USER_QUERY + ".getQuestionAndAnswer", ModelEnum.USER.getCode(),"getQuestionAndAnswer", ModelEnum.USER.getValue() + "_查询问题和答案"),
-//    USER_GET_ALL_QUESTION(ClzConstant.USER_QUERY + ".getAllQuestion", ModelEnum.USER.getCode(),"getAllQuestion", ModelEnum.USER.getValue() + "_查询所有问题下拉"),
-
 
     ;
 
