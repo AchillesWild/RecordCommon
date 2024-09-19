@@ -33,4 +33,7 @@ public class ClzConstant {
 
     public static final String SHARE_USER_COMMAND = "com.achilles.server.controller.user.ShareUserCommandController";
     public static final String SHARE_USER_QUERY= "com.achilles.server.controller.user.ShareUserQryController";
+
+    public static final String USER_COMMAND = "com.achilles.server.controller.user.UserCommandController";
+    public static final String USER_QUERY= "com.achilles.server.controller.user.UserQryController";
 }

@@ -157,6 +157,21 @@ public enum ModelFunctionEnum {
     SHARE_USER_LIST(ClzConstant.SHARE_USER_QUERY + ".getList", ModelEnum.SHARE_USER.getCode(),"getList", ModelEnum.SHARE_USER.getValue() + "_查询列表"),
     SHARE_USER_GET(ClzConstant.SHARE_USER_QUERY + ".get", ModelEnum.SHARE_USER.getCode(),"get", ModelEnum.SHARE_USER.getValue() + "_查询一个"),
     SHARE_USER_COUNT(ClzConstant.SHARE_USER_QUERY + ".getCount", ModelEnum.SHARE_USER.getCode(),"getCount", ModelEnum.SHARE_USER.getValue() + "_查询总数"),
+
+    //--------------------------------------------- user  start ----------------------------------------------------------------
+    USER_UPDATE(ClzConstant.USER_COMMAND + ".update", ModelEnum.USER.getCode(),"update", ModelEnum.USER.getValue() + "_修改"),
+    USER_UPDATE_PASSWORD(ClzConstant.USER_COMMAND + ".updatePassword", ModelEnum.USER.getCode(),"updatePassword", ModelEnum.USER.getValue() + "_修改密码"),
+    USER_UPDATE_AVATAR(ClzConstant.USER_COMMAND + ".updateAvatar", ModelEnum.USER.getCode(),"updateAvatar", ModelEnum.USER.getValue() + "_修改头像"),
+    USER_UPDATE_QUESTION(ClzConstant.USER_COMMAND + ".updateQuestion", ModelEnum.USER.getCode(),"updateQuestion", ModelEnum.USER.getValue() + "_修改问题"),
+
+    USER_GET(ClzConstant.USER_QUERY + ".get", ModelEnum.USER.getCode(),"get", ModelEnum.USER.getValue() + "_查询一个"),
+    USER_GET_AVATAR(ClzConstant.USER_QUERY + ".getAvatar", ModelEnum.USER.getCode(),"getAvatar", ModelEnum.USER.getValue() + "_查询头像"),
+    USER_GET_GENDER(ClzConstant.USER_QUERY + ".getGender", ModelEnum.USER.getCode(),"getGender", ModelEnum.USER.getValue() + "_查询性别下拉"),
+    USER_GET_HOME_PAGE(ClzConstant.USER_QUERY + ".getHomePage", ModelEnum.USER.getCode(),"getHomePage", ModelEnum.USER.getValue() + "_查询可以选择的默认页菜单"),
+    USER_GET_QUESTION_ANSWER(ClzConstant.USER_QUERY + ".getQuestionAndAnswer", ModelEnum.USER.getCode(),"getQuestionAndAnswer", ModelEnum.USER.getValue() + "_查询问题和答案"),
+//    USER_GET_ALL_QUESTION(ClzConstant.USER_QUERY + ".getAllQuestion", ModelEnum.USER.getCode(),"getAllQuestion", ModelEnum.USER.getValue() + "_查询所有问题下拉"),
+
+
     ;
 
     private String method;

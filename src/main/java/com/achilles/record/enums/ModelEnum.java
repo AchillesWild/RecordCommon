@@ -23,6 +23,8 @@ public enum ModelEnum {
 
     SHARE_USER("share_user","分享用户"),
 
+    USER("user","用户"),
+
     ;
 
     private String code;
