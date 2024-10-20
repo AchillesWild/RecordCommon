@@ -94,7 +94,7 @@ public enum ModelFunctionEnum {
     PRODUCT_OUTPUT_MONTH_DOWNLOAD_DETAIL(ClzConstant.PRODUCT_OUTPUT_MONTH_QUERY + ".downloadMonthDetail", ModelEnum.PRODUCT_OUTPUT_MONTH.getCode(),"downloadMonthDetail", ModelEnum.PRODUCT_OUTPUT_MONTH.getValue() + "下载某月明细"),
     PRODUCT_OUTPUT_MONTH_TO_SUM(ClzConstant.PRODUCT_OUTPUT_MONTH_QUERY + ".toSumOne", ModelEnum.PRODUCT_OUTPUT_MONTH.getCode(),"toSumOne", ModelEnum.PRODUCT_OUTPUT_MONTH.getValue() + "_汇总某个月"),
     PRODUCT_OUTPUT_MONTH_TO_SUM_RECENT(ClzConstant.PRODUCT_OUTPUT_MONTH_QUERY + ".toSumRecent", ModelEnum.PRODUCT_OUTPUT_MONTH.getCode(),"toSumRecent", ModelEnum.PRODUCT_OUTPUT_MONTH.getValue() + "_汇总最近几个月"),
-    PRODUCT_OUTPUT_MONTH_GET_SUM(ClzConstant.PRODUCT_OUTPUT_MONTH_QUERY + ".getSumAmount", ModelEnum.PRODUCT_OUTPUT_MONTH.getCode(),"getSumAmount", ModelEnum.PRODUCT_OUTPUT_MONTH.getValue() + "_查询某个产品的汇总"),
+    PRODUCT_OUTPUT_MONTH_GET_SUM(ClzConstant.PRODUCT_OUTPUT_MONTH_QUERY + ".getSumAmount", ModelEnum.PRODUCT_OUTPUT_MONTH.getCode(),"getSumAmount", ModelEnum.PRODUCT_OUTPUT_MONTH.getValue() + "_查询某个计量物的汇总"),
 
     //--------------------------------------------- goods  start ----------------------------------------------------------------
     GOODS_TRADE_ADD(ClzConstant.GOODS_TRADE_COMMAND + ".add", ModelEnum.GOODS_TRADE.getCode(),"add", ModelEnum.GOODS_TRADE.getValue() + "_新增"),

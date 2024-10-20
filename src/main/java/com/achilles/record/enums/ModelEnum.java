@@ -10,7 +10,7 @@ public enum ModelEnum {
     FINANCE("finance", "账务"),
     FINANCE_MONTH("finance_month","账务-月度"),
 
-    PRODUCT("product", "产品"),
+    PRODUCT("product", "计量物"),
     PRODUCT_OUTPUT("product_output","计量"),
     PRODUCT_OUTPUT_MONTH("product_output_month","计量-月度"),
 
