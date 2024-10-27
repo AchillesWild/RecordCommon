@@ -29,11 +29,13 @@ public class ClzConstant {
     public static final String SUPPLIER_QUERY= "com.achilles.server.controller.goods.GoodsSupplierQryController";
 
     public static final String SHARE_AREA_COMMAND = "com.achilles.server.controller.share.ShareAreaCommandController";
-    public static final String SHARE_AREA_QUERY= "com.achilles.server.controller.share.ShareAreaQryController";
+    public static final String SHARE_AREA_QUERY = "com.achilles.server.controller.share.ShareAreaQryController";
 
     public static final String SHARE_USER_COMMAND = "com.achilles.server.controller.user.ShareUserCommandController";
-    public static final String SHARE_USER_QUERY= "com.achilles.server.controller.user.ShareUserQryController";
+    public static final String SHARE_USER_QUERY = "com.achilles.server.controller.user.ShareUserQryController";
 
     public static final String USER_COMMAND = "com.achilles.server.controller.user.UserCommandController";
-    public static final String USER_QUERY= "com.achilles.server.controller.user.UserQryController";
+    public static final String USER_QUERY = "com.achilles.server.controller.user.UserQryController";
+
+    public static final String USER_NOTICE = "com.achilles.server.controller.user.NoticeController";
 }

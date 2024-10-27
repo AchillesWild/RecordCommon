@@ -19,11 +19,13 @@ public enum ModelEnum {
     GOODS_TRADE("goods_trade","买/卖-明细"),
     GOODS_TRADE_MONTH("goods_trade_month","买/卖-月度"),
 
-    SHARE_AREA("share_area","信息板"),
+    SHARE_AREA("share_area", "信息板"),
 
-    SHARE_USER("share_user","分享用户"),
+    SHARE_USER("share_user", "分享用户"),
 
-    USER("user","用户"),
+    USER("user", "用户"),
+
+    USER_NOTICE("user_notice", "用户通知"),
 
     ;
 
