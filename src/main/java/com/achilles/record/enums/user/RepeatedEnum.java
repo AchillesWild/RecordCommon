@@ -1,8 +1,9 @@
 package com.achilles.record.enums.user;
 
+import java.util.Comparator;
 import java.util.EnumSet;
-import java.util.HashMap;
 import java.util.Map;
+import java.util.TreeMap;
 
 public enum RepeatedEnum {
 
@@ -33,7 +34,7 @@ public enum RepeatedEnum {
         return map.get(key);
     }
 
-    public static Map<Integer, String> map = new HashMap<>();
+    public static Map<Integer, String> map = new TreeMap<>(Comparator.reverseOrder());
 
     static {
         for (RepeatedEnum repeatedEnum : EnumSet.allOf(RepeatedEnum.class)) {
