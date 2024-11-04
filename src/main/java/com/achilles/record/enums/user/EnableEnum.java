@@ -7,9 +7,9 @@ import java.util.Map;
 public enum EnableEnum {
 
 
-    NO(0,"未启用"),
+    NO(0,"否"),
 
-    YES(1,"已启用");
+    YES(1,"是");
 
 
     private Integer key;

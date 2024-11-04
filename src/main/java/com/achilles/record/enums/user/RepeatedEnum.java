@@ -7,9 +7,9 @@ import java.util.Map;
 public enum RepeatedEnum {
 
 
-    NO(0,"提示一次"),
+    NO(0,"否"),
 
-    YES(1,"重复提示");
+    YES(1,"是");
 
 
     private Integer key;
