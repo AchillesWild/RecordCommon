@@ -1,5 +1,9 @@
 package com.achilles.record.enums;
 
+import java.util.EnumSet;
+import java.util.HashMap;
+import java.util.Map;
+
 public enum ModelEnum {
 
     MISSION("mission", "待办"),
@@ -46,5 +50,30 @@ public enum ModelEnum {
         return code;
     }
 
+    public static String getValue(String code) {
+        return map.get(code);
+    }
+
+    public static Map<String, String> map = new HashMap<>();
+
+    static {
+        for (ModelEnum modelEnum : EnumSet.allOf(ModelEnum.class)) {
+            map.put(modelEnum.getCode(), modelEnum.getValue());
+        }
+    }
+
+    public static boolean contains(Integer code){
+
+        if(code == null){
+            return false;
+        }
+
+        String value = map.get(code);
+        if(value != null) {
+            return true;
+        }
+
+        return false;
+    }
 
 }
