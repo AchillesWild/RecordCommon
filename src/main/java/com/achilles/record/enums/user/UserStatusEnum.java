@@ -12,6 +12,8 @@ public enum UserStatusEnum {
 
     FROZEN(2,"冻结中"),
 
+    CANCEL(3,"注销"),
+
     ;
 
     private Integer key;
