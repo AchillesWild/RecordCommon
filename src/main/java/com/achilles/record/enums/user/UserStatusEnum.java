@@ -12,7 +12,7 @@ public enum UserStatusEnum {
 
     FROZEN(2,"冻结中"),
 
-    CANCEL(3,"注销"),
+    CANCEL(3,"已注销"),
 
     ;
 
