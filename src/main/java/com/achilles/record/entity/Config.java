@@ -14,4 +14,6 @@ public class Config extends BaseEntity {
 
     private String description;
 
+    private Long version;
+
 }
