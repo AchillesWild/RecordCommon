@@ -19,8 +19,8 @@ public enum ModelEnum {
     PRODUCT_OUTPUT_MONTH("product_output_month","计量-月度"),
 
     SUPPLIER("supplier","供应商"),
-    GOODS( "goods","买/卖"),
-    GOODS_TRADE("goods_trade","买/卖-明细"),
+    GOODS( "goods","商品"),
+    GOODS_TRADE("goods_trade","买/卖"),
     GOODS_TRADE_MONTH("goods_trade_month","买/卖-月度"),
 
     SHARE_AREA("share_area", "信息板"),
