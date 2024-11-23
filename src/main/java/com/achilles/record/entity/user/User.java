@@ -4,6 +4,8 @@ import com.achilles.model.entity.BaseEntity;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.util.Date;
+
 @Getter
 @Setter
 public class User extends BaseEntity {
@@ -35,4 +37,8 @@ public class User extends BaseEntity {
     private Long version;
 
     private Integer role;
+
+    private Date loginDate;
+
+    private Date lastLoginDate;
 }
