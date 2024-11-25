@@ -32,6 +32,7 @@ public enum ModelFunctionEnum {
     NOTE_DOWNLOAD(ClzConstant.NOTE_QUERY + ".download", ModelEnum.NOTE.getKey(),"download", ModelEnum.NOTE.getValue() + "_下载"),
     NOTE_GET(ClzConstant.NOTE_QUERY + ".get", ModelEnum.NOTE.getKey(),"get", ModelEnum.NOTE.getValue() + "_根据id查询"),
     NOTE_LIST(ClzConstant.NOTE_QUERY + ".getPageList", ModelEnum.NOTE.getKey(),"getPageList", ModelEnum.NOTE.getValue() + "_查询列表"),
+    NOTE_RECYCLE_LIST(ClzConstant.NOTE_QUERY + ".getRecyclePageList", ModelEnum.NOTE.getKey(),"getRecyclePageList", ModelEnum.NOTE.getValue() + "_查询回收站列表"),
     NOTE_COUNT(ClzConstant.NOTE_QUERY + ".getCount", ModelEnum.NOTE.getKey(),"getCount", ModelEnum.NOTE.getValue() + "_查询总数"),
 //    NOTE_TYPE(ClzConstant.NOTE_QUERY + ".getType", ModelEnum.NOTE.getKey(),"getType", ModelEnum.NOTE.getValue() + "_查询所有类型"),
     NOTE_GET_IMG(ClzConstant.NOTE_QUERY + ".getBigImg", ModelEnum.NOTE.getKey(),"getBigImg", ModelEnum.NOTE.getValue() + "_获取大图"),
@@ -41,6 +42,8 @@ public enum ModelFunctionEnum {
     FINANCE_DEL(ClzConstant.FINANCE_COMMAND + ".delete", ModelEnum.FINANCE.getKey(),"delete", ModelEnum.FINANCE.getValue() + "_删除"),
     FINANCE_UPDATE(ClzConstant.FINANCE_COMMAND + ".update", ModelEnum.FINANCE.getKey(),"update", ModelEnum.FINANCE.getValue() + "_修改"),
     FINANCE_COPY(ClzConstant.FINANCE_COMMAND + ".copy", ModelEnum.FINANCE.getKey(),"copy", ModelEnum.FINANCE.getValue() + "_复制"),
+    FINANCE_DEL_RECYCLE(ClzConstant.FINANCE_COMMAND + ".deleteRecycle", ModelEnum.FINANCE.getKey(),"deleteRecycle", ModelEnum.FINANCE.getValue() + "_删除回收站"),
+    FINANCE_RECYCLE(ClzConstant.FINANCE_COMMAND + ".recycle", ModelEnum.FINANCE.getKey(),"recycle", ModelEnum.FINANCE.getValue() + "_还原回收站"),
 
     FINANCE_DOWNLOAD(ClzConstant.FINANCE_QUERY + ".download", ModelEnum.FINANCE.getKey(),"download", ModelEnum.FINANCE.getValue() + "_下载"),
     FINANCE_GET(ClzConstant.FINANCE_QUERY + ".get", ModelEnum.FINANCE.getKey(),"get", ModelEnum.FINANCE.getValue() + "_根据id查询"),
