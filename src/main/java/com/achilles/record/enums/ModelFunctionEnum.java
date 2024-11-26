@@ -28,6 +28,10 @@ public enum ModelFunctionEnum {
     NOTE_UPDATE(ClzConstant.NOTE_COMMAND + ".update", ModelEnum.NOTE.getKey(),"update", ModelEnum.NOTE.getValue() + "_修改"),
     NOTE_COPY(ClzConstant.NOTE_COMMAND + ".copy", ModelEnum.NOTE.getKey(),"copy", ModelEnum.NOTE.getValue() + "_复制"),
     NOTE_UPDATE_CONTENT(ClzConstant.NOTE_COMMAND + ".updateContent", ModelEnum.NOTE.getKey(),"updateContent", ModelEnum.NOTE.getValue() + "_修改正文"),
+    NOTE_DELETE_RECYCLE(ClzConstant.NOTE_COMMAND + ".deleteRecycle", ModelEnum.NOTE.getKey(),"deleteRecycle", ModelEnum.NOTE.getValue() + "_删除回收站的一个"),
+    NOTE_CLEAN_RECYCLE(ClzConstant.NOTE_COMMAND + ".cleanRecycle", ModelEnum.NOTE.getKey(),"cleanRecycle", ModelEnum.NOTE.getValue() + "_清空回收站"),
+    NOTE_RECYCLE(ClzConstant.NOTE_COMMAND + ".recycle", ModelEnum.NOTE.getKey(),"recycle", ModelEnum.NOTE.getValue() + "还原一个"),
+
 
     NOTE_DOWNLOAD(ClzConstant.NOTE_QUERY + ".download", ModelEnum.NOTE.getKey(),"download", ModelEnum.NOTE.getValue() + "_下载"),
     NOTE_GET(ClzConstant.NOTE_QUERY + ".get", ModelEnum.NOTE.getKey(),"get", ModelEnum.NOTE.getValue() + "_根据id查询"),
