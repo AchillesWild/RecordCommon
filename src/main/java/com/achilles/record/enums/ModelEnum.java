@@ -58,8 +58,8 @@ public enum ModelEnum {
         return sort;
     }
 
-    public static String getValue(String code) {
-        return keyValueMap.get(code);
+    public static String getValue(String key) {
+        return keyValueMap.get(key);
     }
 
     public static Map<String, String> keyValueMap = new HashMap<>();
@@ -72,13 +72,13 @@ public enum ModelEnum {
         }
     }
 
-    public static boolean contains(Integer code){
+    public static boolean contains(String key){
 
-        if(code == null){
+        if(key == null || "".equals(key)){
             return false;
         }
 
-        String value = keyValueMap.get(code);
+        String value = keyValueMap.get(key);
         if(value != null) {
             return true;
         }
