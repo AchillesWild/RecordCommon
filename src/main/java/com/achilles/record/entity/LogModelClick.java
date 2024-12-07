@@ -16,4 +16,8 @@ public class LogModelClick extends BaseEntity {
 
     private String traceId;
 
+    private String userAgent;
+
+    private String remoteHost;
+
 }
