@@ -12,8 +12,6 @@ public class Note extends BaseEntity {
 
     private String content;
 
-    private String remark;
-
     private Integer type;
 
     private String userUuid;
