@@ -22,7 +22,7 @@ public enum ModelFunctionEnum {
 //    MISSION_PACE(ClzConstant.MISSION_QUERY + ".getPace", ModelEnum.MISSION.getKey(),"getPace", ModelEnum.MISSION.getValue() + "_查询所有进度"),
     MISSION_GET_IMG(ClzConstant.MISSION_QUERY + ".getBigImg", ModelEnum.MISSION.getKey(),"getBigImg", ModelEnum.MISSION.getValue() + "_获取大图"),
 
-    //--------------------------------------------- diary  start ----------------------------------------------------------------
+    //--------------------------------------------- note  start ----------------------------------------------------------------
     NOTE_ADD(ClzConstant.NOTE_COMMAND + ".add", ModelEnum.NOTE.getKey(),"add", ModelEnum.NOTE.getValue() + "_新增"),
     NOTE_DEL(ClzConstant.NOTE_COMMAND + ".delete", ModelEnum.NOTE.getKey(),"delete", ModelEnum.NOTE.getValue() + "_删除"),
     NOTE_UPDATE(ClzConstant.NOTE_COMMAND + ".update", ModelEnum.NOTE.getKey(),"update", ModelEnum.NOTE.getValue() + "_修改"),
