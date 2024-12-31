@@ -170,12 +170,16 @@ public enum ModelFunctionEnum {
     USER_UPDATE_PASSWORD(ClzConstant.USER_COMMAND + ".updatePassword", ModelEnum.USER.getKey(),"updatePassword", ModelEnum.USER.getValue() + "_修改密码"),
     USER_UPDATE_AVATAR(ClzConstant.USER_COMMAND + ".updateAvatar", ModelEnum.USER.getKey(),"updateAvatar", ModelEnum.USER.getValue() + "_修改头像"),
     USER_UPDATE_QUESTION(ClzConstant.USER_COMMAND + ".updateQuestion", ModelEnum.USER.getKey(),"updateQuestion", ModelEnum.USER.getValue() + "_修改问题"),
+    USER_CHECK_PASSWORD(ClzConstant.USER_COMMAND + ".checkPassword", ModelEnum.USER.getKey(),"checkPassword", ModelEnum.USER.getValue() + "_校验密码"),
+
 
     USER_GET(ClzConstant.USER_QUERY + ".get", ModelEnum.USER.getKey(),"get", ModelEnum.USER.getValue() + "_查询一个"),
     USER_GET_AVATAR(ClzConstant.USER_QUERY + ".getAvatar", ModelEnum.USER.getKey(),"getAvatar", ModelEnum.USER.getValue() + "_查询头像"),
 //    USER_GET_GENDER(ClzConstant.USER_QUERY + ".getGender", ModelEnum.USER.getKey(),"getGender", ModelEnum.USER.getValue() + "_查询性别下拉"),
 //    USER_GET_HOME_PAGE(ClzConstant.USER_QUERY + ".getHomePage", ModelEnum.USER.getKey(),"getHomePage", ModelEnum.USER.getValue() + "_查询可以选择的默认页菜单"),
     USER_GET_QUESTION_ANSWER(ClzConstant.USER_QUERY + ".getQuestionAndAnswer", ModelEnum.USER.getKey(),"getQuestionAndAnswer", ModelEnum.USER.getValue() + "_查询问题和答案"),
+    USER_IF_HAS_SET_QUESTION(ClzConstant.USER_QUERY + ".ifHasSetQuestion", ModelEnum.USER.getKey(),"ifHasSetQuestion", ModelEnum.USER.getValue() + "_是否已设置问题"),
+
 
     USER_NOTICE_READ_ONE(ClzConstant.USER_NOTICE + ".readOne", ModelEnum.USER_NOTICE.getKey(),"readOne", ModelEnum.USER_NOTICE.getValue() + "_读一条"),
     USER_NOTICE_GET_ONE(ClzConstant.USER_NOTICE + ".getOne", ModelEnum.USER_NOTICE.getKey(),"getOne", ModelEnum.USER_NOTICE.getValue() + "_查一条"),
