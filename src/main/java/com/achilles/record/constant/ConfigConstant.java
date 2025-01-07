@@ -11,4 +11,6 @@ public class ConfigConstant {
     public static final String MASTER_SWITCH = "masterSwitch";
 
     public static final String EXCEL_EXPORT_SWITCH = "excelExportSwitch";
+
+    public static final String CONTACT_EMAIL = "contactEmail";
 }
