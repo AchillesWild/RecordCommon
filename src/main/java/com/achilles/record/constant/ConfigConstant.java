@@ -12,5 +12,5 @@ public class ConfigConstant {
 
     public static final String CONTACT_EMAIL = "contactEmail";
 
-    public static final String OPEN_EMAIL = "openEmail";
+    public static final String EMAIL_SWITCH = "emailSwitch";
 }
