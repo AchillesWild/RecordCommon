@@ -15,4 +15,6 @@ public class ConfigConstant {
     public static final String CONTACT_EMAIL_PASS = "contactEmailPass";
 
     public static final String EMAIL_SWITCH = "emailSwitch";
+
+    public static final String EXPIRE_DAYS = "expireDays";
 }
