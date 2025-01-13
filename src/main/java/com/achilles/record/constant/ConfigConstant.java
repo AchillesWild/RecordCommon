@@ -12,7 +12,9 @@ public class ConfigConstant {
 
     public static final String CONTACT_EMAIL = "contactEmail";
 
-    public static final String CONTACT_EMAIL_PASS = "contactEmailPass";
+    public static final String SENDER_EMAIL = "senderEmail";
+
+    public static final String SENDER_EMAIL_PASS = "senderEmailPass";
 
     public static final String EMAIL_SWITCH = "emailSwitch";
 
