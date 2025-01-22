@@ -10,6 +10,7 @@ public enum ModelEnum {
 
     NOTE("note", "笔记", 1),
 
+    NOTES("notes", "私记", 1),
 
     FINANCE("finance", "账务", 2),
     FINANCE_MONTH("finance_month","账务-月度", 3),

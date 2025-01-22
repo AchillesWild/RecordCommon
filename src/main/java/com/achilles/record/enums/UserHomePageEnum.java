@@ -10,11 +10,13 @@ public enum UserHomePageEnum {
 
     NOTE(2, "笔记"),
 
-    FINANCE(3, "账务"),
+    NOTES(3, "私记"),
 
-    PRODUCT(4, "计量"),
+    FINANCE(4, "账务"),
 
-    GOODS(5, "买/卖"),
+    PRODUCT(5, "计量"),
+
+    GOODS(6, "买/卖"),
 
     ;
 

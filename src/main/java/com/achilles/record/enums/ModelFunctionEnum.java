@@ -41,6 +41,22 @@ public enum ModelFunctionEnum {
 //    NOTE_TYPE(ClzConstant.NOTE_QUERY + ".getType", ModelEnum.NOTE.getKey(),"getType", ModelEnum.NOTE.getValue() + "_查询所有类型"),
     NOTE_GET_IMG(ClzConstant.NOTE_QUERY + ".getBigImg", ModelEnum.NOTE.getKey(),"getBigImg", ModelEnum.NOTE.getValue() + "_获取大图"),
 
+    //--------------------------------------------- notes  start ----------------------------------------------------------------
+    NOTES_ADD(ClzConstant.NOTES_COMMAND + ".add", ModelEnum.NOTES.getKey(),"add", ModelEnum.NOTES.getValue() + "_新增"),
+    NOTES_DEL(ClzConstant.NOTES_COMMAND + ".delete", ModelEnum.NOTES.getKey(),"delete", ModelEnum.NOTES.getValue() + "_删除"),
+    NOTES_UPDATE(ClzConstant.NOTES_COMMAND + ".update", ModelEnum.NOTES.getKey(),"update", ModelEnum.NOTES.getValue() + "_修改"),
+    NOTES_COPY(ClzConstant.NOTES_COMMAND + ".copy", ModelEnum.NOTES.getKey(),"copy", ModelEnum.NOTES.getValue() + "_复制"),
+    NOTES_UPDATE_CONTENT(ClzConstant.NOTES_COMMAND + ".updateContent", ModelEnum.NOTES.getKey(),"updateContent", ModelEnum.NOTES.getValue() + "_修改正文"),
+    NOTES_DELETE_RECYCLE(ClzConstant.NOTES_COMMAND + ".deleteRecycle", ModelEnum.NOTES.getKey(),"deleteRecycle", ModelEnum.NOTES.getValue() + "_删除回收站的一个"),
+    NOTES_CLEAN_RECYCLE(ClzConstant.NOTES_COMMAND + ".cleanRecycle", ModelEnum.NOTES.getKey(),"cleanRecycle", ModelEnum.NOTES.getValue() + "_清空回收站"),
+    NOTES_RECYCLE(ClzConstant.NOTES_COMMAND + ".recycle", ModelEnum.NOTES.getKey(),"recycle", ModelEnum.NOTES.getValue() + "还原一个"),
+
+    NOTES_GET(ClzConstant.NOTES_QUERY + ".get", ModelEnum.NOTES.getKey(),"get", ModelEnum.NOTES.getValue() + "_根据id查询"),
+    NOTES_LIST(ClzConstant.NOTES_QUERY + ".getPageList", ModelEnum.NOTES.getKey(),"getPageList", ModelEnum.NOTES.getValue() + "_查询列表"),
+    NOTES_RECYCLE_LIST(ClzConstant.NOTES_QUERY + ".getRecyclePageList", ModelEnum.NOTES.getKey(),"getRecyclePageList", ModelEnum.NOTES.getValue() + "_查询回收站列表"),
+    NOTES_COUNT(ClzConstant.NOTES_QUERY + ".getCount", ModelEnum.NOTES.getKey(),"getCount", ModelEnum.NOTES.getValue() + "_查询总数"),
+    NOTES_GET_IMG(ClzConstant.NOTES_QUERY + ".getBigImg", ModelEnum.NOTES.getKey(),"getBigImg", ModelEnum.NOTES.getValue() + "_获取大图"),
+
     //--------------------------------------------- finance  start ----------------------------------------------------------------
     FINANCE_ADD(ClzConstant.FINANCE_COMMAND + ".add", ModelEnum.FINANCE.getKey(),"add", ModelEnum.FINANCE.getValue() + "_新增"),
     FINANCE_DEL(ClzConstant.FINANCE_COMMAND + ".delete", ModelEnum.FINANCE.getKey(),"delete", ModelEnum.FINANCE.getValue() + "_删除"),
