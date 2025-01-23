@@ -10,7 +10,7 @@ public enum UserHomePageEnum {
 
     NOTE(2, "笔记"),
 
-    NOTES(3, "私记"),
+    NOTES(3, "日记"),
 
     FINANCE(4, "账务"),
 
