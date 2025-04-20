@@ -12,7 +12,7 @@ public enum ModelFunctionEnum {
     MISSION_UPDATE(ClzConstant.MISSION_COMMAND + ".update", ModelEnum.MISSION.getKey(),"update", ModelEnum.MISSION.getValue() + "_修改"),
     MISSION_UPDATE_INITIAL(ClzConstant.MISSION_COMMAND + ".updateInitial", ModelEnum.MISSION.getKey(),"updateInitial", ModelEnum.MISSION.getValue() + "_改为未处理"),
     MISSION_UPDATE_DOING(ClzConstant.MISSION_COMMAND + ".updateDoing", ModelEnum.MISSION.getKey(),"updateDoing", ModelEnum.MISSION.getValue() + "_改为处理中"),
-    MISSION_UPDATE_DONE(ClzConstant.MISSION_COMMAND + ".updateDone", ModelEnum.MISSION.getKey(),"updateDone", ModelEnum.MISSION.getValue() + "_改为已处理"),
+    MISSION_UPDATE_DONE(ClzConstant.MISSION_COMMAND + ".updateDone", ModelEnum.MISSION.getKey(),"updateDone", ModelEnum.MISSION.getValue() + "_改为已完成"),
     MISSION_UPDATE_CONTENT(ClzConstant.MISSION_COMMAND + ".updateContent", ModelEnum.MISSION.getKey(),"updateContent", ModelEnum.MISSION.getValue() + "_修改正文"),
 
     MISSION_DOWNLOAD(ClzConstant.MISSION_QUERY + ".download", ModelEnum.MISSION.getKey(),"download", ModelEnum.MISSION.getValue() + "_下载"),
