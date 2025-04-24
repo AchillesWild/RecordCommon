@@ -17,6 +17,7 @@ public enum ModelFunctionEnum {
 
     MISSION_DOWNLOAD(ClzConstant.MISSION_QUERY + ".download", ModelEnum.MISSION.getKey(),"download", ModelEnum.MISSION.getValue() + "_下载"),
     MISSION_GET(ClzConstant.MISSION_QUERY + ".get", ModelEnum.MISSION.getKey(),"get", ModelEnum.MISSION.getValue() + "_根据id查询"),
+    MISSION_GET_CONTENT(ClzConstant.MISSION_QUERY + ".getContentById", ModelEnum.MISSION.getKey(),"getContentById", ModelEnum.MISSION.getValue() + "_根据id查询内容"),
     MISSION_LIST(ClzConstant.MISSION_QUERY + ".getPageList", ModelEnum.MISSION.getKey(),"getPageList", ModelEnum.MISSION.getValue() + "_查询列表"),
     MISSION_COUNT(ClzConstant.MISSION_QUERY + ".getCount", ModelEnum.MISSION.getKey(),"getCount", ModelEnum.MISSION.getValue() + "_查询总数"),
     MISSION_TYPE(ClzConstant.MISSION_QUERY + ".getType", ModelEnum.MISSION.getKey(),"getType", ModelEnum.MISSION.getValue() + "_查询所有类型"),
@@ -33,9 +34,9 @@ public enum ModelFunctionEnum {
     NOTE_CLEAN_RECYCLE(ClzConstant.NOTE_COMMAND + ".cleanRecycle", ModelEnum.NOTE.getKey(),"cleanRecycle", ModelEnum.NOTE.getValue() + "_清空回收站"),
     NOTE_RECYCLE(ClzConstant.NOTE_COMMAND + ".recycle", ModelEnum.NOTE.getKey(),"recycle", ModelEnum.NOTE.getValue() + "还原一个"),
 
-
     NOTE_DOWNLOAD(ClzConstant.NOTE_QUERY + ".download", ModelEnum.NOTE.getKey(),"download", ModelEnum.NOTE.getValue() + "_下载"),
     NOTE_GET(ClzConstant.NOTE_QUERY + ".get", ModelEnum.NOTE.getKey(),"get", ModelEnum.NOTE.getValue() + "_根据id查询"),
+    NOTE_GET_CONTENT(ClzConstant.NOTE_QUERY + ".getContentById", ModelEnum.NOTE.getKey(),"getContentById", ModelEnum.NOTE.getValue() + "_根据id查询内容"),
     NOTE_LIST(ClzConstant.NOTE_QUERY + ".getPageList", ModelEnum.NOTE.getKey(),"getPageList", ModelEnum.NOTE.getValue() + "_查询列表"),
     NOTE_RECYCLE_LIST(ClzConstant.NOTE_QUERY + ".getRecyclePageList", ModelEnum.NOTE.getKey(),"getRecyclePageList", ModelEnum.NOTE.getValue() + "_查询回收站列表"),
     NOTE_COUNT(ClzConstant.NOTE_QUERY + ".getCount", ModelEnum.NOTE.getKey(),"getCount", ModelEnum.NOTE.getValue() + "_查询总数"),
@@ -53,6 +54,7 @@ public enum ModelFunctionEnum {
     NOTES_RECYCLE(ClzConstant.NOTES_COMMAND + ".recycle", ModelEnum.NOTES.getKey(),"recycle", ModelEnum.NOTES.getValue() + "还原一个"),
 
     NOTES_GET(ClzConstant.NOTES_QUERY + ".get", ModelEnum.NOTES.getKey(),"get", ModelEnum.NOTES.getValue() + "_根据id查询"),
+    NOTES_GET_CONTENT(ClzConstant.NOTES_QUERY + ".getContentById", ModelEnum.NOTES.getKey(),"getContentById", ModelEnum.NOTES.getValue() + "_根据id查询内容"),
     NOTES_LIST(ClzConstant.NOTES_QUERY + ".getPageList", ModelEnum.NOTES.getKey(),"getPageList", ModelEnum.NOTES.getValue() + "_查询列表"),
     NOTES_RECYCLE_LIST(ClzConstant.NOTES_QUERY + ".getRecyclePageList", ModelEnum.NOTES.getKey(),"getRecyclePageList", ModelEnum.NOTES.getValue() + "_查询回收站列表"),
     NOTES_COUNT(ClzConstant.NOTES_QUERY + ".getCount", ModelEnum.NOTES.getKey(),"getCount", ModelEnum.NOTES.getValue() + "_查询总数"),
