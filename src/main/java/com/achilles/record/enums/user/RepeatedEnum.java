@@ -10,7 +10,9 @@ public enum RepeatedEnum {
 
     NO(0,"否"),
 
-    YES(1,"是");
+    ONE(1,"一次"),
+
+    YES(2,"是");
 
 
     private Integer key;
