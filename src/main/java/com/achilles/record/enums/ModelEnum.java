@@ -25,7 +25,7 @@ public enum ModelEnum {
     SUPPLIER("supplier","供应商", 10),
     GOODS( "goods","商品", 11),
 
-    SHARE_AREA("share_area", "信息板", 12),
+    SHARE_AREA("share_area", "公告栏", 12),
 
     SHARE_USER("share_user", "分享用户", 13),
 
