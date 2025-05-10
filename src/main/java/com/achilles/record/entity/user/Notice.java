@@ -11,6 +11,10 @@ public class Notice extends BaseEntity {
 
     private String content;
 
+    private Integer hasImg;
+
+    private String imgUrl;
+
     private String startTime;
 
     private String endTime;
