@@ -97,6 +97,7 @@ public enum ModelFunctionEnum {
     FINANCE_TRANSACTION_TYPE_GET(ClzConstant.FINANCE_TRANSACTION_TYPE_QUERY + ".get", ModelEnum.FINANCE_TRANSACTION_TYPE.getKey(),"get", ModelEnum.FINANCE_TRANSACTION_TYPE.getValue() + "_根据id查询"),
     FINANCE_TRANSACTION_TYPE_LIST(ClzConstant.FINANCE_TRANSACTION_TYPE_QUERY + ".getPageList", ModelEnum.FINANCE_TRANSACTION_TYPE.getKey(),"getPageList", ModelEnum.FINANCE_TRANSACTION_TYPE.getValue() + "_查询列表"),
     FINANCE_TRANSACTION_TYPE_GET_SELECT(ClzConstant.FINANCE_TRANSACTION_TYPE_QUERY + ".getSelect", ModelEnum.FINANCE_TRANSACTION_TYPE.getKey(),"getSelect", ModelEnum.FINANCE_TRANSACTION_TYPE.getValue() + "_查询所有(下拉菜单)"),
+    FINANCE_TRANSACTION_TYPE_JUST_UPDATED(ClzConstant.FINANCE_TRANSACTION_TYPE_QUERY + ".ifJustUpdated", ModelEnum.FINANCE_TRANSACTION_TYPE.getKey(),"ifJustUpdated", ModelEnum.FINANCE_TRANSACTION_TYPE.getValue() + "_是否不久前修改过"),
 
     //--------------------------------------------- product  start ----------------------------------------------------------------
     PRODUCT_OUTPUT_ADD(ClzConstant.PRODUCT_OUTPUT_COMMAND + ".add", ModelEnum.PRODUCT_OUTPUT.getKey(),"add", ModelEnum.PRODUCT_OUTPUT.getValue() + "_新增"),
@@ -119,7 +120,7 @@ public enum ModelFunctionEnum {
     PRODUCT_GET_BIG_IMG(ClzConstant.PRODUCT_QUERY + ".getBigImg", ModelEnum.PRODUCT.getKey(),"getBigImg", ModelEnum.PRODUCT.getValue() + "_获取大图"),
     PRODUCT_GET_BY_UUID(ClzConstant.PRODUCT_QUERY + ".getByUuid", ModelEnum.PRODUCT.getKey(),"getByUuid", ModelEnum.PRODUCT.getValue() + "_根据UUID查询"),
     PRODUCT_GET_UNIT_SELECT(ClzConstant.PRODUCT_QUERY + ".getUnitSelect", ModelEnum.PRODUCT.getKey(),"getUnitSelect", ModelEnum.PRODUCT.getValue() + "_查询单位下拉"),
-
+    PRODUCT_JUST_UPDATED(ClzConstant.PRODUCT_QUERY + ".ifJustUpdated", ModelEnum.PRODUCT.getKey(),"ifJustUpdated", ModelEnum.PRODUCT.getValue() + "_是否不久前修改过"),
 
     PRODUCT_OUTPUT_MONTH_LIST(ClzConstant.PRODUCT_OUTPUT_MONTH_QUERY + ".getPageList", ModelEnum.PRODUCT_OUTPUT_MONTH.getKey(),"getPageList", ModelEnum.PRODUCT_OUTPUT_MONTH.getValue() + "_查询列表"),
     PRODUCT_OUTPUT_MONTH_GET(ClzConstant.PRODUCT_OUTPUT_MONTH_QUERY + ".getByMonth", ModelEnum.PRODUCT_OUTPUT_MONTH.getKey(),"getByMonth", ModelEnum.PRODUCT_OUTPUT_MONTH.getValue() + "_查询某个月"),
@@ -166,6 +167,7 @@ public enum ModelFunctionEnum {
     GOODS_GET_SELECT(ClzConstant.GOODS_QUERY + ".getSelect", ModelEnum.GOODS.getKey(),"getSelect", ModelEnum.GOODS.getValue() + "_查询下拉"),
     GOODS_GET_BY_UUID(ClzConstant.GOODS_QUERY + ".getByUuid", ModelEnum.GOODS.getKey(),"getByUuid", ModelEnum.GOODS.getValue() + "_根据UUID查询"),
     GOODS_GET_UNIT_SELECT(ClzConstant.GOODS_QUERY + ".getUnitSelect", ModelEnum.GOODS.getKey(),"getUnitSelect", ModelEnum.GOODS.getValue() + "_查询单位下拉"),
+    GOODS_JUST_UPDATED(ClzConstant.GOODS_QUERY + ".ifJustUpdated", ModelEnum.GOODS.getKey(),"ifJustUpdated", ModelEnum.GOODS.getValue() + "_是否不久前修改过"),
 
 
     SUPPLIER_ADD(ClzConstant.SUPPLIER_COMMAND + ".add", ModelEnum.SUPPLIER.getKey(),"add", ModelEnum.SUPPLIER.getValue() + "_新增"),
@@ -178,7 +180,7 @@ public enum ModelFunctionEnum {
     SUPPLIER_DOWNLOAD(ClzConstant.SUPPLIER_QUERY + ".download", ModelEnum.SUPPLIER.getKey(),"download", ModelEnum.SUPPLIER.getValue() + "_下载"),
     SUPPLIERS_GET_SUPPLIER_TYPE(ClzConstant.SUPPLIER_QUERY + ".getSupplierType", ModelEnum.SUPPLIER.getKey(),"getSupplierType", ModelEnum.SUPPLIER.getValue() + "_获取供应商类型下拉"),
     SUPPLIERS_GET_SELECT(ClzConstant.SUPPLIER_QUERY + ".getSelect", ModelEnum.SUPPLIER.getKey(),"getSelect", ModelEnum.SUPPLIER.getValue() + "_获取供应商下拉菜单"),
-
+    SUPPLIERS_JUST_UPDATED(ClzConstant.SUPPLIER_QUERY + ".ifJustUpdated", ModelEnum.SUPPLIER.getKey(),"ifJustUpdated", ModelEnum.SUPPLIER.getValue() + "_是否不久前修改过"),
 
     //--------------------------------------------- share area  start ----------------------------------------------------------------
     SHARE_AREA_ADD(ClzConstant.SHARE_AREA_COMMAND + ".add", ModelEnum.SHARE_AREA.getKey(),"add", ModelEnum.SHARE_AREA.getValue() + "_新增"),
