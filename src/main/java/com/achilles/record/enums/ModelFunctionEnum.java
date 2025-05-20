@@ -23,6 +23,9 @@ public enum ModelFunctionEnum {
     MISSION_TYPE(ClzConstant.MISSION_QUERY + ".getType", ModelEnum.MISSION.getKey(),"getType", ModelEnum.MISSION.getValue() + "_查询所有类型"),
     MISSION_PACE(ClzConstant.MISSION_QUERY + ".getPace", ModelEnum.MISSION.getKey(),"getPace", ModelEnum.MISSION.getValue() + "_查询所有进度"),
     MISSION_GET_IMG(ClzConstant.MISSION_QUERY + ".getBigImg", ModelEnum.MISSION.getKey(),"getBigImg", ModelEnum.MISSION.getValue() + "_获取大图"),
+    MISSION_GET_LAST_DOWNLOAD_COUNT(ClzConstant.MISSION_QUERY + ".getLastDownloadCount", ModelEnum.MISSION.getKey(),"getLastDownloadCount", ModelEnum.MISSION.getValue() + "_获取可导出excel次数"),
+
+
 
     //--------------------------------------------- note  start ----------------------------------------------------------------
     NOTE_ADD(ClzConstant.NOTE_COMMAND + ".add", ModelEnum.NOTE.getKey(),"add", ModelEnum.NOTE.getValue() + "_新增"),
@@ -42,6 +45,8 @@ public enum ModelFunctionEnum {
     NOTE_COUNT(ClzConstant.NOTE_QUERY + ".getCount", ModelEnum.NOTE.getKey(),"getCount", ModelEnum.NOTE.getValue() + "_查询总数"),
     NOTE_TYPE(ClzConstant.NOTE_QUERY + ".getType", ModelEnum.NOTE.getKey(),"getType", ModelEnum.NOTE.getValue() + "_查询所有类型"),
     NOTE_GET_IMG(ClzConstant.NOTE_QUERY + ".getBigImg", ModelEnum.NOTE.getKey(),"getBigImg", ModelEnum.NOTE.getValue() + "_获取大图"),
+    NOTE_GET_LAST_DOWNLOAD_COUNT(ClzConstant.NOTE_QUERY + ".getLastDownloadCount", ModelEnum.NOTE.getKey(),"getLastDownloadCount", ModelEnum.NOTE.getValue() + "_获取可导出excel次数"),
+
 
     //--------------------------------------------- notes  start ----------------------------------------------------------------
     NOTES_ADD(ClzConstant.NOTES_COMMAND + ".add", ModelEnum.NOTES.getKey(),"add", ModelEnum.NOTES.getValue() + "_新增"),
@@ -61,6 +66,8 @@ public enum ModelFunctionEnum {
     NOTES_COUNT(ClzConstant.NOTES_QUERY + ".getCount", ModelEnum.NOTES.getKey(),"getCount", ModelEnum.NOTES.getValue() + "_查询总数"),
     NOTES_TYPE(ClzConstant.NOTES_QUERY + ".getType", ModelEnum.NOTES.getKey(),"getType", ModelEnum.NOTES.getValue() + "_查询所有类型"),
     NOTES_GET_IMG(ClzConstant.NOTES_QUERY + ".getBigImg", ModelEnum.NOTES.getKey(),"getBigImg", ModelEnum.NOTES.getValue() + "_获取大图"),
+    NOTES_GET_LAST_DOWNLOAD_COUNT(ClzConstant.NOTES_QUERY + ".getLastDownloadCount", ModelEnum.NOTES.getKey(),"getLastDownloadCount", ModelEnum.NOTES.getValue() + "_获取可导出excel次数"),
+
 
     //--------------------------------------------- finance  start ----------------------------------------------------------------
     FINANCE_ADD(ClzConstant.FINANCE_COMMAND + ".add", ModelEnum.FINANCE.getKey(),"add", ModelEnum.FINANCE.getValue() + "_新增"),
@@ -76,6 +83,8 @@ public enum ModelFunctionEnum {
     FINANCE_COUNT(ClzConstant.FINANCE_QUERY + ".getCount", ModelEnum.FINANCE.getKey(),"getCount", ModelEnum.FINANCE.getValue() + "_查询总数"),
     FINANCE_GET_SUM(ClzConstant.FINANCE_QUERY + ".getSum", ModelEnum.FINANCE.getKey(),"getSum", ModelEnum.FINANCE.getValue() + "_查询汇总"),
     FINANCE_GET_IMG(ClzConstant.FINANCE_QUERY + ".getBigImg", ModelEnum.FINANCE.getKey(),"getBigImg", ModelEnum.FINANCE.getValue() + "_获取大图"),
+    FINANCE_GET_LAST_DOWNLOAD_COUNT(ClzConstant.FINANCE_QUERY + ".getLastDownloadCount", ModelEnum.FINANCE.getKey(),"getLastDownloadCount", ModelEnum.FINANCE.getValue() + "_获取可导出excel次数"),
+
 
     FINANCE_MONTH_TO_SUM_RECENT(ClzConstant.FINANCE_MONTH_QUERY + ".toSumRecent", ModelEnum.FINANCE_MONTH.getKey(),"toSumRecent", ModelEnum.FINANCE_MONTH.getValue() + "_汇总最近几个月"),
     FINANCE_MONTH_TO_SUM_MONTH(ClzConstant.FINANCE_MONTH_QUERY + ".toSumMonth", ModelEnum.FINANCE_MONTH.getKey(),"toSumMonth", ModelEnum.FINANCE_MONTH.getValue() + "_汇总某月"),
@@ -88,6 +97,7 @@ public enum ModelFunctionEnum {
     FINANCE_MONTH_DOWNLOAD_MONTH_DETAIL(ClzConstant.FINANCE_MONTH_QUERY + ".downloadMonthDetail", ModelEnum.FINANCE_MONTH.getKey(),"downloadMonthDetail", ModelEnum.FINANCE_MONTH.getValue() + "_下载某月详细"),
     FINANCE_MONTH_DOWNLOAD_MONTH_CLASSIFIED(ClzConstant.FINANCE_MONTH_QUERY + ".downloadClassifiedMonth", ModelEnum.FINANCE_MONTH.getKey(),"downloadClassifiedMonth", ModelEnum.FINANCE_MONTH.getValue() + "_下载某月分类汇总"),
     FINANCE_MONTH_DOWNLOAD_CLASSIFIED(ClzConstant.FINANCE_MONTH_QUERY + ".downloadClassified", ModelEnum.FINANCE_MONTH.getKey(),"downloadClassified", ModelEnum.FINANCE_MONTH.getValue() + "_下载分类汇总"),
+    FINANCE_MONTH_GET_LAST_DOWNLOAD_COUNT(ClzConstant.FINANCE_MONTH_QUERY + ".getLastDownloadCount", ModelEnum.FINANCE_MONTH.getKey(),"getLastDownloadCount", ModelEnum.FINANCE_MONTH.getValue() + "_获取可导出excel次数"),
 
 
     FINANCE_TRANSACTION_TYPE_ADD(ClzConstant.FINANCE_TRANSACTION_TYPE_COMMAND + ".add", ModelEnum.FINANCE_TRANSACTION_TYPE.getKey(),"add", ModelEnum.FINANCE_TRANSACTION_TYPE.getValue() + "_新增"),
@@ -110,6 +120,8 @@ public enum ModelFunctionEnum {
     PRODUCT_OUTPUT_LIST(ClzConstant.PRODUCT_OUTPUT_QUERY + ".getPageList", ModelEnum.PRODUCT_OUTPUT.getKey(),"getPageList", ModelEnum.PRODUCT_OUTPUT.getValue() + "_查询列表"),
     PRODUCT_OUTPUT_GET_COUNT(ClzConstant.PRODUCT_OUTPUT_QUERY + ".getCount", ModelEnum.PRODUCT_OUTPUT.getKey(),"getCount", ModelEnum.PRODUCT_OUTPUT.getValue() + "_查询数据总数"),
     PRODUCT_OUTPUT_GET_SUM(ClzConstant.PRODUCT_OUTPUT_QUERY + ".getSumAmount", ModelEnum.PRODUCT_OUTPUT.getKey(),"getSumAmount", ModelEnum.PRODUCT_OUTPUT.getValue() + "_查询汇总数量"),
+    PRODUCT_OUTPUT_GET_LAST_DOWNLOAD_COUNT(ClzConstant.PRODUCT_OUTPUT_QUERY + ".getLastDownloadCount", ModelEnum.PRODUCT_OUTPUT.getKey(),"getLastDownloadCount", ModelEnum.PRODUCT_OUTPUT.getValue() + "_获取可导出excel次数"),
+
 
     PRODUCT_ADD(ClzConstant.PRODUCT_COMMAND + ".add", ModelEnum.PRODUCT.getKey(),"add", ModelEnum.PRODUCT.getValue() + "_新增"),
     PRODUCT_DEL(ClzConstant.PRODUCT_COMMAND + ".delete", ModelEnum.PRODUCT.getKey(),"delete", ModelEnum.PRODUCT.getValue() + "_删除"),
@@ -121,6 +133,8 @@ public enum ModelFunctionEnum {
     PRODUCT_GET_BY_UUID(ClzConstant.PRODUCT_QUERY + ".getByUuid", ModelEnum.PRODUCT.getKey(),"getByUuid", ModelEnum.PRODUCT.getValue() + "_根据UUID查询"),
     PRODUCT_GET_UNIT_SELECT(ClzConstant.PRODUCT_QUERY + ".getUnitSelect", ModelEnum.PRODUCT.getKey(),"getUnitSelect", ModelEnum.PRODUCT.getValue() + "_查询单位下拉"),
     PRODUCT_JUST_UPDATED(ClzConstant.PRODUCT_QUERY + ".ifJustUpdated", ModelEnum.PRODUCT.getKey(),"ifJustUpdated", ModelEnum.PRODUCT.getValue() + "_是否不久前修改过"),
+    PRODUCT_GET_LAST_DOWNLOAD_COUNT(ClzConstant.PRODUCT_QUERY + ".getLastDownloadCount", ModelEnum.PRODUCT.getKey(),"getLastDownloadCount", ModelEnum.PRODUCT.getValue() + "_获取可导出excel次数"),
+
 
     PRODUCT_OUTPUT_MONTH_LIST(ClzConstant.PRODUCT_OUTPUT_MONTH_QUERY + ".getPageList", ModelEnum.PRODUCT_OUTPUT_MONTH.getKey(),"getPageList", ModelEnum.PRODUCT_OUTPUT_MONTH.getValue() + "_查询列表"),
     PRODUCT_OUTPUT_MONTH_GET(ClzConstant.PRODUCT_OUTPUT_MONTH_QUERY + ".getByMonth", ModelEnum.PRODUCT_OUTPUT_MONTH.getKey(),"getByMonth", ModelEnum.PRODUCT_OUTPUT_MONTH.getValue() + "_查询某个月"),
@@ -129,6 +143,8 @@ public enum ModelFunctionEnum {
     PRODUCT_OUTPUT_MONTH_TO_SUM(ClzConstant.PRODUCT_OUTPUT_MONTH_QUERY + ".toSumOne", ModelEnum.PRODUCT_OUTPUT_MONTH.getKey(),"toSumOne", ModelEnum.PRODUCT_OUTPUT_MONTH.getValue() + "_汇总某个月"),
     PRODUCT_OUTPUT_MONTH_TO_SUM_RECENT(ClzConstant.PRODUCT_OUTPUT_MONTH_QUERY + ".toSumRecent", ModelEnum.PRODUCT_OUTPUT_MONTH.getKey(),"toSumRecent", ModelEnum.PRODUCT_OUTPUT_MONTH.getValue() + "_汇总最近几个月"),
     PRODUCT_OUTPUT_MONTH_GET_SUM(ClzConstant.PRODUCT_OUTPUT_MONTH_QUERY + ".getSumAmount", ModelEnum.PRODUCT_OUTPUT_MONTH.getKey(),"getSumAmount", ModelEnum.PRODUCT_OUTPUT_MONTH.getValue() + "_查询某个计量物的汇总"),
+    PRODUCT_OUTPUT_MONTH_GET_LAST_DOWNLOAD_COUNT(ClzConstant.PRODUCT_OUTPUT_MONTH_QUERY + ".getLastDownloadCount", ModelEnum.PRODUCT_OUTPUT_MONTH.getKey(),"getLastDownloadCount", ModelEnum.PRODUCT_OUTPUT_MONTH.getValue() + "_获取可导出excel次数"),
+
 
     //--------------------------------------------- goods  start ----------------------------------------------------------------
     GOODS_TRADE_ADD(ClzConstant.GOODS_TRADE_COMMAND + ".add", ModelEnum.GOODS_TRADE.getKey(),"add", ModelEnum.GOODS_TRADE.getValue() + "_新增"),
@@ -143,6 +159,8 @@ public enum ModelFunctionEnum {
     GOODS_TRADE_GET_SUM(ClzConstant.GOODS_TRADE_QUERY + ".getSumAmount", ModelEnum.GOODS_TRADE.getKey(),"getSumAmount", ModelEnum.GOODS_TRADE.getValue() + "_查询汇总金额"),
     GOODS_TRADE_GET_BIG_IMG(ClzConstant.GOODS_TRADE_QUERY + ".getBigImg", ModelEnum.GOODS_TRADE.getKey(),"getBigImg", ModelEnum.GOODS_TRADE.getValue() + "_查询大图"),
     GOODS_TRADE_GET_TRADE_TYPE(ClzConstant.GOODS_TRADE_QUERY + ".getTradeType", ModelEnum.GOODS_TRADE.getKey(),"getTradeType", ModelEnum.GOODS_TRADE.getValue() + "_查询交易类型"),
+    GOODS_TRADE_GET_LAST_DOWNLOAD_COUNT(ClzConstant.GOODS_TRADE_QUERY + ".getLastDownloadCount", ModelEnum.GOODS_TRADE.getKey(),"getLastDownloadCount", ModelEnum.GOODS_TRADE.getValue() + "_获取可导出excel次数"),
+
 
     GOODS_TRADE_MONTH_LIST(ClzConstant.GOODS_TRADE_MONTH_QUERY + ".getPageList", ModelEnum.GOODS_TRADE_MONTH.getKey(),"getPageList", ModelEnum.GOODS_TRADE_MONTH.getValue() + "_查询列表"),
     GOODS_TRADE_MONTH_TO_SUM(ClzConstant.GOODS_TRADE_MONTH_QUERY + ".toSum", ModelEnum.GOODS_TRADE_MONTH.getKey(),"toSum", ModelEnum.GOODS_TRADE_MONTH.getValue() + "_汇总某月"),
@@ -155,6 +173,8 @@ public enum ModelFunctionEnum {
     GOODS_TRADE_MONTH_DOWNLOAD_DETAIL(ClzConstant.GOODS_TRADE_MONTH_QUERY + ".downloadMonthDetail", ModelEnum.GOODS_TRADE_MONTH.getKey(),"downloadMonthDetail", ModelEnum.GOODS_TRADE_MONTH.getValue() + "_下载某月明细"),
     GOODS_TRADE_MONTH_DOWNLOAD_MONTH_CLASSIFIED(ClzConstant.GOODS_TRADE_MONTH_QUERY + ".downloadClassifiedMonth", ModelEnum.GOODS_TRADE_MONTH.getKey(),"downloadClassifiedMonth", ModelEnum.GOODS_TRADE_MONTH.getValue() + "_下载某月分类汇总"),
     GOODS_TRADE_MONTH_DOWNLOAD_CLASSIFIED(ClzConstant.GOODS_TRADE_MONTH_QUERY + ".downloadClassified", ModelEnum.GOODS_TRADE_MONTH.getKey(),"downloadClassified", ModelEnum.GOODS_TRADE_MONTH.getValue() + "_下载分类汇总"),
+    GOODS_TRADE_MONTH_GET_LAST_DOWNLOAD_COUNT(ClzConstant.GOODS_TRADE_MONTH_QUERY + ".getLastDownloadCount", ModelEnum.GOODS_TRADE_MONTH.getKey(),"getLastDownloadCount", ModelEnum.GOODS_TRADE_MONTH.getValue() + "_获取可导出excel次数"),
+
 
     GOODS_ADD(ClzConstant.GOODS_COMMAND + ".add", ModelEnum.GOODS.getKey(),"add", ModelEnum.GOODS.getValue() + "_新增"),
     GOODS_DEL(ClzConstant.GOODS_COMMAND + ".delete", ModelEnum.GOODS.getKey(),"delete", ModelEnum.GOODS.getValue() + "_删除"),
@@ -168,6 +188,7 @@ public enum ModelFunctionEnum {
     GOODS_GET_BY_UUID(ClzConstant.GOODS_QUERY + ".getByUuid", ModelEnum.GOODS.getKey(),"getByUuid", ModelEnum.GOODS.getValue() + "_根据UUID查询"),
     GOODS_GET_UNIT_SELECT(ClzConstant.GOODS_QUERY + ".getUnitSelect", ModelEnum.GOODS.getKey(),"getUnitSelect", ModelEnum.GOODS.getValue() + "_查询单位下拉"),
     GOODS_JUST_UPDATED(ClzConstant.GOODS_QUERY + ".ifJustUpdated", ModelEnum.GOODS.getKey(),"ifJustUpdated", ModelEnum.GOODS.getValue() + "_是否不久前修改过"),
+    GOODS_GET_LAST_DOWNLOAD_COUNT(ClzConstant.GOODS_QUERY + ".getLastDownloadCount", ModelEnum.GOODS.getKey(),"getLastDownloadCount", ModelEnum.GOODS.getValue() + "_获取可导出excel次数"),
 
 
     SUPPLIER_ADD(ClzConstant.SUPPLIER_COMMAND + ".add", ModelEnum.SUPPLIER.getKey(),"add", ModelEnum.SUPPLIER.getValue() + "_新增"),
@@ -181,6 +202,8 @@ public enum ModelFunctionEnum {
     SUPPLIERS_GET_SUPPLIER_TYPE(ClzConstant.SUPPLIER_QUERY + ".getSupplierType", ModelEnum.SUPPLIER.getKey(),"getSupplierType", ModelEnum.SUPPLIER.getValue() + "_获取供应商类型下拉"),
     SUPPLIERS_GET_SELECT(ClzConstant.SUPPLIER_QUERY + ".getSelect", ModelEnum.SUPPLIER.getKey(),"getSelect", ModelEnum.SUPPLIER.getValue() + "_获取供应商下拉菜单"),
     SUPPLIERS_JUST_UPDATED(ClzConstant.SUPPLIER_QUERY + ".ifJustUpdated", ModelEnum.SUPPLIER.getKey(),"ifJustUpdated", ModelEnum.SUPPLIER.getValue() + "_是否不久前修改过"),
+    SUPPLIERS_GET_LAST_DOWNLOAD_COUNT(ClzConstant.SUPPLIER_QUERY + ".getLastDownloadCount", ModelEnum.SUPPLIER.getKey(),"getLastDownloadCount", ModelEnum.SUPPLIER.getValue() + "_获取可导出excel次数"),
+
 
     //--------------------------------------------- share area  start ----------------------------------------------------------------
     SHARE_AREA_ADD(ClzConstant.SHARE_AREA_COMMAND + ".add", ModelEnum.SHARE_AREA.getKey(),"add", ModelEnum.SHARE_AREA.getValue() + "_新增"),
