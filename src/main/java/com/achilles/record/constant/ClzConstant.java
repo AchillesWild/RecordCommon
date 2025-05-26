@@ -12,20 +12,23 @@ public class ClzConstant {
     public static final String NOTES_QUERY= "com.achilles.server.controller.note.NotesQryController";
 
     public static final String FINANCE_COMMAND = "com.achilles.server.controller.finance.FinanceRecordCommandController";
-    public static final String FINANCE_QUERY= "com.achilles.server.controller.finance.FinanceRecordQryController";
-    public static final String FINANCE_MONTH_QUERY= "com.achilles.server.controller.finance.FinanceRecordMonthQryController";
+    public static final String FINANCE_QUERY = "com.achilles.server.controller.finance.FinanceRecordQryController";
+    public static final String FINANCE_MONTH_COMMAND = "com.achilles.server.controller.finance.FinanceRecordMonthCommandController";
+    public static final String FINANCE_MONTH_QUERY = "com.achilles.server.controller.finance.FinanceRecordMonthQryController";
     public static final String FINANCE_TRANSACTION_TYPE_COMMAND = "com.achilles.server.controller.finance.FinanceTransactionCommandController";
     public static final String FINANCE_TRANSACTION_TYPE_QUERY= "com.achilles.server.controller.finance.FinanceTransactionQryController";
 
     public static final String PRODUCT_OUTPUT_COMMAND = "com.achilles.server.controller.product.ProductOutputCommandController";
-    public static final String PRODUCT_OUTPUT_QUERY= "com.achilles.server.controller.product.ProductOutputQryController";
+    public static final String PRODUCT_OUTPUT_QUERY = "com.achilles.server.controller.product.ProductOutputQryController";
     public static final String PRODUCT_COMMAND = "com.achilles.server.controller.product.ProductCommandController";
-    public static final String PRODUCT_QUERY= "com.achilles.server.controller.product.ProductQryController";
-    public static final String PRODUCT_OUTPUT_MONTH_QUERY= "com.achilles.server.controller.product.ProductOutputMonthQryController";
+    public static final String PRODUCT_QUERY = "com.achilles.server.controller.product.ProductQryController";
+    public static final String PRODUCT_OUTPUT_MONTH_COMMAND = "com.achilles.server.controller.product.ProductOutputMonthCommandController";
+    public static final String PRODUCT_OUTPUT_MONTH_QUERY = "com.achilles.server.controller.product.ProductOutputMonthQryController";
 
     public static final String GOODS_TRADE_COMMAND = "com.achilles.server.controller.goods.GoodsTradeCommandController";
-    public static final String GOODS_TRADE_QUERY= "com.achilles.server.controller.goods.GoodsTradeQryController";
-    public static final String GOODS_TRADE_MONTH_QUERY= "com.achilles.server.controller.goods.GoodsTradeMonthQryController";
+    public static final String GOODS_TRADE_QUERY = "com.achilles.server.controller.goods.GoodsTradeQryController";
+    public static final String GOODS_TRADE_MONTH_COMMAND = "com.achilles.server.controller.goods.GoodsTradeMonthCommandController";
+    public static final String GOODS_TRADE_MONTH_QUERY = "com.achilles.server.controller.goods.GoodsTradeMonthQryController";
     public static final String GOODS_COMMAND = "com.achilles.server.controller.goods.GoodsCommandController";
     public static final String GOODS_QUERY= "com.achilles.server.controller.goods.GoodsQryController";
     public static final String SUPPLIER_COMMAND = "com.achilles.server.controller.goods.GoodsSupplierCommandController";
