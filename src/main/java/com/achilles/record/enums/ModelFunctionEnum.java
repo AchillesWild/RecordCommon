@@ -96,8 +96,8 @@ public enum ModelFunctionEnum {
     FINANCE_MONTH_DOWNLOAD_CLASSIFIED(ClzConstant.FINANCE_MONTH_QUERY + ".downloadClassified", ModelEnum.FINANCE_MONTH.getKey(),"downloadClassified", ModelEnum.FINANCE_MONTH.getValue() + "_下载分类汇总"),
     FINANCE_MONTH_GET_LAST_DOWNLOAD_COUNT(ClzConstant.FINANCE_MONTH_QUERY + ".getLastDownloadCount", ModelEnum.FINANCE_MONTH.getKey(),"getLastDownloadCount", ModelEnum.FINANCE_MONTH.getValue() + "_获取可导出excel次数"),
 
-    FINANCE_MONTH_TO_SUM_MONTH(ClzConstant.FINANCE_MONTH_COMMAND + ".toSumMonth", ModelEnum.FINANCE_MONTH.getKey(),"toSumMonth", ModelEnum.FINANCE_MONTH.getValue() + "_汇总某月"),
-    FINANCE_MONTH_TO_SUM_RECENT(ClzConstant.FINANCE_MONTH_COMMAND + ".toSumRecent", ModelEnum.FINANCE_MONTH.getKey(),"toSumRecent", ModelEnum.FINANCE_MONTH.getValue() + "_汇总最近几个月"),
+    FINANCE_MONTH_TO_SUM_MONTH(ClzConstant.FINANCE_MONTH_COMMAND + ".toSumByMonth", ModelEnum.FINANCE_MONTH.getKey(),"toSumByMonth", ModelEnum.FINANCE_MONTH.getValue() + "_汇总某月"),
+    FINANCE_MONTH_TO_SUM_RECENT(ClzConstant.FINANCE_MONTH_COMMAND + ".toSumByRecentMonth", ModelEnum.FINANCE_MONTH.getKey(),"toSumByRecentMonth", ModelEnum.FINANCE_MONTH.getValue() + "_汇总最近几个月"),
 
 
     FINANCE_TRANSACTION_TYPE_ADD(ClzConstant.FINANCE_TRANSACTION_TYPE_COMMAND + ".add", ModelEnum.FINANCE_TRANSACTION_TYPE.getKey(),"add", ModelEnum.FINANCE_TRANSACTION_TYPE.getValue() + "_新增"),
@@ -142,8 +142,8 @@ public enum ModelFunctionEnum {
     PRODUCT_OUTPUT_MONTH_GET_SUM(ClzConstant.PRODUCT_OUTPUT_MONTH_QUERY + ".getSumAmount", ModelEnum.PRODUCT_OUTPUT_MONTH.getKey(),"getSumAmount", ModelEnum.PRODUCT_OUTPUT_MONTH.getValue() + "_查询某个计量物的汇总"),
     PRODUCT_OUTPUT_MONTH_GET_LAST_DOWNLOAD_COUNT(ClzConstant.PRODUCT_OUTPUT_MONTH_QUERY + ".getLastDownloadCount", ModelEnum.PRODUCT_OUTPUT_MONTH.getKey(),"getLastDownloadCount", ModelEnum.PRODUCT_OUTPUT_MONTH.getValue() + "_获取可导出excel次数"),
 
-    PRODUCT_OUTPUT_MONTH_TO_SUM(ClzConstant.PRODUCT_OUTPUT_MONTH_COMMAND + ".toSumOne", ModelEnum.PRODUCT_OUTPUT_MONTH.getKey(),"toSumOne", ModelEnum.PRODUCT_OUTPUT_MONTH.getValue() + "_汇总某个月"),
-    PRODUCT_OUTPUT_MONTH_TO_SUM_RECENT(ClzConstant.PRODUCT_OUTPUT_MONTH_COMMAND + ".toSumRecent", ModelEnum.PRODUCT_OUTPUT_MONTH.getKey(),"toSumRecent", ModelEnum.PRODUCT_OUTPUT_MONTH.getValue() + "_汇总最近几个月"),
+    PRODUCT_OUTPUT_MONTH_TO_SUM(ClzConstant.PRODUCT_OUTPUT_MONTH_COMMAND + ".toSumByProductAndMonth", ModelEnum.PRODUCT_OUTPUT_MONTH.getKey(),"toSumByProductAndMonth", ModelEnum.PRODUCT_OUTPUT_MONTH.getValue() + "_汇总某个月"),
+    PRODUCT_OUTPUT_MONTH_TO_SUM_RECENT(ClzConstant.PRODUCT_OUTPUT_MONTH_COMMAND + ".toSumByRecentMonth", ModelEnum.PRODUCT_OUTPUT_MONTH.getKey(),"toSumByRecentMonth", ModelEnum.PRODUCT_OUTPUT_MONTH.getValue() + "_汇总最近几个月"),
 
     //--------------------------------------------- goods  start ----------------------------------------------------------------
     GOODS_TRADE_ADD(ClzConstant.GOODS_TRADE_COMMAND + ".add", ModelEnum.GOODS_TRADE.getKey(),"add", ModelEnum.GOODS_TRADE.getValue() + "_新增"),
@@ -172,8 +172,8 @@ public enum ModelFunctionEnum {
     GOODS_TRADE_MONTH_DOWNLOAD_CLASSIFIED(ClzConstant.GOODS_TRADE_MONTH_QUERY + ".downloadClassified", ModelEnum.GOODS_TRADE_MONTH.getKey(),"downloadClassified", ModelEnum.GOODS_TRADE_MONTH.getValue() + "_下载分类汇总"),
     GOODS_TRADE_MONTH_GET_LAST_DOWNLOAD_COUNT(ClzConstant.GOODS_TRADE_MONTH_QUERY + ".getLastDownloadCount", ModelEnum.GOODS_TRADE_MONTH.getKey(),"getLastDownloadCount", ModelEnum.GOODS_TRADE_MONTH.getValue() + "_获取可导出excel次数"),
 
-    GOODS_TRADE_MONTH_TO_SUM(ClzConstant.GOODS_TRADE_MONTH_COMMAND + ".toSum", ModelEnum.GOODS_TRADE_MONTH.getKey(),"toSum", ModelEnum.GOODS_TRADE_MONTH.getValue() + "_汇总某月"),
-    GOODS_TRADE_MONTH_TO_SUM_RECENT(ClzConstant.GOODS_TRADE_MONTH_COMMAND + ".toSumRecent", ModelEnum.GOODS_TRADE_MONTH.getKey(),"toSumRecent", ModelEnum.GOODS_TRADE_MONTH.getValue() + "_汇总最近几月"),
+    GOODS_TRADE_MONTH_TO_SUM(ClzConstant.GOODS_TRADE_MONTH_COMMAND + ".toSumByMonth", ModelEnum.GOODS_TRADE_MONTH.getKey(),"toSumByMonth", ModelEnum.GOODS_TRADE_MONTH.getValue() + "_汇总某月"),
+    GOODS_TRADE_MONTH_TO_SUM_RECENT(ClzConstant.GOODS_TRADE_MONTH_COMMAND + ".toSumByRecentMonth", ModelEnum.GOODS_TRADE_MONTH.getKey(),"toSumByRecentMonth", ModelEnum.GOODS_TRADE_MONTH.getValue() + "_汇总最近几月"),
 
     GOODS_ADD(ClzConstant.GOODS_COMMAND + ".add", ModelEnum.GOODS.getKey(),"add", ModelEnum.GOODS.getValue() + "_新增"),
     GOODS_DEL(ClzConstant.GOODS_COMMAND + ".delete", ModelEnum.GOODS.getKey(),"delete", ModelEnum.GOODS.getValue() + "_删除"),
