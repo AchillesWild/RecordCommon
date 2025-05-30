@@ -87,7 +87,7 @@ public enum ModelFunctionEnum {
 
     FINANCE_MONTH_CLASSIFIED_MONTH(ClzConstant.FINANCE_MONTH_QUERY + ".getClassifiedMonth", ModelEnum.FINANCE_MONTH.getKey(),"getClassifiedMonth", ModelEnum.FINANCE_MONTH.getValue() + "_查询某月分类汇总"),
     FINANCE_MONTH_CLASSIFIED(ClzConstant.FINANCE_MONTH_QUERY + ".getClassified", ModelEnum.FINANCE_MONTH.getKey(),"getClassified", ModelEnum.FINANCE_MONTH.getValue() + "_根据条件查询分类汇总"),
-    FINANCE_MONTH_LIST(ClzConstant.FINANCE_MONTH_QUERY + ".getMonthPageList", ModelEnum.FINANCE_MONTH.getKey(),"getMonthPageList", ModelEnum.FINANCE_MONTH.getValue() + "_查询列表"),
+    FINANCE_MONTH_LIST(ClzConstant.FINANCE_MONTH_QUERY + ".getPageList", ModelEnum.FINANCE_MONTH.getKey(),"getPageList", ModelEnum.FINANCE_MONTH.getValue() + "_查询列表"),
     FINANCE_MONTH_GET(ClzConstant.FINANCE_MONTH_QUERY + ".getByMonth", ModelEnum.FINANCE_MONTH.getKey(),"getByMonth", ModelEnum.FINANCE_MONTH.getValue() + "_获取某个月详细"),
     FINANCE_MONTH_GET_SUM(ClzConstant.FINANCE_MONTH_QUERY + ".getMonthSumAmount", ModelEnum.FINANCE_MONTH.getKey(),"getMonthSumAmount", ModelEnum.FINANCE_MONTH.getValue() + "_获取汇总值"),
     FINANCE_MONTH_DOWNLOAD(ClzConstant.FINANCE_MONTH_QUERY + ".downloadMonth", ModelEnum.FINANCE_MONTH.getKey(),"downloadMonth", ModelEnum.FINANCE_MONTH.getValue() + "_下载列表"),
