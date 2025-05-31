@@ -227,6 +227,8 @@ public enum ModelFunctionEnum {
     USER_UPDATE_AVATAR(ClzConstant.USER_COMMAND + ".updateAvatar", ModelEnum.USER.getKey(),"updateAvatar", ModelEnum.USER.getValue() + "_修改头像"),
     USER_UPDATE_QUESTION(ClzConstant.USER_COMMAND + ".updateQuestion", ModelEnum.USER.getKey(),"updateQuestion", ModelEnum.USER.getValue() + "_修改问题"),
     USER_CHECK_PASSWORD(ClzConstant.USER_COMMAND + ".checkPassword", ModelEnum.USER.getKey(),"checkPassword", ModelEnum.USER.getValue() + "_校验密码"),
+    USER_CANCEL(ClzConstant.USER_COMMAND + ".cancel", ModelEnum.USER.getKey(),"cancel", ModelEnum.USER.getValue() + "_注销"),
+    USER_JUST_UPDATE_PASS(ClzConstant.USER_COMMAND + ".justUpdatePass", ModelEnum.USER.getKey(),"justUpdatePass", ModelEnum.USER.getValue() + "_刚刚修改密码"),
 
 
     USER_GET(ClzConstant.USER_QUERY + ".get", ModelEnum.USER.getKey(),"get", ModelEnum.USER.getValue() + "_查询一个"),
