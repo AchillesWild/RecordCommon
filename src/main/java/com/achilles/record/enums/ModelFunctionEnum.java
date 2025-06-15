@@ -237,7 +237,7 @@ public enum ModelFunctionEnum {
     USER_GET_HOME_PAGE(ClzConstant.USER_QUERY + ".getHomePage", ModelEnum.USER.getKey(),"getHomePage", ModelEnum.USER.getValue() + "_查询可以选择的默认页菜单"),
     USER_GET_QUESTION_ANSWER(ClzConstant.USER_QUERY + ".getQuestionAndAnswer", ModelEnum.USER.getKey(),"getQuestionAndAnswer", ModelEnum.USER.getValue() + "_查询问题和答案"),
     USER_IF_HAS_SET_QUESTION(ClzConstant.USER_QUERY + ".ifHasSetQuestion", ModelEnum.USER.getKey(),"ifHasSetQuestion", ModelEnum.USER.getValue() + "_是否已设置问题"),
-
+    USER_GET_ACTIVE_DAYS(ClzConstant.USER_QUERY + ".getActiveDays", ModelEnum.USER.getKey(),"getActiveDays", ModelEnum.USER.getValue() + "_查询活跃天数"),
 
     USER_NOTICE_READ_ONE(ClzConstant.USER_NOTICE + ".readOne", ModelEnum.USER_NOTICE.getKey(),"readOne", ModelEnum.USER_NOTICE.getValue() + "_读一条"),
     USER_NOTICE_GET_ONE(ClzConstant.USER_NOTICE + ".getOne", ModelEnum.USER_NOTICE.getKey(),"getOne", ModelEnum.USER_NOTICE.getValue() + "_查一条"),
