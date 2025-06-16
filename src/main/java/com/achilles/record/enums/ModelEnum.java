@@ -33,6 +33,8 @@ public enum ModelEnum {
 
     USER_NOTICE("user_notice", "用户通知", 15),
 
+    CONFIG("config", "配置", 16),
+
     ;
 
     private String key;

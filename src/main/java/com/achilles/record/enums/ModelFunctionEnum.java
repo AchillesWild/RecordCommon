@@ -242,6 +242,9 @@ public enum ModelFunctionEnum {
     USER_NOTICE_READ_ONE(ClzConstant.USER_NOTICE + ".readOne", ModelEnum.USER_NOTICE.getKey(),"readOne", ModelEnum.USER_NOTICE.getValue() + "_读一条"),
     USER_NOTICE_GET_ONE(ClzConstant.USER_NOTICE + ".getOne", ModelEnum.USER_NOTICE.getKey(),"getOne", ModelEnum.USER_NOTICE.getValue() + "_查一条"),
 
+    CONFIG_EXCEL_SWITCH(ClzConstant.CONFIG + ".excelExportSwitch", ModelEnum.CONFIG.getKey(),"excelExportSwitch", ModelEnum.CONFIG.getValue() + "_获取excel开关"),
+    CONFIG_GET_CONTACT(ClzConstant.CONFIG + ".getContact", ModelEnum.CONFIG.getKey(),"getContact", ModelEnum.CONFIG.getValue() + "_获取联系方式"),
+
     ;
 
     private String method;
