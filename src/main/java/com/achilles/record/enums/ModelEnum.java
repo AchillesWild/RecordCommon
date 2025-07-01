@@ -14,6 +14,7 @@ public enum ModelEnum {
 
     FINANCE("finance", "账务", 2),
     FINANCE_MONTH("finance_month","账务-月度", 3),
+    FINANCE_YEAR("finance_year","账务-年度", 4),
     FINANCE_TRANSACTION_TYPE("finance_transaction_type","收/支类型", 4),
 
     PRODUCT_OUTPUT("product_output","计量", 5),

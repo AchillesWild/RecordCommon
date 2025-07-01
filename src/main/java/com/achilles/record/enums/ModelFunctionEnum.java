@@ -99,6 +99,15 @@ public enum ModelFunctionEnum {
     FINANCE_MONTH_TO_SUM_MONTH(ClzConstant.FINANCE_MONTH_COMMAND + ".toSumByMonth", ModelEnum.FINANCE_MONTH.getKey(),"toSumByMonth", ModelEnum.FINANCE_MONTH.getValue() + "_汇总某月"),
     FINANCE_MONTH_TO_SUM_RECENT(ClzConstant.FINANCE_MONTH_COMMAND + ".toSumByRecentMonth", ModelEnum.FINANCE_MONTH.getKey(),"toSumByRecentMonth", ModelEnum.FINANCE_MONTH.getValue() + "_汇总最近几个月"),
 
+    FINANCE_YEAR_LIST(ClzConstant.FINANCE_YEAR_QUERY + ".getPageList", ModelEnum.FINANCE_YEAR.getKey(),"getPageList", ModelEnum.FINANCE_YEAR.getValue() + "_查询列表"),
+    FINANCE_YEAR_CLASSIFIED_MONTH(ClzConstant.FINANCE_YEAR_QUERY + ".getClassifiedYear", ModelEnum.FINANCE_YEAR.getKey(),"getClassifiedYear", ModelEnum.FINANCE_YEAR.getValue() + "_查询某年分类汇总"),
+    FINANCE_YEAR_CLASSIFIED(ClzConstant.FINANCE_YEAR_QUERY + ".getClassified", ModelEnum.FINANCE_YEAR.getKey(),"getClassified", ModelEnum.FINANCE_YEAR.getValue() + "_根据条件查询分类汇总"),
+    FINANCE_YEAR_GET_SUM(ClzConstant.FINANCE_YEAR_QUERY + ".getYearSumAmount", ModelEnum.FINANCE_YEAR.getKey(),"getYearSumAmount", ModelEnum.FINANCE_YEAR.getValue() + "_获取汇总值"),
+    FINANCE_YEAR_DOWNLOAD_MONTH_DETAIL(ClzConstant.FINANCE_YEAR_QUERY + ".downloadYearDetail", ModelEnum.FINANCE_YEAR.getKey(),"downloadYearDetail", ModelEnum.FINANCE_YEAR.getValue() + "_下载某年详细"),
+    FINANCE_YEAR_DOWNLOAD_MONTH_CLASSIFIED(ClzConstant.FINANCE_YEAR_QUERY + ".downloadClassifiedYear", ModelEnum.FINANCE_YEAR.getKey(),"downloadClassifiedYear", ModelEnum.FINANCE_YEAR.getValue() + "_下载某年分类汇总"),
+    FINANCE_YEAR_DOWNLOAD_CLASSIFIED(ClzConstant.FINANCE_YEAR_QUERY + ".downloadClassified", ModelEnum.FINANCE_YEAR.getKey(),"downloadClassified", ModelEnum.FINANCE_YEAR.getValue() + "_下载分类汇总"),
+    FINANCE_YEAR_GET_LAST_DOWNLOAD_COUNT(ClzConstant.FINANCE_YEAR_QUERY + ".getLastDownloadCount", ModelEnum.FINANCE_YEAR.getKey(),"getLastDownloadCount", ModelEnum.FINANCE_YEAR.getValue() + "_获取可导出excel次数"),
+
 
     FINANCE_TRANSACTION_TYPE_ADD(ClzConstant.FINANCE_TRANSACTION_TYPE_COMMAND + ".add", ModelEnum.FINANCE_TRANSACTION_TYPE.getKey(),"add", ModelEnum.FINANCE_TRANSACTION_TYPE.getValue() + "_新增"),
     FINANCE_TRANSACTION_TYPE_DEL(ClzConstant.FINANCE_TRANSACTION_TYPE_COMMAND + ".delete", ModelEnum.FINANCE_TRANSACTION_TYPE.getKey(),"delete", ModelEnum.FINANCE_TRANSACTION_TYPE.getValue() + "_删除"),
