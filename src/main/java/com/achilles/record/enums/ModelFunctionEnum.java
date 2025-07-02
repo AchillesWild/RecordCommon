@@ -184,6 +184,15 @@ public enum ModelFunctionEnum {
     GOODS_TRADE_MONTH_TO_SUM(ClzConstant.GOODS_TRADE_MONTH_COMMAND + ".toSumByMonth", ModelEnum.GOODS_TRADE_MONTH.getKey(),"toSumByMonth", ModelEnum.GOODS_TRADE_MONTH.getValue() + "_汇总某月"),
     GOODS_TRADE_MONTH_TO_SUM_RECENT(ClzConstant.GOODS_TRADE_MONTH_COMMAND + ".toSumByRecentMonth", ModelEnum.GOODS_TRADE_MONTH.getKey(),"toSumByRecentMonth", ModelEnum.GOODS_TRADE_MONTH.getValue() + "_汇总最近几月"),
 
+    GOODS_TRADE_YEAR_LIST(ClzConstant.GOODS_TRADE_YEAR_QUERY + ".getPageList", ModelEnum.GOODS_TRADE_YEAR.getKey(),"getPageList", ModelEnum.GOODS_TRADE_YEAR.getValue() + "_查询列表"),
+    GOODS_TRADE_YEAR_CLASSIFIED_MONTH(ClzConstant.GOODS_TRADE_YEAR_QUERY + ".getClassifiedYear", ModelEnum.GOODS_TRADE_YEAR.getKey(),"getClassifiedYear", ModelEnum.GOODS_TRADE_YEAR.getValue() + "_查询某年分类汇总"),
+    GOODS_TRADE_YEAR_CLASSIFIED(ClzConstant.GOODS_TRADE_YEAR_QUERY + ".getClassified", ModelEnum.GOODS_TRADE_YEAR.getKey(),"getClassified", ModelEnum.GOODS_TRADE_YEAR.getValue() + "_根据条件查询分类汇总"),
+    GOODS_TRADE_YEAR_GET_SUM(ClzConstant.GOODS_TRADE_YEAR_QUERY + ".getYearSumAmount", ModelEnum.GOODS_TRADE_YEAR.getKey(),"getYearSumAmount", ModelEnum.GOODS_TRADE_YEAR.getValue() + "_获取汇总值"),
+    GOODS_TRADE_YEAR_DOWNLOAD_MONTH_DETAIL(ClzConstant.GOODS_TRADE_YEAR_QUERY + ".downloadYearDetail", ModelEnum.GOODS_TRADE_YEAR.getKey(),"downloadYearDetail", ModelEnum.GOODS_TRADE_YEAR.getValue() + "_下载某年详细"),
+    GOODS_TRADE_YEAR_DOWNLOAD_MONTH_CLASSIFIED(ClzConstant.GOODS_TRADE_YEAR_QUERY + ".downloadClassifiedYear", ModelEnum.GOODS_TRADE_YEAR.getKey(),"downloadClassifiedYear", ModelEnum.GOODS_TRADE_YEAR.getValue() + "_下载某年分类汇总"),
+    GOODS_TRADE_YEAR_DOWNLOAD_CLASSIFIED(ClzConstant.GOODS_TRADE_YEAR_QUERY + ".downloadClassified", ModelEnum.GOODS_TRADE_YEAR.getKey(),"downloadClassified", ModelEnum.GOODS_TRADE_YEAR.getValue() + "_下载分类汇总"),
+    GOODS_TRADE_YEAR_GET_LAST_DOWNLOAD_COUNT(ClzConstant.GOODS_TRADE_YEAR_QUERY + ".getLastDownloadCount", ModelEnum.GOODS_TRADE_YEAR.getKey(),"getLastDownloadCount", ModelEnum.GOODS_TRADE_YEAR.getValue() + "_获取可导出excel次数"),
+
     GOODS_ADD(ClzConstant.GOODS_COMMAND + ".add", ModelEnum.GOODS.getKey(),"add", ModelEnum.GOODS.getValue() + "_新增"),
     GOODS_DEL(ClzConstant.GOODS_COMMAND + ".delete", ModelEnum.GOODS.getKey(),"delete", ModelEnum.GOODS.getValue() + "_删除"),
     GOODS_UPDATE(ClzConstant.GOODS_COMMAND + ".update", ModelEnum.GOODS.getKey(),"update", ModelEnum.GOODS.getValue() + "_修改"),

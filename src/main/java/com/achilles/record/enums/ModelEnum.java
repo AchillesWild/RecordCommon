@@ -23,6 +23,7 @@ public enum ModelEnum {
 
     GOODS_TRADE("goods_trade","买/卖", 8),
     GOODS_TRADE_MONTH("goods_trade_month","买/卖-月度", 9),
+    GOODS_TRADE_YEAR("goods_trade_year","买/卖-年度", 9),
     SUPPLIER("supplier","供应商", 10),
     GOODS( "goods","商品", 11),
 
