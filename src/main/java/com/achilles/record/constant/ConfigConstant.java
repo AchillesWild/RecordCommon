@@ -40,6 +40,8 @@ public class ConfigConstant {
 
     public static final String ONE_DAY_EXCEL_DOWNLOAD_LIMIT_COUNT_PRODUCT_OUTPUT_MONTH = "oneDayExcelDownloadLimitCountProductOutputMonth";
 
+    public static final String ONE_DAY_EXCEL_DOWNLOAD_LIMIT_COUNT_PRODUCT_OUTPUT_YEAR = "oneDayExcelDownloadLimitCountProductOutputYear";
+
     public static final String ONE_DAY_EXCEL_DOWNLOAD_LIMIT_COUNT_GOODS_SUPPLIER = "oneDayExcelDownloadLimitCountGoodsSupplier";
 
     public static final String ONE_DAY_EXCEL_DOWNLOAD_LIMIT_COUNT_GOODS = "oneDayExcelDownloadLimitCountGoods";
