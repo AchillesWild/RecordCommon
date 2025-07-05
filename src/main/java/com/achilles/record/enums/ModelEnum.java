@@ -17,15 +17,16 @@ public enum ModelEnum {
     FINANCE_YEAR("finance_year","账务-年度", 4),
     FINANCE_TRANSACTION_TYPE("finance_transaction_type","收/支类型", 4),
 
-    PRODUCT_OUTPUT("product_output","计量", 5),
-    PRODUCT_OUTPUT_MONTH("product_output_month","计量-月度", 6),
+    PRODUCT_OUTPUT("product_output", "计量", 5),
+    PRODUCT_OUTPUT_MONTH("product_output_month", "计量-月度", 6),
+    PRODUCT_OUTPUT_YEAR("product_output_year", "计量-年度", 6),
     PRODUCT("product", "计量物", 7),
 
-    GOODS_TRADE("goods_trade","买/卖", 8),
-    GOODS_TRADE_MONTH("goods_trade_month","买/卖-月度", 9),
-    GOODS_TRADE_YEAR("goods_trade_year","买/卖-年度", 9),
-    SUPPLIER("supplier","供应商", 10),
-    GOODS( "goods","商品", 11),
+    GOODS_TRADE("goods_trade", "买/卖", 8),
+    GOODS_TRADE_MONTH("goods_trade_month", "买/卖-月度", 9),
+    GOODS_TRADE_YEAR("goods_trade_year", "买/卖-年度", 9),
+    SUPPLIER("supplier", "供应商", 10),
+    GOODS( "goods", "商品", 11),
 
     SHARE_AREA("share_area", "公告栏", 12),
 

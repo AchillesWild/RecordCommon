@@ -25,6 +25,7 @@ public class ClzConstant {
     public static final String PRODUCT_QUERY = "com.achilles.server.controller.product.ProductQryController";
     public static final String PRODUCT_OUTPUT_MONTH_COMMAND = "com.achilles.server.controller.product.ProductOutputMonthCommandController";
     public static final String PRODUCT_OUTPUT_MONTH_QUERY = "com.achilles.server.controller.product.ProductOutputMonthQryController";
+    public static final String PRODUCT_OUTPUT_YEAR_QUERY = "com.achilles.server.controller.product.ProductOutputYearQryController";
 
     public static final String GOODS_TRADE_COMMAND = "com.achilles.server.controller.goods.GoodsTradeCommandController";
     public static final String GOODS_TRADE_QUERY = "com.achilles.server.controller.goods.GoodsTradeQryController";

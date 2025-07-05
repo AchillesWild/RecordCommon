@@ -154,6 +154,12 @@ public enum ModelFunctionEnum {
     PRODUCT_OUTPUT_MONTH_TO_SUM(ClzConstant.PRODUCT_OUTPUT_MONTH_COMMAND + ".toSumByProductAndMonth", ModelEnum.PRODUCT_OUTPUT_MONTH.getKey(),"toSumByProductAndMonth", ModelEnum.PRODUCT_OUTPUT_MONTH.getValue() + "_汇总某个月"),
     PRODUCT_OUTPUT_MONTH_TO_SUM_RECENT(ClzConstant.PRODUCT_OUTPUT_MONTH_COMMAND + ".toSumByRecentMonth", ModelEnum.PRODUCT_OUTPUT_MONTH.getKey(),"toSumByRecentMonth", ModelEnum.PRODUCT_OUTPUT_MONTH.getValue() + "_汇总最近几个月"),
 
+    PRODUCT_OUTPUT_YEAR_LIST(ClzConstant.PRODUCT_OUTPUT_YEAR_QUERY + ".getPageList", ModelEnum.PRODUCT_OUTPUT_YEAR.getKey(),"getPageList", ModelEnum.PRODUCT_OUTPUT_YEAR.getValue() + "_查询列表"),
+    PRODUCT_OUTPUT_YEAR_DOWNLOAD(ClzConstant.PRODUCT_OUTPUT_YEAR_QUERY + ".download", ModelEnum.PRODUCT_OUTPUT_YEAR.getKey(),"download", ModelEnum.PRODUCT_OUTPUT_YEAR.getValue() + "下载"),
+    PRODUCT_OUTPUT_YEAR_DOWNLOAD_DETAIL(ClzConstant.PRODUCT_OUTPUT_YEAR_QUERY + ".downloadYearDetail", ModelEnum.PRODUCT_OUTPUT_YEAR.getKey(),"downloadYearDetail", ModelEnum.PRODUCT_OUTPUT_YEAR.getValue() + "下载某年明细"),
+    PRODUCT_OUTPUT_YEAR_GET_SUM(ClzConstant.PRODUCT_OUTPUT_YEAR_QUERY + ".getSumAmount", ModelEnum.PRODUCT_OUTPUT_YEAR.getKey(),"getSumAmount", ModelEnum.PRODUCT_OUTPUT_YEAR.getValue() + "_查询某个计量物的汇总"),
+    PRODUCT_OUTPUT_YEAR_GET_LAST_DOWNLOAD_COUNT(ClzConstant.PRODUCT_OUTPUT_YEAR_QUERY + ".getLastDownloadCount", ModelEnum.PRODUCT_OUTPUT_YEAR.getKey(),"getLastDownloadCount", ModelEnum.PRODUCT_OUTPUT_YEAR.getValue() + "_获取可导出excel次数"),
+
     //--------------------------------------------- goods  start ----------------------------------------------------------------
     GOODS_TRADE_ADD(ClzConstant.GOODS_TRADE_COMMAND + ".add", ModelEnum.GOODS_TRADE.getKey(),"add", ModelEnum.GOODS_TRADE.getValue() + "_新增"),
     GOODS_TRADE_DEL(ClzConstant.GOODS_TRADE_COMMAND + ".delete", ModelEnum.GOODS_TRADE.getKey(),"delete", ModelEnum.GOODS_TRADE.getValue() + "_删除"),
