@@ -51,4 +51,12 @@ public class ConfigConstant {
     public static final String ONE_DAY_EXCEL_DOWNLOAD_LIMIT_COUNT_GOODS_TRADE_MONTH = "oneDayExcelDownloadLimitCountGoodsTradeMonth";
 
     public static final String ONE_DAY_EXCEL_DOWNLOAD_LIMIT_COUNT_GOODS_TRADE_YEAR = "oneDayExcelDownloadLimitCountGoodsTradeYear";
+
+    public static final String ONE_DAY_REGISTER_LIMIT_COUNT = "oneDayRegisterLimitCount";
+    public static final String ONE_DAY_MISSION_LIMIT_COUNT = "oneDayMissionLimitCount";
+    public static final String ONE_DAY_NOTE_LIMIT_COUNT = "oneDayNoteLimitCount";
+    public static final String ONE_DAY_NOTES_LIMIT_COUNT = "oneDayNotesLimitCount";
+    public static final String ONE_DAY_FINANCE_LIMIT_COUNT = "oneDayFinanceLimitCount";
+    public static final String ONE_DAY_PRODUCT_OUTPUT_LIMIT_COUNT = "oneDayProductOutLimitCount";
+    public static final String ONE_DAY_GOODS_TRADE_LIMIT_COUNT = "oneDayGoodsTradeLimitCount";
 }
