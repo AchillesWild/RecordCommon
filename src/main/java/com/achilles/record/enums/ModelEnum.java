@@ -13,6 +13,7 @@ public enum ModelEnum {
     NOTES("notes", "日记", 1),
 
     FINANCE("finance", "账务", 2),
+    FINANCE_DATE("finance_date","账务-天", 3),
     FINANCE_MONTH("finance_month","账务-月度", 3),
     FINANCE_YEAR("finance_year","账务-年度", 4),
     FINANCE_TRANSACTION_TYPE("finance_transaction_type","收/支类型", 4),
