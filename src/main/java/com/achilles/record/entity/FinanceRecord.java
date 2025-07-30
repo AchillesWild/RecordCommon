@@ -22,6 +22,6 @@ public class FinanceRecord extends BaseEntity {
 
     private String remark;
 
-    private String tradeDate;
+    private Integer tradeDate;
 
 }
