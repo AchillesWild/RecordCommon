@@ -8,9 +8,9 @@ import lombok.Setter;
 @Setter
 public class FinanceRecordWeek extends BaseEntity {
 
-    private Integer startDate;
+    private Integer dateStart;
 
-    private Integer endDate;
+    private Integer dateEnd;
 
     private Long incomeAmount;
 
