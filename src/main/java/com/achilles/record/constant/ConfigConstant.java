@@ -32,6 +32,8 @@ public class ConfigConstant {
 
     public static final String ONE_DAY_EXCEL_DOWNLOAD_LIMIT_COUNT_FINANCE_DATE = "oneDayExcelDownloadLimitCountFinanceDate";
 
+    public static final String ONE_DAY_EXCEL_DOWNLOAD_LIMIT_COUNT_FINANCE_WEEK = "oneDayExcelDownloadLimitCountFinanceWeek";
+
     public static final String ONE_DAY_EXCEL_DOWNLOAD_LIMIT_COUNT_FINANCE_MONTH = "oneDayExcelDownloadLimitCountFinanceMonth";
 
     public static final String ONE_DAY_EXCEL_DOWNLOAD_LIMIT_COUNT_FINANCE_YEAR = "oneDayExcelDownloadLimitCountFinanceYear";
