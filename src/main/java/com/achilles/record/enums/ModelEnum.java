@@ -16,6 +16,7 @@ public enum ModelEnum {
     FINANCE_DATE("finance_date","账务-天", 3),
     FINANCE_WEEK("finance_week","账务-周", 3),
     FINANCE_MONTH("finance_month","账务-月", 3),
+    FINANCE_SEASON("finance_season","账务-季", 4),
     FINANCE_YEAR("finance_year","账务-年", 4),
     FINANCE_TRANSACTION_TYPE("finance_transaction_type","收/支类型", 4),
 
