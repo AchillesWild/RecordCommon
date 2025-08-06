@@ -116,6 +116,7 @@ public enum ModelFunctionEnum {
 
     FINANCE_MONTH_TO_SUM_MONTH(ClzConstant.FINANCE_MONTH_COMMAND + ".toSumByMonth", ModelEnum.FINANCE_MONTH.getKey(),"toSumByMonth", ModelEnum.FINANCE_MONTH.getValue() + "_汇总某月"),
 
+    FINANCE_SEASON_DOWNLOAD_LIST(ClzConstant.FINANCE_SEASON_QUERY + ".downloadList", ModelEnum.FINANCE_SEASON.getKey(),"downloadList", ModelEnum.FINANCE_SEASON.getValue() + "_下载列表"),
     FINANCE_SEASON_LIST(ClzConstant.FINANCE_SEASON_QUERY + ".getPageList", ModelEnum.FINANCE_SEASON.getKey(),"getPageList", ModelEnum.FINANCE_SEASON.getValue() + "_查询列表"),
     FINANCE_SEASON_CLASSIFIED_MONTH(ClzConstant.FINANCE_SEASON_QUERY + ".getClassifiedSeason", ModelEnum.FINANCE_SEASON.getKey(),"getClassifiedSeason", ModelEnum.FINANCE_SEASON.getValue() + "_查询某季分类汇总"),
     FINANCE_SEASON_CLASSIFIED(ClzConstant.FINANCE_SEASON_QUERY + ".getClassified", ModelEnum.FINANCE_SEASON.getKey(),"getClassified", ModelEnum.FINANCE_SEASON.getValue() + "_根据条件查询分类汇总"),
