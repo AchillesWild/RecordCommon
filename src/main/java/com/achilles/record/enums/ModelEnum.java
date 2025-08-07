@@ -12,7 +12,7 @@ public enum ModelEnum {
 
     NOTES("notes", "日记", 1),
 
-    FINANCE("finance", "账务", 2),
+    FINANCE("finance", "账务-明细", 2),
     FINANCE_DATE("finance_date","账务-天", 3),
     FINANCE_WEEK("finance_week","账务-周", 3),
     FINANCE_MONTH("finance_month","账务-月", 3),
@@ -20,12 +20,12 @@ public enum ModelEnum {
     FINANCE_YEAR("finance_year","账务-年", 4),
     FINANCE_TRANSACTION_TYPE("finance_transaction_type","收/支类型", 4),
 
-    PRODUCT_OUTPUT("product_output", "计量", 5),
+    PRODUCT_OUTPUT("product_output", "计量-明细", 5),
     PRODUCT_OUTPUT_MONTH("product_output_month", "计量-月度", 6),
     PRODUCT_OUTPUT_YEAR("product_output_year", "计量-年度", 6),
     PRODUCT("product", "计量物", 7),
 
-    GOODS_TRADE("goods_trade", "买/卖", 8),
+    GOODS_TRADE("goods_trade", "买/卖-明细", 8),
     GOODS_TRADE_MONTH("goods_trade_month", "买/卖-月度", 9),
     GOODS_TRADE_YEAR("goods_trade_year", "买/卖-年度", 9),
     SUPPLIER("supplier", "供应商", 10),
