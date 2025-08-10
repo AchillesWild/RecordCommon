@@ -1,4 +1,4 @@
-package com.achilles.record.entity;
+package com.achilles.record.entity.goods;
 
 import com.achilles.model.entity.BaseEntity;
 import lombok.Getter;
@@ -6,9 +6,15 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class FinanceRecord extends BaseEntity {
+public class Goods extends BaseEntity {
 
-    private Long amount;
+    private String name;
+
+    private String code;
+
+    private Integer sort;
+
+    private Integer type;
 
     private Integer hasImg;
 
@@ -16,12 +22,8 @@ public class FinanceRecord extends BaseEntity {
 
     private String imgUrl;
 
-    private String transactionType;
-
-    private String userUuid;
+    private Long version;
 
     private String remark;
-
-    private Integer tradeDate;
 
 }

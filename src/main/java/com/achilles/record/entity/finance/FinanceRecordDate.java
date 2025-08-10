@@ -1,4 +1,4 @@
-package com.achilles.record.entity;
+package com.achilles.record.entity.finance;
 
 import com.achilles.model.entity.BaseEntity;
 import lombok.Getter;
@@ -6,11 +6,9 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class FinanceRecordWeek extends BaseEntity {
+public class FinanceRecordDate extends BaseEntity {
 
-    private Integer dateStart;
-
-    private Integer dateEnd;
+    private Integer tradeDate;
 
     private Long incomeAmount;
 

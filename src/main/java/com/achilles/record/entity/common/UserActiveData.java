@@ -1,4 +1,4 @@
-package com.achilles.record.entity;
+package com.achilles.record.entity.common;
 
 import com.achilles.model.entity.BaseEntity;
 import lombok.Getter;
