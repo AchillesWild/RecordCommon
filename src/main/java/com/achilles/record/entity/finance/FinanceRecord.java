@@ -18,8 +18,6 @@ public class FinanceRecord extends BaseEntity {
 
     private String transactionType;
 
-    private String userUuid;
-
     private String remark;
 
     private Integer tradeDate;
