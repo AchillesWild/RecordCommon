@@ -12,7 +12,7 @@ public class ProductOutputMonth extends BaseEntity {
 
     private String productUuid;
 
-    private String month;
+    private Integer month;
 
     private BigDecimal number;
 

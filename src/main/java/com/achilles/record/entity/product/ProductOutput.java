@@ -15,7 +15,7 @@ public class ProductOutput extends BaseEntity {
 
     private BigDecimal number;
 
-    private String productionDate;
+    private Integer productionDate;
 
     private String remark;
 
