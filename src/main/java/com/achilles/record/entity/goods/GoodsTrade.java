@@ -29,7 +29,7 @@ public class GoodsTrade extends BaseEntity {
 
     private String userUuid;
 
-    private String tradeDate;
+    private Integer tradeDate;
 
     private Integer hasImg;
 

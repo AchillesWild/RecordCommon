@@ -8,7 +8,7 @@ import lombok.Setter;
 @Setter
 public class GoodsTradeMonth extends BaseEntity {
 
-    private String month;
+    private Integer month;
 
     private Long incomeAmount;
 
