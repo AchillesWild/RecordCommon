@@ -14,8 +14,6 @@ public class ProductOutputSeason extends BaseEntity {
 
     private BigDecimal number;
 
-    private Integer productionDate;
-
     private Integer season;
 
 }
