@@ -12,6 +12,8 @@ public class FinanceUpdateLog extends BaseEntity {
 
     private Integer tradeDatePre;
 
+    private String type;
+
     private Integer pace;
 
     private String traceId;
