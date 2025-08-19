@@ -1,4 +1,4 @@
-package com.achilles.record.constant;
+package com.achilles.record.entity.finance;
 
 import com.achilles.model.entity.BaseEntity;
 import lombok.Getter;
@@ -12,7 +12,11 @@ public class FinanceRecordMonth extends BaseEntity {
 
     private Long incomeAmount;
 
+    private Integer incomeCount;
+
     private Long payAmount;
+
+    private Integer payCount;
 
     private String userUuid;
 }

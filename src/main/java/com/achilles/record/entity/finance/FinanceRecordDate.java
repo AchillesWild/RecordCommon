@@ -12,7 +12,11 @@ public class FinanceRecordDate extends BaseEntity {
 
     private Long incomeAmount;
 
+    private Integer incomeCount;
+
     private Long payAmount;
+
+    private Integer payCount;
 
     private String userUuid;
 }
