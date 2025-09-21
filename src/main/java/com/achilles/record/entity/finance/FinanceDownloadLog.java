@@ -12,6 +12,8 @@ public class FinanceDownloadLog extends BaseEntity {
 
     private Integer downloadDate;
 
+    private Integer downloadMonth;
+
     private String traceId;
 
 
