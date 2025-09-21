@@ -1,4 +1,4 @@
-package com.achilles.record.enums;
+package com.achilles.record.enums.finance;
 
 import java.util.EnumSet;
 import java.util.HashMap;
