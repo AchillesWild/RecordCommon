@@ -19,6 +19,7 @@ public enum ModelEnum {
     FINANCE_SEASON("finance_season","账务-季", 4),
     FINANCE_YEAR("finance_year","账务-年", 4),
     FINANCE_TRANSACTION_TYPE("finance_transaction_type","收/支类型", 4),
+    FINANCE_COMMON("finance_common","账务-公用", 4),
 
     PRODUCT_OUTPUT("product_output", "计量-明细", 5),
     PRODUCT_OUTPUT_MONTH("product_output_month", "计量-月度", 6),

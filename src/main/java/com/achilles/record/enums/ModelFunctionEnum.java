@@ -139,7 +139,6 @@ public enum ModelFunctionEnum {
     FINANCE_YEAR_DOWNLOAD_CLASSIFIED(ClzConstant.FINANCE_YEAR_QUERY + ".downloadClassified", ModelEnum.FINANCE_YEAR.getKey(),"downloadClassified", ModelEnum.FINANCE_YEAR.getValue() + "_下载分类汇总"),
     FINANCE_YEAR_GET_LAST_DOWNLOAD_COUNT(ClzConstant.FINANCE_YEAR_QUERY + ".getLastDownloadCount", ModelEnum.FINANCE_YEAR.getKey(),"getLastDownloadCount", ModelEnum.FINANCE_YEAR.getValue() + "_获取可导出excel次数"),
 
-
     FINANCE_TRANSACTION_TYPE_ADD(ClzConstant.FINANCE_TRANSACTION_TYPE_COMMAND + ".add", ModelEnum.FINANCE_TRANSACTION_TYPE.getKey(),"add", ModelEnum.FINANCE_TRANSACTION_TYPE.getValue() + "_新增"),
     FINANCE_TRANSACTION_TYPE_DEL(ClzConstant.FINANCE_TRANSACTION_TYPE_COMMAND + ".delete", ModelEnum.FINANCE_TRANSACTION_TYPE.getKey(),"delete", ModelEnum.FINANCE_TRANSACTION_TYPE.getValue() + "_删除"),
     FINANCE_TRANSACTION_TYPE_UPDATE(ClzConstant.FINANCE_TRANSACTION_TYPE_COMMAND + ".update", ModelEnum.FINANCE_TRANSACTION_TYPE.getKey(),"update", ModelEnum.FINANCE_TRANSACTION_TYPE.getValue() + "_修改"),
@@ -149,6 +148,9 @@ public enum ModelFunctionEnum {
     FINANCE_TRANSACTION_TYPE_GET_SELECT(ClzConstant.FINANCE_TRANSACTION_TYPE_QUERY + ".getSelect", ModelEnum.FINANCE_TRANSACTION_TYPE.getKey(),"getSelect", ModelEnum.FINANCE_TRANSACTION_TYPE.getValue() + "_查询所有(下拉菜单)"),
     FINANCE_TRANSACTION_TYPE_JUST_UPDATED(ClzConstant.FINANCE_TRANSACTION_TYPE_QUERY + ".ifJustUpdated", ModelEnum.FINANCE_TRANSACTION_TYPE.getKey(),"ifJustUpdated", ModelEnum.FINANCE_TRANSACTION_TYPE.getValue() + "_是否不久前修改过"),
     FINANCE_TRANSACTION_GET_BY_ID_AND_CONDITION(ClzConstant.FINANCE_TRANSACTION_TYPE_QUERY + ".getByIdAndCondition", ModelEnum.FINANCE_TRANSACTION_TYPE.getKey(),"getByIdAndCondition", ModelEnum.FINANCE_TRANSACTION_TYPE.getValue() + "_根据id和其它条件查询"),
+
+
+    FINANCE_COMMON_DOWNLOAD_LAST_COUNT(ClzConstant.FINANCE_COMMON_QUERY + ".getLastDownloadCount", ModelEnum.FINANCE_COMMON.getKey(),"getLastDownloadCount", ModelEnum.FINANCE_COMMON.getValue() + "_获取剩余下载次数"),
 
     //--------------------------------------------- product  start ----------------------------------------------------------------
     PRODUCT_OUTPUT_ADD(ClzConstant.PRODUCT_OUTPUT_COMMAND + ".add", ModelEnum.PRODUCT_OUTPUT.getKey(),"add", ModelEnum.PRODUCT_OUTPUT.getValue() + "_新增"),
