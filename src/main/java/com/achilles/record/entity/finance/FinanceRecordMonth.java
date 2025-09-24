@@ -18,5 +18,7 @@ public class FinanceRecordMonth extends BaseEntity {
 
     private Integer payCount;
 
+    private Integer imgCount;
+
     private String userUuid;
 }

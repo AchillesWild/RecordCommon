@@ -20,5 +20,7 @@ public class FinanceRecordWeek extends BaseEntity {
 
     private Integer payCount;
 
+    private Integer imgCount;
+
     private String userUuid;
 }
