@@ -4,15 +4,17 @@ import com.achilles.model.entity.BaseEntity;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.util.Date;
+
 @Getter
 @Setter
 public class IpBlackList extends BaseEntity {
 
     private String ip;
 
-    private String startTime;
+    private Date startDateTime;
 
-    private String endTime;
+    private Date endDateTime;
 
     private Integer enable;
 
