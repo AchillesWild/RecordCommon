@@ -4,6 +4,8 @@ import com.achilles.model.entity.BaseEntity;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.util.Date;
+
 @Getter
 @Setter
 public class Notice extends BaseEntity {
@@ -15,9 +17,9 @@ public class Notice extends BaseEntity {
 
     private String imgUrl;
 
-    private String startTime;
+    private Date startDateTime;
 
-    private String endTime;
+    private Date endDateTime;
 
     private Integer enable;
 
