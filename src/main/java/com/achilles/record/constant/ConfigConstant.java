@@ -23,41 +23,22 @@ public class ConfigConstant {
     public static final String REGISTER_SWITCH = "registerSwitch";
 
     public static final String ONE_MONTH_EXCEL_DOWNLOAD_LIMIT_COUNT_MISSION = "oneMonthExcelDownloadLimitCountMission";
-//    public static final String ONE_DAY_EXCEL_DOWNLOAD_LIMIT_COUNT_MISSION = "oneDayExcelDownloadLimitCountMission";
 
     public static final String ONE_MONTH_EXCEL_DOWNLOAD_LIMIT_COUNT_NOTE = "oneMonthExcelDownloadLimitCountNote";
-//    public static final String ONE_DAY_EXCEL_DOWNLOAD_LIMIT_COUNT_NOTE = "oneDayExcelDownloadLimitCountNote";
 
     public static final String ONE_MONTH_EXCEL_DOWNLOAD_LIMIT_COUNT_NOTES = "oneMonthExcelDownloadLimitCountNotes";
-//    public static final String ONE_DAY_EXCEL_DOWNLOAD_LIMIT_COUNT_NOTES = "oneDayExcelDownloadLimitCountNotes";
 
     public static final String ONE_MONTH_EXCEL_DOWNLOAD_LIMIT_COUNT_FINANCE = "oneMonthExcelDownloadLimitCountFinance";
-//    public static final String ONE_DAY_EXCEL_DOWNLOAD_LIMIT_COUNT_FINANCE = "oneDayExcelDownloadLimitCountFinance";
-//    public static final String ONE_DAY_EXCEL_DOWNLOAD_LIMIT_COUNT_FINANCE_DATE = "oneDayExcelDownloadLimitCountFinanceDate";
-//    public static final String ONE_DAY_EXCEL_DOWNLOAD_LIMIT_COUNT_FINANCE_WEEK = "oneDayExcelDownloadLimitCountFinanceWeek";
-//    public static final String ONE_DAY_EXCEL_DOWNLOAD_LIMIT_COUNT_FINANCE_MONTH = "oneDayExcelDownloadLimitCountFinanceMonth";
-//    public static final String ONE_DAY_EXCEL_DOWNLOAD_LIMIT_COUNT_FINANCE_SEASON = "oneDayExcelDownloadLimitCountFinanceSeason";
-//    public static final String ONE_DAY_EXCEL_DOWNLOAD_LIMIT_COUNT_FINANCE_YEAR = "oneDayExcelDownloadLimitCountFinanceYear";
 
     public static final String ONE_MONTH_EXCEL_DOWNLOAD_LIMIT_COUNT_PRODUCT = "oneMonthExcelDownloadLimitCountProduct";
-//    public static final String ONE_DAY_EXCEL_DOWNLOAD_LIMIT_COUNT_PRODUCT = "oneDayExcelDownloadLimitCountProduct";
-//    public static final String ONE_DAY_EXCEL_DOWNLOAD_LIMIT_COUNT_PRODUCT_OUTPUT = "oneDayExcelDownloadLimitCountProductOutput";
-//    public static final String ONE_DAY_EXCEL_DOWNLOAD_LIMIT_COUNT_PRODUCT_OUTPUT_MONTH = "oneDayExcelDownloadLimitCountProductOutputMonth";
-//    public static final String ONE_DAY_EXCEL_DOWNLOAD_LIMIT_COUNT_PRODUCT_OUTPUT_YEAR = "oneDayExcelDownloadLimitCountProductOutputYear";
 
     public static final String ONE_MONTH_EXCEL_DOWNLOAD_LIMIT_COUNT_GOODS = "oneMonthExcelDownloadLimitCountGoods";
-//    public static final String ONE_DAY_EXCEL_DOWNLOAD_LIMIT_COUNT_GOODS_SUPPLIER = "oneDayExcelDownloadLimitCountGoodsSupplier";
-//    public static final String ONE_DAY_EXCEL_DOWNLOAD_LIMIT_COUNT_GOODS = "oneDayExcelDownloadLimitCountGoods";
-//    public static final String ONE_DAY_EXCEL_DOWNLOAD_LIMIT_COUNT_GOODS_TRADE = "oneDayExcelDownloadLimitCountGoodsTrade";
-//    public static final String ONE_DAY_EXCEL_DOWNLOAD_LIMIT_COUNT_GOODS_TRADE_MONTH = "oneDayExcelDownloadLimitCountGoodsTradeMonth";
-//    public static final String ONE_DAY_EXCEL_DOWNLOAD_LIMIT_COUNT_GOODS_TRADE_YEAR = "oneDayExcelDownloadLimitCountGoodsTradeYear";
 
     public static final String ONE_DAY_REGISTER_LIMIT_COUNT = "oneDayRegisterLimitCount";
     public static final String ONE_DAY_MISSION_LIMIT_COUNT = "oneDayMissionLimitCount";
     public static final String ONE_DAY_NOTE_LIMIT_COUNT = "oneDayNoteLimitCount";
     public static final String ONE_DAY_NOTES_LIMIT_COUNT = "oneDayNotesLimitCount";
 
-    public static final String ONE_DAY_FINANCE_LIMIT_COUNT = "oneDayFinanceLimitCount";
     public static final String ONE_MONTH_FINANCE_LIMIT_COUNT = "oneMonthFinanceLimitCount";
     public static final String ONE_MONTH_FINANCE_IMG_LIMIT_COUNT = "oneMonthFinanceImgLimitCount";
 
