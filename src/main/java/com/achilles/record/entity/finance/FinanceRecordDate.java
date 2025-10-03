@@ -20,5 +20,4 @@ public class FinanceRecordDate extends BaseEntity {
 
     private Integer imgCount;
 
-    private String userUuid;
 }
