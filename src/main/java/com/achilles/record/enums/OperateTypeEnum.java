@@ -13,7 +13,12 @@ public enum OperateTypeEnum {
 
     UPDATE("update","update"),
 
-    COPY("copy","copy");
+    COPY("copy","copy"),
+
+    UPDATE_CONTENT("update_content","update_content"),
+
+    RECYCLE("recycle","recycle"),
+    ;
 
     private String key;
 
