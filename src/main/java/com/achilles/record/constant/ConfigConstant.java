@@ -36,7 +36,11 @@ public class ConfigConstant {
 
     public static final String ONE_DAY_REGISTER_LIMIT_COUNT = "oneDayRegisterLimitCount";
     public static final String ONE_DAY_MISSION_LIMIT_COUNT = "oneDayMissionLimitCount";
-    public static final String ONE_DAY_NOTE_LIMIT_COUNT = "oneDayNoteLimitCount";
+
+//    public static final String ONE_DAY_NOTE_LIMIT_COUNT = "oneDayNoteLimitCount";
+    public static final String ONE_MONTH_NOTE_LIMIT_COUNT = "oneMonthNoteLimitCount";
+    public static final String ONE_MONTH_NOTE_IMG_LIMIT_COUNT = "oneMonthNoteImgLimitCount";
+
     public static final String ONE_DAY_NOTES_LIMIT_COUNT = "oneDayNotesLimitCount";
 
     public static final String ONE_MONTH_FINANCE_LIMIT_COUNT = "oneMonthFinanceLimitCount";
