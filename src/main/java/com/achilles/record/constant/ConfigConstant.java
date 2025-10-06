@@ -35,7 +35,10 @@ public class ConfigConstant {
     public static final String ONE_MONTH_EXCEL_DOWNLOAD_LIMIT_COUNT_GOODS = "oneMonthExcelDownloadLimitCountGoods";
 
     public static final String ONE_DAY_REGISTER_LIMIT_COUNT = "oneDayRegisterLimitCount";
+
     public static final String ONE_DAY_MISSION_LIMIT_COUNT = "oneDayMissionLimitCount";
+    public static final String ONE_MONTH_MISSION_LIMIT_COUNT = "oneMonthMissionLimitCount";
+    public static final String ONE_MONTH_MISSION_IMG_LIMIT_COUNT = "oneMonthMissionImgLimitCount";
 
 //    public static final String ONE_DAY_NOTE_LIMIT_COUNT = "oneDayNoteLimitCount";
     public static final String ONE_MONTH_NOTE_LIMIT_COUNT = "oneMonthNoteLimitCount";
