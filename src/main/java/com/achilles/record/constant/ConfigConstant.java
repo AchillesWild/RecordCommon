@@ -42,6 +42,8 @@ public class ConfigConstant {
     public static final String ONE_MONTH_NOTE_IMG_LIMIT_COUNT = "oneMonthNoteImgLimitCount";
 
     public static final String ONE_DAY_NOTES_LIMIT_COUNT = "oneDayNotesLimitCount";
+    public static final String ONE_MONTH_NOTES_LIMIT_COUNT = "oneMonthNotesLimitCount";
+    public static final String ONE_MONTH_NOTES_IMG_LIMIT_COUNT = "oneMonthNotesImgLimitCount";
 
     public static final String ONE_MONTH_FINANCE_LIMIT_COUNT = "oneMonthFinanceLimitCount";
     public static final String ONE_MONTH_FINANCE_IMG_LIMIT_COUNT = "oneMonthFinanceImgLimitCount";
