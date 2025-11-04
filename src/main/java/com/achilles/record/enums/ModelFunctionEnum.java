@@ -31,7 +31,6 @@ public enum ModelFunctionEnum {
     NOTE_ADD(ClzConstant.NOTE_COMMAND + ".add", ModelEnum.NOTE.getKey(),"add", ModelEnum.NOTE.getValue() + "_新增"),
     NOTE_DEL(ClzConstant.NOTE_COMMAND + ".delete", ModelEnum.NOTE.getKey(),"delete", ModelEnum.NOTE.getValue() + "_删除"),
     NOTE_UPDATE(ClzConstant.NOTE_COMMAND + ".update", ModelEnum.NOTE.getKey(),"update", ModelEnum.NOTE.getValue() + "_修改"),
-    NOTE_COPY(ClzConstant.NOTE_COMMAND + ".copy", ModelEnum.NOTE.getKey(),"copy", ModelEnum.NOTE.getValue() + "_复制"),
     NOTE_UPDATE_CONTENT(ClzConstant.NOTE_COMMAND + ".updateContent", ModelEnum.NOTE.getKey(),"updateContent", ModelEnum.NOTE.getValue() + "_修改正文"),
     NOTE_DELETE_RECYCLE(ClzConstant.NOTE_COMMAND + ".deleteRecycle", ModelEnum.NOTE.getKey(),"deleteRecycle", ModelEnum.NOTE.getValue() + "_删除回收站的一个"),
     NOTE_CLEAN_RECYCLE(ClzConstant.NOTE_COMMAND + ".cleanRecycle", ModelEnum.NOTE.getKey(),"cleanRecycle", ModelEnum.NOTE.getValue() + "_清空回收站"),
@@ -53,7 +52,6 @@ public enum ModelFunctionEnum {
     NOTES_ADD(ClzConstant.NOTES_COMMAND + ".add", ModelEnum.NOTES.getKey(),"add", ModelEnum.NOTES.getValue() + "_新增"),
     NOTES_DEL(ClzConstant.NOTES_COMMAND + ".delete", ModelEnum.NOTES.getKey(),"delete", ModelEnum.NOTES.getValue() + "_删除"),
     NOTES_UPDATE(ClzConstant.NOTES_COMMAND + ".update", ModelEnum.NOTES.getKey(),"update", ModelEnum.NOTES.getValue() + "_修改"),
-    NOTES_COPY(ClzConstant.NOTES_COMMAND + ".copy", ModelEnum.NOTES.getKey(),"copy", ModelEnum.NOTES.getValue() + "_复制"),
     NOTES_UPDATE_CONTENT(ClzConstant.NOTES_COMMAND + ".updateContent", ModelEnum.NOTES.getKey(),"updateContent", ModelEnum.NOTES.getValue() + "_修改正文"),
     NOTES_DELETE_RECYCLE(ClzConstant.NOTES_COMMAND + ".deleteRecycle", ModelEnum.NOTES.getKey(),"deleteRecycle", ModelEnum.NOTES.getValue() + "_删除回收站的一个"),
     NOTES_CLEAN_RECYCLE(ClzConstant.NOTES_COMMAND + ".cleanRecycle", ModelEnum.NOTES.getKey(),"cleanRecycle", ModelEnum.NOTES.getValue() + "_清空回收站"),
@@ -75,7 +73,6 @@ public enum ModelFunctionEnum {
     FINANCE_ADD(ClzConstant.FINANCE_COMMAND + ".add", ModelEnum.FINANCE.getKey(),"add", ModelEnum.FINANCE.getValue() + "_新增"),
     FINANCE_DEL(ClzConstant.FINANCE_COMMAND + ".delete", ModelEnum.FINANCE.getKey(),"delete", ModelEnum.FINANCE.getValue() + "_删除"),
     FINANCE_UPDATE(ClzConstant.FINANCE_COMMAND + ".update", ModelEnum.FINANCE.getKey(),"update", ModelEnum.FINANCE.getValue() + "_修改"),
-    FINANCE_COPY(ClzConstant.FINANCE_COMMAND + ".copy", ModelEnum.FINANCE.getKey(),"copy", ModelEnum.FINANCE.getValue() + "_复制"),
     FINANCE_DEL_RECYCLE(ClzConstant.FINANCE_COMMAND + ".deleteRecycle", ModelEnum.FINANCE.getKey(),"deleteRecycle", ModelEnum.FINANCE.getValue() + "_删除回收站"),
     FINANCE_RECYCLE(ClzConstant.FINANCE_COMMAND + ".recycle", ModelEnum.FINANCE.getKey(),"recycle", ModelEnum.FINANCE.getValue() + "_还原回收站"),
 
@@ -156,7 +153,6 @@ public enum ModelFunctionEnum {
     PRODUCT_OUTPUT_ADD(ClzConstant.PRODUCT_OUTPUT_COMMAND + ".add", ModelEnum.PRODUCT_OUTPUT.getKey(),"add", ModelEnum.PRODUCT_OUTPUT.getValue() + "_新增"),
     PRODUCT_OUTPUT_DEL(ClzConstant.PRODUCT_OUTPUT_COMMAND + ".delete", ModelEnum.PRODUCT_OUTPUT.getKey(),"delete", ModelEnum.PRODUCT_OUTPUT.getValue() + "_删除"),
     PRODUCT_OUTPUT_UPDATE(ClzConstant.PRODUCT_OUTPUT_COMMAND + ".update", ModelEnum.PRODUCT_OUTPUT.getKey(),"update", ModelEnum.PRODUCT_OUTPUT.getValue() + "_修改"),
-    PRODUCT_OUTPUT_COPY(ClzConstant.PRODUCT_OUTPUT_COMMAND + ".copy", ModelEnum.PRODUCT_OUTPUT.getKey(),"copy", ModelEnum.PRODUCT_OUTPUT.getValue() + "_复制"),
 
     PRODUCT_OUTPUT_DOWNLOAD(ClzConstant.PRODUCT_OUTPUT_QUERY + ".download", ModelEnum.PRODUCT_OUTPUT.getKey(),"download", ModelEnum.PRODUCT_OUTPUT.getValue() + "_下载"),
     PRODUCT_OUTPUT_GET(ClzConstant.PRODUCT_OUTPUT_QUERY + ".get", ModelEnum.PRODUCT_OUTPUT.getKey(),"get", ModelEnum.PRODUCT_OUTPUT.getValue() + "_根据id查询"),
@@ -199,7 +195,6 @@ public enum ModelFunctionEnum {
     GOODS_TRADE_ADD(ClzConstant.GOODS_TRADE_COMMAND + ".add", ModelEnum.GOODS_TRADE.getKey(),"add", ModelEnum.GOODS_TRADE.getValue() + "_新增"),
     GOODS_TRADE_DEL(ClzConstant.GOODS_TRADE_COMMAND + ".delete", ModelEnum.GOODS_TRADE.getKey(),"delete", ModelEnum.GOODS_TRADE.getValue() + "_删除"),
     GOODS_TRADE_UPDATE(ClzConstant.GOODS_TRADE_COMMAND + ".update", ModelEnum.GOODS_TRADE.getKey(),"update", ModelEnum.GOODS_TRADE.getValue() + "_修改"),
-    GOODS_TRADE_COPY(ClzConstant.GOODS_TRADE_COMMAND + ".copy", ModelEnum.GOODS_TRADE.getKey(),"copy", ModelEnum.GOODS_TRADE.getValue() + "_复制"),
 
     GOODS_TRADE_DOWNLOAD(ClzConstant.GOODS_TRADE_QUERY + ".download", ModelEnum.GOODS_TRADE.getKey(),"download", ModelEnum.GOODS_TRADE.getValue() + "_下载"),
     GOODS_TRADE_GET(ClzConstant.GOODS_TRADE_QUERY + ".get", ModelEnum.GOODS_TRADE.getKey(),"get", ModelEnum.GOODS_TRADE.getValue() + "_根据id查询"),
