@@ -21,6 +21,8 @@ public class Notice extends BaseEntity {
 
     private Date endDateTime;
 
+    private Integer front;
+
     private Integer enable;
 
     private Integer repeated;
