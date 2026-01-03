@@ -148,6 +148,8 @@ public enum ModelFunctionEnum {
 
 
     FINANCE_COMMON_DOWNLOAD_LAST_COUNT(ClzConstant.FINANCE_COMMON_QUERY + ".getLastDownloadCount", ModelEnum.FINANCE_COMMON.getKey(),"getLastDownloadCount", ModelEnum.FINANCE_COMMON.getValue() + "_获取剩余下载次数"),
+    FINANCE_COMMON_GET_THIS_SUM(ClzConstant.FINANCE_COMMON_QUERY + ".getThisSum", ModelEnum.FINANCE_COMMON.getKey(),"getThisSum", ModelEnum.FINANCE_COMMON.getValue() + "_获取当天,本周..汇总"),
+
 
     //--------------------------------------------- product  start ----------------------------------------------------------------
     PRODUCT_OUTPUT_ADD(ClzConstant.PRODUCT_OUTPUT_COMMAND + ".add", ModelEnum.PRODUCT_OUTPUT.getKey(),"add", ModelEnum.PRODUCT_OUTPUT.getValue() + "_新增"),
