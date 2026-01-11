@@ -86,6 +86,7 @@ public enum ModelFunctionEnum {
     FINANCE_GET_BY_ID_AND_CONDITION(ClzConstant.FINANCE_QUERY + ".getByIdAndCondition", ModelEnum.FINANCE.getKey(),"getByIdAndCondition", ModelEnum.FINANCE.getValue() + "_根据id和其它条件查询"),
 
     FINANCE_DATE_CLASSIFIED(ClzConstant.FINANCE_DATE_QUERY + ".getClassified", ModelEnum.FINANCE_DATE.getKey(),"getClassified", ModelEnum.FINANCE_DATE.getValue() + "_根据条件查询分类汇总"),
+    FINANCE_DATE_CLASSIFIED_DATE(ClzConstant.FINANCE_DATE_QUERY + ".getClassifiedDate", ModelEnum.FINANCE_DATE.getKey(),"getClassifiedDate", ModelEnum.FINANCE_DATE.getValue() + "_根据日期查询分类汇总"),
     FINANCE_DATE_LIST(ClzConstant.FINANCE_DATE_QUERY + ".getPageList", ModelEnum.FINANCE_DATE.getKey(),"getPageList", ModelEnum.FINANCE_DATE.getValue() + "_查询列表"),
     FINANCE_DATE_GET(ClzConstant.FINANCE_DATE_QUERY + ".getByDate", ModelEnum.FINANCE_DATE.getKey(),"getByDate", ModelEnum.FINANCE_DATE.getValue() + "_根据天获取"),
     FINANCE_DATE_GET_SUM(ClzConstant.FINANCE_DATE_QUERY + ".getSumAmount", ModelEnum.FINANCE_DATE.getKey(),"getSumAmount", ModelEnum.FINANCE_DATE.getValue() + "_获取汇总值"),
