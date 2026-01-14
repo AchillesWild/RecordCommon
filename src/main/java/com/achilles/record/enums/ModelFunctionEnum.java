@@ -89,6 +89,7 @@ public enum ModelFunctionEnum {
     FINANCE_DATE_CLASSIFIED_DATE(ClzConstant.FINANCE_DATE_QUERY + ".getClassifiedDate", ModelEnum.FINANCE_DATE.getKey(),"getClassifiedDate", ModelEnum.FINANCE_DATE.getValue() + "_根据日期查询分类汇总"),
     FINANCE_DATE_LIST(ClzConstant.FINANCE_DATE_QUERY + ".getPageList", ModelEnum.FINANCE_DATE.getKey(),"getPageList", ModelEnum.FINANCE_DATE.getValue() + "_查询列表"),
     FINANCE_DATE_LIST_DETAIL(ClzConstant.FINANCE_DATE_QUERY + ".getPageListDetail", ModelEnum.FINANCE_DATE.getKey(),"getPageListDetail", ModelEnum.FINANCE_DATE.getValue() + "_查询列表及详细"),
+    FINANCE_DATE_LIST_DATE_RANGE(ClzConstant.FINANCE_DATE_QUERY + ".getMapByDateRange", ModelEnum.FINANCE_DATE.getKey(),"getMapByDateRange", ModelEnum.FINANCE_DATE.getValue() + "_根据日期范围查询map"),
     FINANCE_DATE_GET(ClzConstant.FINANCE_DATE_QUERY + ".getByDate", ModelEnum.FINANCE_DATE.getKey(),"getByDate", ModelEnum.FINANCE_DATE.getValue() + "_根据天获取"),
     FINANCE_DATE_GET_SUM(ClzConstant.FINANCE_DATE_QUERY + ".getSumAmount", ModelEnum.FINANCE_DATE.getKey(),"getSumAmount", ModelEnum.FINANCE_DATE.getValue() + "_获取汇总值"),
     FINANCE_DATE_DOWNLOAD_LIST(ClzConstant.FINANCE_DATE_QUERY + ".downloadList", ModelEnum.FINANCE_DATE.getKey(),"downloadList", ModelEnum.FINANCE_DATE.getValue() + "_下载列表"),
