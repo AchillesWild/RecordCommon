@@ -16,4 +16,5 @@ public class ProductOutputSeason extends BaseEntity {
 
     private Integer season;
 
+    private Integer count;
 }

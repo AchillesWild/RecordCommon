@@ -15,6 +15,8 @@ public class ProductOutputWeek extends BaseEntity {
 
     private BigDecimal number;
 
+    private Integer count;
+
     private Integer dateStart;
 
     private Integer dateEnd;

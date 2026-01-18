@@ -15,6 +15,8 @@ public class ProductOutputDate extends BaseEntity {
 
     private BigDecimal number;
 
+    private Integer count;
+
     private Integer productionDate;
 
 }

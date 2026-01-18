@@ -16,4 +16,5 @@ public class ProductOutputMonth extends BaseEntity {
 
     private BigDecimal number;
 
+    private Integer count;
 }
