@@ -18,8 +18,6 @@ public class ConfigConstant {
 
     public static final String EMAIL_SWITCH = "emailSwitch";
 
-    public static final String EXPIRE_DAYS = "expireDays";
-
     public static final String REGISTER_SWITCH = "registerSwitch";
 
     public static final String ONE_MONTH_EXCEL_DOWNLOAD_LIMIT_COUNT_MISSION = "oneMonthExcelDownloadLimitCountMission";
