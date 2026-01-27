@@ -147,7 +147,6 @@ public enum ModelFunctionEnum {
     FINANCE_TRANSACTION_TYPE_GET(ClzConstant.FINANCE_TRANSACTION_TYPE_QUERY + ".get", ModelEnum.FINANCE_TRANSACTION_TYPE.getKey(),"get", ModelEnum.FINANCE_TRANSACTION_TYPE.getValue() + "_根据id查询"),
     FINANCE_TRANSACTION_TYPE_LIST(ClzConstant.FINANCE_TRANSACTION_TYPE_QUERY + ".getPageList", ModelEnum.FINANCE_TRANSACTION_TYPE.getKey(),"getPageList", ModelEnum.FINANCE_TRANSACTION_TYPE.getValue() + "_查询列表"),
     FINANCE_TRANSACTION_TYPE_GET_SELECT(ClzConstant.FINANCE_TRANSACTION_TYPE_QUERY + ".getSelect", ModelEnum.FINANCE_TRANSACTION_TYPE.getKey(),"getSelect", ModelEnum.FINANCE_TRANSACTION_TYPE.getValue() + "_查询所有(下拉菜单)"),
-    FINANCE_TRANSACTION_TYPE_JUST_UPDATED(ClzConstant.FINANCE_TRANSACTION_TYPE_QUERY + ".ifJustUpdated", ModelEnum.FINANCE_TRANSACTION_TYPE.getKey(),"ifJustUpdated", ModelEnum.FINANCE_TRANSACTION_TYPE.getValue() + "_是否不久前修改过"),
     FINANCE_TRANSACTION_GET_BY_ID_AND_CONDITION(ClzConstant.FINANCE_TRANSACTION_TYPE_QUERY + ".getByIdAndCondition", ModelEnum.FINANCE_TRANSACTION_TYPE.getKey(),"getByIdAndCondition", ModelEnum.FINANCE_TRANSACTION_TYPE.getValue() + "_根据id和其它条件查询"),
 
 
@@ -179,7 +178,6 @@ public enum ModelFunctionEnum {
     PRODUCT_GET_BIG_IMG(ClzConstant.PRODUCT_QUERY + ".getBigImg", ModelEnum.PRODUCT.getKey(),"getBigImg", ModelEnum.PRODUCT.getValue() + "_获取大图"),
     PRODUCT_GET_BY_UUID(ClzConstant.PRODUCT_QUERY + ".getByUuid", ModelEnum.PRODUCT.getKey(),"getByUuid", ModelEnum.PRODUCT.getValue() + "_根据UUID查询"),
     PRODUCT_GET_UNIT_SELECT(ClzConstant.PRODUCT_QUERY + ".getUnitSelect", ModelEnum.PRODUCT.getKey(),"getUnitSelect", ModelEnum.PRODUCT.getValue() + "_查询单位下拉"),
-    PRODUCT_JUST_UPDATED(ClzConstant.PRODUCT_QUERY + ".ifJustUpdated", ModelEnum.PRODUCT.getKey(),"ifJustUpdated", ModelEnum.PRODUCT.getValue() + "_是否不久前修改过"),
     PRODUCT_GET_LAST_DOWNLOAD_COUNT(ClzConstant.PRODUCT_QUERY + ".getLastDownloadCount", ModelEnum.PRODUCT.getKey(),"getLastDownloadCount", ModelEnum.PRODUCT.getValue() + "_获取可导出excel次数"),
     PRODUCT_GET_BY_ID_AND_CONDITION(ClzConstant.PRODUCT_QUERY + ".getByIdAndCondition", ModelEnum.PRODUCT.getKey(),"getByIdAndCondition", ModelEnum.PRODUCT.getValue() + "_根据id和其它条件查询"),
 
@@ -248,7 +246,6 @@ public enum ModelFunctionEnum {
     GOODS_GET_SELECT(ClzConstant.GOODS_QUERY + ".getSelect", ModelEnum.GOODS.getKey(),"getSelect", ModelEnum.GOODS.getValue() + "_查询下拉"),
     GOODS_GET_BY_UUID(ClzConstant.GOODS_QUERY + ".getByUuid", ModelEnum.GOODS.getKey(),"getByUuid", ModelEnum.GOODS.getValue() + "_根据UUID查询"),
     GOODS_GET_UNIT_SELECT(ClzConstant.GOODS_QUERY + ".getUnitSelect", ModelEnum.GOODS.getKey(),"getUnitSelect", ModelEnum.GOODS.getValue() + "_查询单位下拉"),
-    GOODS_JUST_UPDATED(ClzConstant.GOODS_QUERY + ".ifJustUpdated", ModelEnum.GOODS.getKey(),"ifJustUpdated", ModelEnum.GOODS.getValue() + "_是否不久前修改过"),
     GOODS_GET_LAST_DOWNLOAD_COUNT(ClzConstant.GOODS_QUERY + ".getLastDownloadCount", ModelEnum.GOODS.getKey(),"getLastDownloadCount", ModelEnum.GOODS.getValue() + "_获取可导出excel次数"),
     GOODS_GET_BY_ID_AND_CONDITION(ClzConstant.GOODS_QUERY + ".getByIdAndCondition", ModelEnum.GOODS.getKey(),"getByIdAndCondition", ModelEnum.GOODS.getValue() + "_根据id和其它条件查询"),
 
@@ -262,7 +259,6 @@ public enum ModelFunctionEnum {
     SUPPLIER_DOWNLOAD(ClzConstant.SUPPLIER_QUERY + ".download", ModelEnum.SUPPLIER.getKey(),"download", ModelEnum.SUPPLIER.getValue() + "_下载"),
     SUPPLIERS_GET_SUPPLIER_TYPE(ClzConstant.SUPPLIER_QUERY + ".getSupplierType", ModelEnum.SUPPLIER.getKey(),"getSupplierType", ModelEnum.SUPPLIER.getValue() + "_获取供应商类型下拉"),
     SUPPLIERS_GET_SELECT(ClzConstant.SUPPLIER_QUERY + ".getSelect", ModelEnum.SUPPLIER.getKey(),"getSelect", ModelEnum.SUPPLIER.getValue() + "_获取供应商下拉菜单"),
-    SUPPLIERS_JUST_UPDATED(ClzConstant.SUPPLIER_QUERY + ".ifJustUpdated", ModelEnum.SUPPLIER.getKey(),"ifJustUpdated", ModelEnum.SUPPLIER.getValue() + "_是否不久前修改过"),
     SUPPLIERS_GET_LAST_DOWNLOAD_COUNT(ClzConstant.SUPPLIER_QUERY + ".getLastDownloadCount", ModelEnum.SUPPLIER.getKey(),"getLastDownloadCount", ModelEnum.SUPPLIER.getValue() + "_获取可导出excel次数"),
     SUPPLIERS_GET_BY_ID_AND_CONDITION(ClzConstant.SUPPLIER_QUERY + ".getByIdAndCondition", ModelEnum.SUPPLIER.getKey(),"getByIdAndCondition", ModelEnum.SUPPLIER.getValue() + "_根据id和其它条件查询"),
 
