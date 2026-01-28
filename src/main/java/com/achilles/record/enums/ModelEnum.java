@@ -13,6 +13,7 @@ public enum ModelEnum {
     NOTES("notes", "日记", 1),
 
     FINANCE("finance", "账务-明细", 2),
+    FINANCE_CALENDAR("finance_calendar","账务-日历", 3),
     FINANCE_DATE("finance_date","账务-天", 3),
     FINANCE_WEEK("finance_week","账务-周", 3),
     FINANCE_MONTH("finance_month","账务-月", 3),
