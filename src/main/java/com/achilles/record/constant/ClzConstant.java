@@ -55,4 +55,6 @@ public class ClzConstant {
     public static final String USER_NOTICE = "com.achilles.server.controller.user.NoticeController";
 
     public static final String CONFIG = "com.achilles.server.controller.ConfigController";
+
+    public static final String COMMON = "com.achilles.server.controller.CommonController";
 }

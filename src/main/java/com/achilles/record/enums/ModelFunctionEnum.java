@@ -304,6 +304,7 @@ public enum ModelFunctionEnum {
     CONFIG_EXCEL_SWITCH(ClzConstant.CONFIG + ".excelExportSwitch", ModelEnum.CONFIG.getKey(),"excelExportSwitch", ModelEnum.CONFIG.getValue() + "_获取excel开关"),
     CONFIG_GET_CONTACT(ClzConstant.CONFIG + ".getContact", ModelEnum.CONFIG.getKey(),"getContact", ModelEnum.CONFIG.getValue() + "_获取联系方式"),
 
+    COMMON_GET_OVERVIEW(ClzConstant.COMMON + ".getOverview", ModelEnum.COMMON.getKey(),"getOverview", ModelEnum.COMMON.getValue() + "_概览"),
     ;
 
     private String method;

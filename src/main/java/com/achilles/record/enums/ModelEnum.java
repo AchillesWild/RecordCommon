@@ -43,6 +43,7 @@ public enum ModelEnum {
 
     CONFIG("config", "配置", 16),
 
+    COMMON("common", "公共", 17),
     ;
 
     private String key;
