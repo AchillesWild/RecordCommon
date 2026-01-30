@@ -305,6 +305,8 @@ public enum ModelFunctionEnum {
     CONFIG_GET_CONTACT(ClzConstant.CONFIG + ".getContact", ModelEnum.CONFIG.getKey(),"getContact", ModelEnum.CONFIG.getValue() + "_获取联系方式"),
 
     COMMON_GET_OVERVIEW(ClzConstant.COMMON + ".getOverview", ModelEnum.COMMON.getKey(),"getOverview", ModelEnum.COMMON.getValue() + "_概览"),
+    COMMON_GET_OVERVIEW_FINANCE(ClzConstant.COMMON + ".getFinanceOverview", ModelEnum.COMMON.getKey(),"getFinanceOverview", ModelEnum.COMMON.getValue() + "_概览账务"),
+
     ;
 
     private String method;
