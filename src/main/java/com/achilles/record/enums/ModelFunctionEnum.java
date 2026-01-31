@@ -150,6 +150,7 @@ public enum ModelFunctionEnum {
     FINANCE_TRANSACTION_GET_BY_ID_AND_CONDITION(ClzConstant.FINANCE_TRANSACTION_TYPE_QUERY + ".getByIdAndCondition", ModelEnum.FINANCE_TRANSACTION_TYPE.getKey(),"getByIdAndCondition", ModelEnum.FINANCE_TRANSACTION_TYPE.getValue() + "_根据id和其它条件查询"),
 
 
+    FINANCE_COMMON_GET_OVERVIEW(ClzConstant.FINANCE_COMMON_QUERY + ".getOverview", ModelEnum.FINANCE_COMMON.getKey(),"getOverview", ModelEnum.FINANCE_COMMON.getValue() + "_获取概览"),
     FINANCE_COMMON_DOWNLOAD_LAST_COUNT(ClzConstant.FINANCE_COMMON_QUERY + ".getLastDownloadCount", ModelEnum.FINANCE_COMMON.getKey(),"getLastDownloadCount", ModelEnum.FINANCE_COMMON.getValue() + "_获取剩余下载次数"),
     FINANCE_COMMON_CLASSIFIED(ClzConstant.FINANCE_COMMON_QUERY + ".getClassified", ModelEnum.FINANCE_COMMON.getKey(),"getClassified", ModelEnum.FINANCE_COMMON.getValue() + "_获取分类汇总"),
     FINANCE_COMMON_GET_SUM(ClzConstant.FINANCE_COMMON_QUERY + ".getSumAmount", ModelEnum.FINANCE_COMMON.getKey(),"getSumAmount", ModelEnum.FINANCE_COMMON.getValue() + "_获取总额"),
