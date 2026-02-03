@@ -19,12 +19,15 @@ public enum ModelFunctionEnum {
     MISSION_GET(ClzConstant.MISSION_QUERY + ".get", ModelEnum.MISSION.getKey(),"get", ModelEnum.MISSION.getValue() + "_根据id查询"),
     MISSION_GET_CONTENT(ClzConstant.MISSION_QUERY + ".getContentById", ModelEnum.MISSION.getKey(),"getContentById", ModelEnum.MISSION.getValue() + "_根据id查询内容"),
     MISSION_LIST(ClzConstant.MISSION_QUERY + ".getPageList", ModelEnum.MISSION.getKey(),"getPageList", ModelEnum.MISSION.getValue() + "_查询列表"),
+    MISSION_LIST_SIMPLE(ClzConstant.MISSION_QUERY + ".getSimpleListByDate", ModelEnum.MISSION_CALENDAR.getKey(),"getSimpleListByDate", ModelEnum.MISSION_CALENDAR.getValue() + "_日历"),
     MISSION_COUNT(ClzConstant.MISSION_QUERY + ".getCount", ModelEnum.MISSION.getKey(),"getCount", ModelEnum.MISSION.getValue() + "_查询总数"),
     MISSION_TYPE(ClzConstant.MISSION_QUERY + ".getType", ModelEnum.MISSION.getKey(),"getType", ModelEnum.MISSION.getValue() + "_查询所有类型"),
     MISSION_PACE(ClzConstant.MISSION_QUERY + ".getPace", ModelEnum.MISSION.getKey(),"getPace", ModelEnum.MISSION.getValue() + "_查询所有进度"),
     MISSION_GET_IMG(ClzConstant.MISSION_QUERY + ".getBigImg", ModelEnum.MISSION.getKey(),"getBigImg", ModelEnum.MISSION.getValue() + "_获取大图"),
     MISSION_GET_LAST_DOWNLOAD_COUNT(ClzConstant.MISSION_QUERY + ".getLastDownloadCount", ModelEnum.MISSION.getKey(),"getLastDownloadCount", ModelEnum.MISSION.getValue() + "_获取可导出excel次数"),
     MISSION_GET_BY_ID_AND_CONDITION(ClzConstant.MISSION_QUERY + ".getByIdAndCondition", ModelEnum.MISSION.getKey(),"getByIdAndCondition", ModelEnum.MISSION.getValue() + "_根据id和其它条件查询"),
+
+    MISSION_DATE_GET_DATE_TO_COUNT_MAP(ClzConstant.MISSION_DATE_QUERY + ".getDateToCountMapByMonth", ModelEnum.MISSION_CALENDAR.getKey(),"getDateToCountMapByMonth", ModelEnum.MISSION_CALENDAR.getValue() + "_日历"),
 
 
     //--------------------------------------------- note  start ----------------------------------------------------------------
