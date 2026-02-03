@@ -40,7 +40,7 @@ public enum ModelFunctionEnum {
     NOTE_GET(ClzConstant.NOTE_QUERY + ".get", ModelEnum.NOTE.getKey(),"get", ModelEnum.NOTE.getValue() + "_根据id查询"),
     NOTE_GET_CONTENT(ClzConstant.NOTE_QUERY + ".getContentById", ModelEnum.NOTE.getKey(),"getContentById", ModelEnum.NOTE.getValue() + "_根据id查询内容"),
     NOTE_LIST(ClzConstant.NOTE_QUERY + ".getPageList", ModelEnum.NOTE.getKey(),"getPageList", ModelEnum.NOTE.getValue() + "_查询列表"),
-    NOTE_LIST_SIMPLE(ClzConstant.NOTE_QUERY + ".getSimpleListByDate", ModelEnum.NOTE.getKey(),"getSimpleListByDate", ModelEnum.NOTE.getValue() + "_根据日期查询列表"),
+    NOTE_LIST_SIMPLE(ClzConstant.NOTE_QUERY + ".getSimpleListByDate", ModelEnum.NOTE_CALENDAR.getKey(),"getSimpleListByDate", ModelEnum.NOTE_CALENDAR.getValue() + "_根据日期查询列表"),
     NOTE_RECYCLE_LIST(ClzConstant.NOTE_QUERY + ".getRecyclePageList", ModelEnum.NOTE.getKey(),"getRecyclePageList", ModelEnum.NOTE.getValue() + "_查询回收站列表"),
     NOTE_COUNT(ClzConstant.NOTE_QUERY + ".getCount", ModelEnum.NOTE.getKey(),"getCount", ModelEnum.NOTE.getValue() + "_查询总数"),
     NOTE_TYPE(ClzConstant.NOTE_QUERY + ".getType", ModelEnum.NOTE.getKey(),"getType", ModelEnum.NOTE.getValue() + "_查询所有类型"),
@@ -48,7 +48,7 @@ public enum ModelFunctionEnum {
     NOTE_GET_LAST_DOWNLOAD_COUNT(ClzConstant.NOTE_QUERY + ".getLastDownloadCount", ModelEnum.NOTE.getKey(),"getLastDownloadCount", ModelEnum.NOTE.getValue() + "_获取可导出excel次数"),
     NOTE_GET_BY_ID_AND_CONDITION(ClzConstant.NOTE_QUERY + ".getByIdAndCondition", ModelEnum.NOTE.getKey(),"getByIdAndCondition", ModelEnum.NOTE.getValue() + "_根据id和其它条件查询"),
 
-    NOTE_DATE_GET_DATE_TO_COUNT_MAP(ClzConstant.NOTE_DATE_QUERY + ".getDateToCountMapByMonth", ModelEnum.NOTE.getKey(),"getDateToCountMapByMonth", ModelEnum.NOTE.getValue() + "_日历"),
+    NOTE_DATE_GET_DATE_TO_COUNT_MAP(ClzConstant.NOTE_DATE_QUERY + ".getDateToCountMapByMonth", ModelEnum.NOTE_CALENDAR.getKey(),"getDateToCountMapByMonth", ModelEnum.NOTE_CALENDAR.getValue() + "_日历"),
 
     //--------------------------------------------- notes  start ----------------------------------------------------------------
     NOTES_ADD(ClzConstant.NOTES_COMMAND + ".add", ModelEnum.NOTES.getKey(),"add", ModelEnum.NOTES.getValue() + "_新增"),
@@ -63,6 +63,7 @@ public enum ModelFunctionEnum {
     NOTES_GET(ClzConstant.NOTES_QUERY + ".get", ModelEnum.NOTES.getKey(),"get", ModelEnum.NOTES.getValue() + "_根据id查询"),
     NOTES_GET_CONTENT(ClzConstant.NOTES_QUERY + ".getContentById", ModelEnum.NOTES.getKey(),"getContentById", ModelEnum.NOTES.getValue() + "_根据id查询内容"),
     NOTES_LIST(ClzConstant.NOTES_QUERY + ".getPageList", ModelEnum.NOTES.getKey(),"getPageList", ModelEnum.NOTES.getValue() + "_查询列表"),
+    NOTES_LIST_SIMPLE(ClzConstant.NOTES_QUERY + ".getSimpleListByDate", ModelEnum.NOTES_CALENDAR.getKey(),"getSimpleListByDate", ModelEnum.NOTES_CALENDAR.getValue() + "_根据日期查询列表"),
     NOTES_RECYCLE_LIST(ClzConstant.NOTES_QUERY + ".getRecyclePageList", ModelEnum.NOTES.getKey(),"getRecyclePageList", ModelEnum.NOTES.getValue() + "_查询回收站列表"),
     NOTES_COUNT(ClzConstant.NOTES_QUERY + ".getCount", ModelEnum.NOTES.getKey(),"getCount", ModelEnum.NOTES.getValue() + "_查询总数"),
     NOTES_TYPE(ClzConstant.NOTES_QUERY + ".getType", ModelEnum.NOTES.getKey(),"getType", ModelEnum.NOTES.getValue() + "_查询所有类型"),
@@ -70,6 +71,7 @@ public enum ModelFunctionEnum {
     NOTES_GET_LAST_DOWNLOAD_COUNT(ClzConstant.NOTES_QUERY + ".getLastDownloadCount", ModelEnum.NOTES.getKey(),"getLastDownloadCount", ModelEnum.NOTES.getValue() + "_获取可导出excel次数"),
     NOTES_GET_BY_ID_AND_CONDITION(ClzConstant.NOTES_QUERY + ".getByIdAndCondition", ModelEnum.NOTES.getKey(),"getByIdAndCondition", ModelEnum.NOTES.getValue() + "_根据id和其它条件查询"),
 
+    NOTES_DATE_GET_DATE_TO_COUNT_MAP(ClzConstant.NOTES_DATE_QUERY + ".getDateToCountMapByMonth", ModelEnum.NOTES_CALENDAR.getKey(),"getDateToCountMapByMonth", ModelEnum.NOTES_CALENDAR.getValue() + "_日历"),
 
     //--------------------------------------------- finance  start ----------------------------------------------------------------
     FINANCE_ADD(ClzConstant.FINANCE_COMMAND + ".add", ModelEnum.FINANCE.getKey(),"add", ModelEnum.FINANCE.getValue() + "_新增"),

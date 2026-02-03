@@ -7,10 +7,13 @@ import java.util.Map;
 public enum ModelEnum {
 
     MISSION("mission", "待办", 0),
+    MISSION_CALENDAR("mission_calendar","待办-日历", 0),
 
     NOTE("note", "笔记", 1),
+    NOTE_CALENDAR("note_calendar","笔记-日历", 1),
 
     NOTES("notes", "日记", 1),
+    NOTES_CALENDAR("notes_calendar","日记-日历", 1),
 
     FINANCE("finance", "账务-明细", 2),
     FINANCE_CALENDAR("finance_calendar","账务-日历", 3),
@@ -23,11 +26,13 @@ public enum ModelEnum {
     FINANCE_COMMON("finance_common","账务-公用", 4),
 
     PRODUCT_OUTPUT("product_output", "计量-明细", 5),
+    PRODUCT_OUTPUT_CALENDAR("product_output_calendar","计量-日历", 6),
     PRODUCT_OUTPUT_MONTH("product_output_month", "计量-月度", 6),
     PRODUCT_OUTPUT_YEAR("product_output_year", "计量-年度", 6),
     PRODUCT("product", "计量物", 7),
 
     GOODS_TRADE("goods_trade", "买/卖-明细", 8),
+    GOODS_TRADE_CALENDAR("goods_trade_calendar","买/卖-日历", 9),
     GOODS_TRADE_MONTH("goods_trade_month", "买/卖-月度", 9),
     GOODS_TRADE_YEAR("goods_trade_year", "买/卖-年度", 9),
     SUPPLIER("supplier", "供应商", 10),

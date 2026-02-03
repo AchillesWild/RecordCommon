@@ -11,6 +11,7 @@ public class ClzConstant {
 
     public static final String NOTES_COMMAND = "com.achilles.server.controller.note.NotesCommandController";
     public static final String NOTES_QUERY = "com.achilles.server.controller.note.NotesQryController";
+    public static final String NOTES_DATE_QUERY = "com.achilles.server.controller.note.NotesDateQryController";
 
     public static final String FINANCE_COMMAND = "com.achilles.server.controller.finance.FinanceRecordCommandController";
     public static final String FINANCE_QUERY = "com.achilles.server.controller.finance.FinanceRecordQryController";
