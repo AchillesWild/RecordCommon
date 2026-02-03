@@ -7,6 +7,7 @@ public class ClzConstant {
 
     public static final String NOTE_COMMAND = "com.achilles.server.controller.note.NoteCommandController";
     public static final String NOTE_QUERY= "com.achilles.server.controller.note.NoteQryController";
+    public static final String NOTE_DATE_QUERY= "com.achilles.server.controller.note.NoteDateQryController";
 
     public static final String NOTES_COMMAND = "com.achilles.server.controller.note.NotesCommandController";
     public static final String NOTES_QUERY= "com.achilles.server.controller.note.NotesQryController";

@@ -40,6 +40,7 @@ public enum ModelFunctionEnum {
     NOTE_GET(ClzConstant.NOTE_QUERY + ".get", ModelEnum.NOTE.getKey(),"get", ModelEnum.NOTE.getValue() + "_根据id查询"),
     NOTE_GET_CONTENT(ClzConstant.NOTE_QUERY + ".getContentById", ModelEnum.NOTE.getKey(),"getContentById", ModelEnum.NOTE.getValue() + "_根据id查询内容"),
     NOTE_LIST(ClzConstant.NOTE_QUERY + ".getPageList", ModelEnum.NOTE.getKey(),"getPageList", ModelEnum.NOTE.getValue() + "_查询列表"),
+    NOTE_LIST_SIMPLE(ClzConstant.NOTE_QUERY + ".getSimpleListByDate", ModelEnum.NOTE.getKey(),"getSimpleListByDate", ModelEnum.NOTE.getValue() + "_根据日期查询列表"),
     NOTE_RECYCLE_LIST(ClzConstant.NOTE_QUERY + ".getRecyclePageList", ModelEnum.NOTE.getKey(),"getRecyclePageList", ModelEnum.NOTE.getValue() + "_查询回收站列表"),
     NOTE_COUNT(ClzConstant.NOTE_QUERY + ".getCount", ModelEnum.NOTE.getKey(),"getCount", ModelEnum.NOTE.getValue() + "_查询总数"),
     NOTE_TYPE(ClzConstant.NOTE_QUERY + ".getType", ModelEnum.NOTE.getKey(),"getType", ModelEnum.NOTE.getValue() + "_查询所有类型"),
@@ -47,6 +48,7 @@ public enum ModelFunctionEnum {
     NOTE_GET_LAST_DOWNLOAD_COUNT(ClzConstant.NOTE_QUERY + ".getLastDownloadCount", ModelEnum.NOTE.getKey(),"getLastDownloadCount", ModelEnum.NOTE.getValue() + "_获取可导出excel次数"),
     NOTE_GET_BY_ID_AND_CONDITION(ClzConstant.NOTE_QUERY + ".getByIdAndCondition", ModelEnum.NOTE.getKey(),"getByIdAndCondition", ModelEnum.NOTE.getValue() + "_根据id和其它条件查询"),
 
+    NOTE_DATE_GET_DATE_TO_COUNT_MAP(ClzConstant.NOTE_DATE_QUERY + ".getDateToCountMapByMonth", ModelEnum.NOTE.getKey(),"getDateToCountMapByMonth", ModelEnum.NOTE.getValue() + "_日历"),
 
     //--------------------------------------------- notes  start ----------------------------------------------------------------
     NOTES_ADD(ClzConstant.NOTES_COMMAND + ".add", ModelEnum.NOTES.getKey(),"add", ModelEnum.NOTES.getValue() + "_新增"),
