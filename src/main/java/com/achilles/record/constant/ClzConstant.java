@@ -6,11 +6,11 @@ public class ClzConstant {
     public static final String MISSION_QUERY= "com.achilles.server.controller.mission.MissionQryController";
 
     public static final String NOTE_COMMAND = "com.achilles.server.controller.note.NoteCommandController";
-    public static final String NOTE_QUERY= "com.achilles.server.controller.note.NoteQryController";
-    public static final String NOTE_DATE_QUERY= "com.achilles.server.controller.note.NoteDateQryController";
+    public static final String NOTE_QUERY = "com.achilles.server.controller.note.NoteQryController";
+    public static final String NOTE_DATE_QUERY = "com.achilles.server.controller.note.NoteDateQryController";
 
     public static final String NOTES_COMMAND = "com.achilles.server.controller.note.NotesCommandController";
-    public static final String NOTES_QUERY= "com.achilles.server.controller.note.NotesQryController";
+    public static final String NOTES_QUERY = "com.achilles.server.controller.note.NotesQryController";
 
     public static final String FINANCE_COMMAND = "com.achilles.server.controller.finance.FinanceRecordCommandController";
     public static final String FINANCE_QUERY = "com.achilles.server.controller.finance.FinanceRecordQryController";
@@ -21,7 +21,7 @@ public class ClzConstant {
     public static final String FINANCE_MONTH_QUERY = "com.achilles.server.controller.finance.FinanceRecordMonthQryController";
     public static final String FINANCE_SEASON_QUERY = "com.achilles.server.controller.finance.FinanceRecordSeasonQryController";
     public static final String FINANCE_TRANSACTION_TYPE_COMMAND = "com.achilles.server.controller.finance.FinanceTransactionCommandController";
-    public static final String FINANCE_TRANSACTION_TYPE_QUERY= "com.achilles.server.controller.finance.FinanceTransactionQryController";
+    public static final String FINANCE_TRANSACTION_TYPE_QUERY = "com.achilles.server.controller.finance.FinanceTransactionQryController";
     public static final String FINANCE_YEAR_QUERY = "com.achilles.server.controller.finance.FinanceRecordYearQryController";
 
     public static final String FINANCE_COMMON_QUERY = "com.achilles.server.controller.finance.FinanceCommonQryController";
@@ -40,9 +40,9 @@ public class ClzConstant {
     public static final String GOODS_TRADE_MONTH_QUERY = "com.achilles.server.controller.goods.GoodsTradeMonthQryController";
     public static final String GOODS_TRADE_YEAR_QUERY = "com.achilles.server.controller.goods.GoodsTradeYearQryController";
     public static final String GOODS_COMMAND = "com.achilles.server.controller.goods.GoodsCommandController";
-    public static final String GOODS_QUERY= "com.achilles.server.controller.goods.GoodsQryController";
+    public static final String GOODS_QUERY = "com.achilles.server.controller.goods.GoodsQryController";
     public static final String SUPPLIER_COMMAND = "com.achilles.server.controller.goods.GoodsSupplierCommandController";
-    public static final String SUPPLIER_QUERY= "com.achilles.server.controller.goods.GoodsSupplierQryController";
+    public static final String SUPPLIER_QUERY = "com.achilles.server.controller.goods.GoodsSupplierQryController";
 
     public static final String SHARE_AREA_COMMAND = "com.achilles.server.controller.share.ShareAreaCommandController";
     public static final String SHARE_AREA_QUERY = "com.achilles.server.controller.share.ShareAreaQryController";
