@@ -215,12 +215,16 @@ public enum ModelFunctionEnum {
     GOODS_TRADE_DOWNLOAD(ClzConstant.GOODS_TRADE_QUERY + ".download", ModelEnum.GOODS_TRADE.getKey(),"download", ModelEnum.GOODS_TRADE.getValue() + "_下载"),
     GOODS_TRADE_GET(ClzConstant.GOODS_TRADE_QUERY + ".get", ModelEnum.GOODS_TRADE.getKey(),"get", ModelEnum.GOODS_TRADE.getValue() + "_根据id查询"),
     GOODS_TRADE_LIST(ClzConstant.GOODS_TRADE_QUERY + ".getPageList", ModelEnum.GOODS_TRADE.getKey(),"getPageList", ModelEnum.GOODS_TRADE.getValue() + "_查询列表"),
+    GOODS_TRADE_LIST_SIMPLE(ClzConstant.GOODS_TRADE_QUERY + ".getSimpleListByDate", ModelEnum.GOODS_TRADE_CALENDAR.getKey(),"getSimpleListByDate", ModelEnum.GOODS_TRADE_CALENDAR.getValue() + "_日历"),
     GOODS_TRADE_GET_COUNT(ClzConstant.GOODS_TRADE_QUERY + ".getCount", ModelEnum.GOODS_TRADE.getKey(),"getCount", ModelEnum.GOODS_TRADE.getValue() + "_查询数据总数"),
     GOODS_TRADE_GET_SUM(ClzConstant.GOODS_TRADE_QUERY + ".getSumAmount", ModelEnum.GOODS_TRADE.getKey(),"getSumAmount", ModelEnum.GOODS_TRADE.getValue() + "_查询汇总金额"),
     GOODS_TRADE_GET_BIG_IMG(ClzConstant.GOODS_TRADE_QUERY + ".getBigImg", ModelEnum.GOODS_TRADE.getKey(),"getBigImg", ModelEnum.GOODS_TRADE.getValue() + "_查询大图"),
     GOODS_TRADE_GET_TRADE_TYPE(ClzConstant.GOODS_TRADE_QUERY + ".getTradeType", ModelEnum.GOODS_TRADE.getKey(),"getTradeType", ModelEnum.GOODS_TRADE.getValue() + "_查询交易类型"),
     GOODS_TRADE_GET_LAST_DOWNLOAD_COUNT(ClzConstant.GOODS_TRADE_QUERY + ".getLastDownloadCount", ModelEnum.GOODS_TRADE.getKey(),"getLastDownloadCount", ModelEnum.GOODS_TRADE.getValue() + "_获取可导出excel次数"),
     GOODS_TRADE_GET_BY_ID_AND_CONDITION(ClzConstant.GOODS_TRADE_QUERY + ".getByIdAndCondition", ModelEnum.GOODS_TRADE.getKey(),"getByIdAndCondition", ModelEnum.GOODS_TRADE.getValue() + "_根据id和其它条件查询"),
+
+
+    GOODS_TRADE_DATE_LIST_DATE_RANGE(ClzConstant.GOODS_TRADE_DATE_QUERY + ".getMapListByMonth", ModelEnum.GOODS_TRADE_CALENDAR.getKey(),"getMapListByMonth", ModelEnum.GOODS_TRADE_CALENDAR.getValue() + "_根据月份查询map"),
 
     GOODS_TRADE_MONTH_LIST(ClzConstant.GOODS_TRADE_MONTH_QUERY + ".getPageList", ModelEnum.GOODS_TRADE_MONTH.getKey(),"getPageList", ModelEnum.GOODS_TRADE_MONTH.getValue() + "_查询列表"),
     GOODS_TRADE_MONTH_GET_CLASSIFIED_MONTH(ClzConstant.GOODS_TRADE_MONTH_QUERY + ".getClassifiedMonth", ModelEnum.GOODS_TRADE_MONTH.getKey(),"getClassifiedMonth", ModelEnum.GOODS_TRADE_MONTH.getValue() + "_按月查询分类汇总"),

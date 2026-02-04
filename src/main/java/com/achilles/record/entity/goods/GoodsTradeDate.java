@@ -18,5 +18,7 @@ public class GoodsTradeDate extends BaseEntity {
 
     private Integer payCount;
 
+    private Integer imgCount;
+
     private String userUuid;
 }
