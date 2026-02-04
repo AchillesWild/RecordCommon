@@ -223,7 +223,7 @@ public enum ModelFunctionEnum {
     GOODS_TRADE_GET_LAST_DOWNLOAD_COUNT(ClzConstant.GOODS_TRADE_QUERY + ".getLastDownloadCount", ModelEnum.GOODS_TRADE.getKey(),"getLastDownloadCount", ModelEnum.GOODS_TRADE.getValue() + "_获取可导出excel次数"),
     GOODS_TRADE_GET_BY_ID_AND_CONDITION(ClzConstant.GOODS_TRADE_QUERY + ".getByIdAndCondition", ModelEnum.GOODS_TRADE.getKey(),"getByIdAndCondition", ModelEnum.GOODS_TRADE.getValue() + "_根据id和其它条件查询"),
 
-
+    GOODS_TRADE_DATE_CLASSIFIED_DATE(ClzConstant.GOODS_TRADE_DATE_QUERY + ".getClassifiedDate", ModelEnum.GOODS_TRADE_CALENDAR.getKey(),"getClassifiedDate", ModelEnum.GOODS_TRADE_CALENDAR.getValue() + "_根据日期查询分类汇总"),
     GOODS_TRADE_DATE_LIST_DATE_RANGE(ClzConstant.GOODS_TRADE_DATE_QUERY + ".getMapListByMonth", ModelEnum.GOODS_TRADE_CALENDAR.getKey(),"getMapListByMonth", ModelEnum.GOODS_TRADE_CALENDAR.getValue() + "_根据月份查询map"),
 
     GOODS_TRADE_MONTH_LIST(ClzConstant.GOODS_TRADE_MONTH_QUERY + ".getPageList", ModelEnum.GOODS_TRADE_MONTH.getKey(),"getPageList", ModelEnum.GOODS_TRADE_MONTH.getValue() + "_查询列表"),
