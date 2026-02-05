@@ -30,6 +30,7 @@ public class ClzConstant {
 
     public static final String PRODUCT_OUTPUT_COMMAND = "com.achilles.server.controller.product.ProductOutputCommandController";
     public static final String PRODUCT_OUTPUT_QUERY = "com.achilles.server.controller.product.ProductOutputQryController";
+    public static final String PRODUCT_OUTPUT_DATE_QUERY = "com.achilles.server.controller.product.ProductOutputDateQryController";
     public static final String PRODUCT_COMMAND = "com.achilles.server.controller.product.ProductCommandController";
     public static final String PRODUCT_QUERY = "com.achilles.server.controller.product.ProductQryController";
     public static final String PRODUCT_OUTPUT_MONTH_COMMAND = "com.achilles.server.controller.product.ProductOutputMonthCommandController";

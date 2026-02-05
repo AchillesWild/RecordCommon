@@ -178,6 +178,9 @@ public enum ModelFunctionEnum {
     PRODUCT_OUTPUT_GET_SUM(ClzConstant.PRODUCT_OUTPUT_QUERY + ".getSumNumber", ModelEnum.PRODUCT_OUTPUT.getKey(),"getSumNumber", ModelEnum.PRODUCT_OUTPUT.getValue() + "_查询汇总数量"),
     PRODUCT_OUTPUT_GET_LAST_DOWNLOAD_COUNT(ClzConstant.PRODUCT_OUTPUT_QUERY + ".getLastDownloadCount", ModelEnum.PRODUCT_OUTPUT.getKey(),"getLastDownloadCount", ModelEnum.PRODUCT_OUTPUT.getValue() + "_获取可导出excel次数"),
     PRODUCT_OUTPUT_GET_BY_ID_AND_CONDITION(ClzConstant.PRODUCT_OUTPUT_QUERY + ".getByIdAndCondition", ModelEnum.PRODUCT_OUTPUT.getKey(),"getByIdAndCondition", ModelEnum.PRODUCT_OUTPUT.getValue() + "_根据id和其它条件查询"),
+    PRODUCT_OUTPUT_LIST_SIMPLE(ClzConstant.PRODUCT_OUTPUT_QUERY + ".getSimpleListByDate", ModelEnum.PRODUCT_OUTPUT_CALENDAR.getKey(),"getSimpleListByDate", ModelEnum.PRODUCT_OUTPUT_CALENDAR.getValue() + "_日历"),
+
+    PRODUCT_OUTPUT_DATE_GET_LIST_MAP(ClzConstant.PRODUCT_OUTPUT_DATE_QUERY + ".getListMapByMonth", ModelEnum.PRODUCT_OUTPUT_CALENDAR.getKey(),"getListMapByMonth", ModelEnum.PRODUCT_OUTPUT_CALENDAR.getValue() + "_日历"),
 
     PRODUCT_ADD(ClzConstant.PRODUCT_COMMAND + ".add", ModelEnum.PRODUCT.getKey(),"add", ModelEnum.PRODUCT.getValue() + "_新增"),
     PRODUCT_DEL(ClzConstant.PRODUCT_COMMAND + ".delete", ModelEnum.PRODUCT.getKey(),"delete", ModelEnum.PRODUCT.getValue() + "_删除"),
