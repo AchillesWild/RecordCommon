@@ -51,7 +51,7 @@ public enum ModelFunctionEnum {
     NOTE_GET_LAST_DOWNLOAD_COUNT(ClzConstant.NOTE_QUERY + ".getLastDownloadCount", ModelEnum.NOTE.getKey(),"getLastDownloadCount", ModelEnum.NOTE.getValue() + "_获取可导出excel次数"),
     NOTE_GET_BY_ID_AND_CONDITION(ClzConstant.NOTE_QUERY + ".getByIdAndCondition", ModelEnum.NOTE.getKey(),"getByIdAndCondition", ModelEnum.NOTE.getValue() + "_根据id和其它条件查询"),
 
-    NOTE_DATE_GET_DATE_TO_COUNT_MAP(ClzConstant.NOTE_DATE_QUERY + ".getDateToCountMapByMonth", ModelEnum.NOTE_CALENDAR.getKey(),"getDateToCountMapByMonth", ModelEnum.NOTE_CALENDAR.getValue() + "_日历"),
+    NOTE_DATE_GET_LIST_MAP(ClzConstant.NOTE_DATE_QUERY + ".getListMapByMonth", ModelEnum.NOTE_CALENDAR.getKey(),"getListMapByMonth", ModelEnum.NOTE_CALENDAR.getValue() + "_日历"),
 
     //--------------------------------------------- notes  start ----------------------------------------------------------------
     NOTES_ADD(ClzConstant.NOTES_COMMAND + ".add", ModelEnum.NOTES.getKey(),"add", ModelEnum.NOTES.getValue() + "_新增"),
@@ -74,7 +74,7 @@ public enum ModelFunctionEnum {
     NOTES_GET_LAST_DOWNLOAD_COUNT(ClzConstant.NOTES_QUERY + ".getLastDownloadCount", ModelEnum.NOTES.getKey(),"getLastDownloadCount", ModelEnum.NOTES.getValue() + "_获取可导出excel次数"),
     NOTES_GET_BY_ID_AND_CONDITION(ClzConstant.NOTES_QUERY + ".getByIdAndCondition", ModelEnum.NOTES.getKey(),"getByIdAndCondition", ModelEnum.NOTES.getValue() + "_根据id和其它条件查询"),
 
-    NOTES_DATE_GET_DATE_TO_COUNT_MAP(ClzConstant.NOTES_DATE_QUERY + ".getDateToCountMapByMonth", ModelEnum.NOTES_CALENDAR.getKey(),"getDateToCountMapByMonth", ModelEnum.NOTES_CALENDAR.getValue() + "_日历"),
+    NOTES_DATE_GET_LIST_MAP(ClzConstant.NOTES_DATE_QUERY + ".getListMapByMonth", ModelEnum.NOTES_CALENDAR.getKey(),"getListMapByMonth", ModelEnum.NOTES_CALENDAR.getValue() + "_日历"),
 
     //--------------------------------------------- finance  start ----------------------------------------------------------------
     FINANCE_ADD(ClzConstant.FINANCE_COMMAND + ".add", ModelEnum.FINANCE.getKey(),"add", ModelEnum.FINANCE.getValue() + "_新增"),
