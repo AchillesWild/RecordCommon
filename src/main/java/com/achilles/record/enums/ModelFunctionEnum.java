@@ -111,6 +111,7 @@ public enum ModelFunctionEnum {
     FINANCE_WEEK_DOWNLOAD_LIST(ClzConstant.FINANCE_WEEK_QUERY + ".downloadList", ModelEnum.FINANCE_WEEK.getKey(),"downloadList", ModelEnum.FINANCE_WEEK.getValue() + "_下载列表"),
     FINANCE_WEEK_DOWNLOAD_WEEK_DETAIL(ClzConstant.FINANCE_WEEK_QUERY + ".downloadWeekDetail", ModelEnum.FINANCE_WEEK.getKey(),"downloadWeekDetail", ModelEnum.FINANCE_WEEK.getValue() + "_下载详细"),
     FINANCE_WEEK_LIST(ClzConstant.FINANCE_WEEK_QUERY + ".getPageList", ModelEnum.FINANCE_WEEK.getKey(),"getPageList", ModelEnum.FINANCE_WEEK.getValue() + "_查询列表"),
+    FINANCE_WEEK_LIST_DETAIL(ClzConstant.FINANCE_WEEK_QUERY + ".getPageListDetail", ModelEnum.FINANCE_WEEK.getKey(),"getPageListDetail", ModelEnum.FINANCE_WEEK.getValue() + "_查询列表及详细"),
     FINANCE_WEEK_GET_SUM(ClzConstant.FINANCE_WEEK_QUERY + ".getSumAmount", ModelEnum.FINANCE_WEEK.getKey(),"getSumAmount", ModelEnum.FINANCE_WEEK.getValue() + "_获取汇总值"),
     FINANCE_WEEK_GET_LAST_DOWNLOAD_COUNT(ClzConstant.FINANCE_WEEK_QUERY + ".getLastDownloadCount", ModelEnum.FINANCE_WEEK.getKey(),"getLastDownloadCount", ModelEnum.FINANCE_WEEK.getValue() + "_获取可导出excel次数"),
     FINANCE_WEEK_CLASSIFIED_WEEK(ClzConstant.FINANCE_WEEK_QUERY + ".getClassifiedWeek", ModelEnum.FINANCE_WEEK.getKey(),"getClassifiedWeek", ModelEnum.FINANCE_WEEK.getValue() + "_查询某周分类汇总"),
