@@ -12,7 +12,7 @@ public class FinanceTransfer extends BaseEntity {
 
     private Integer flowType;
 
-    private String object;
+    private String related;
 
     private Integer tradeDate;
 
