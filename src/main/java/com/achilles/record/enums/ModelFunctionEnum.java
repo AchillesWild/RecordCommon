@@ -80,8 +80,6 @@ public enum ModelFunctionEnum {
     FINANCE_ADD(ClzConstant.FINANCE_COMMAND + ".add", ModelEnum.FINANCE.getKey(),"add", ModelEnum.FINANCE.getValue() + "_新增"),
     FINANCE_DEL(ClzConstant.FINANCE_COMMAND + ".delete", ModelEnum.FINANCE.getKey(),"delete", ModelEnum.FINANCE.getValue() + "_删除"),
     FINANCE_UPDATE(ClzConstant.FINANCE_COMMAND + ".update", ModelEnum.FINANCE.getKey(),"update", ModelEnum.FINANCE.getValue() + "_修改"),
-    FINANCE_DEL_RECYCLE(ClzConstant.FINANCE_COMMAND + ".deleteRecycle", ModelEnum.FINANCE.getKey(),"deleteRecycle", ModelEnum.FINANCE.getValue() + "_删除回收站"),
-    FINANCE_RECYCLE(ClzConstant.FINANCE_COMMAND + ".recycle", ModelEnum.FINANCE.getKey(),"recycle", ModelEnum.FINANCE.getValue() + "_还原回收站"),
 
     FINANCE_DOWNLOAD(ClzConstant.FINANCE_QUERY + ".download", ModelEnum.FINANCE.getKey(),"download", ModelEnum.FINANCE.getValue() + "_下载"),
     FINANCE_GET(ClzConstant.FINANCE_QUERY + ".get", ModelEnum.FINANCE.getKey(),"get", ModelEnum.FINANCE.getValue() + "_根据id查询"),
@@ -166,6 +164,38 @@ public enum ModelFunctionEnum {
     FINANCE_COMMON_GET_SUM(ClzConstant.FINANCE_COMMON_QUERY + ".getSumAmount", ModelEnum.FINANCE_COMMON.getKey(),"getSumAmount", ModelEnum.FINANCE_COMMON.getValue() + "_获取总额"),
     FINANCE_COMMON_GET_THIS_SUM(ClzConstant.FINANCE_COMMON_QUERY + ".getThisSum", ModelEnum.FINANCE_COMMON.getKey(),"getThisSum", ModelEnum.FINANCE_COMMON.getValue() + "_获取当天,本周..汇总"),
 
+
+    FINANCE_REIMBURSE_TRANSACTION_TYPE_ADD(ClzConstant.FINANCE_REIMBURSE_TRANSACTION_COMMAND + ".add", ModelEnum.FINANCE_REIMBURSE_TRANSACTION.getKey(),"add", ModelEnum.FINANCE_REIMBURSE_TRANSACTION.getValue() + "_新增"),
+    FINANCE_REIMBURSE_TRANSACTION_TYPE_DEL(ClzConstant.FINANCE_REIMBURSE_TRANSACTION_COMMAND + ".delete", ModelEnum.FINANCE_REIMBURSE_TRANSACTION.getKey(),"delete", ModelEnum.FINANCE_REIMBURSE_TRANSACTION.getValue() + "_删除"),
+    FINANCE_REIMBURSE_TRANSACTION_TYPE_UPDATE(ClzConstant.FINANCE_REIMBURSE_TRANSACTION_COMMAND + ".update", ModelEnum.FINANCE_REIMBURSE_TRANSACTION.getKey(),"update", ModelEnum.FINANCE_REIMBURSE_TRANSACTION.getValue() + "_修改"),
+
+    FINANCE_REIMBURSE_TRANSACTION_TYPE_GET(ClzConstant.FINANCE_REIMBURSE_TRANSACTION_QUERY + ".get", ModelEnum.FINANCE_REIMBURSE_TRANSACTION.getKey(),"get", ModelEnum.FINANCE_REIMBURSE_TRANSACTION.getValue() + "_根据id查询"),
+    FINANCE_REIMBURSE_TRANSACTION_TYPE_LIST(ClzConstant.FINANCE_REIMBURSE_TRANSACTION_QUERY + ".getPageList", ModelEnum.FINANCE_REIMBURSE_TRANSACTION.getKey(),"getPageList", ModelEnum.FINANCE_REIMBURSE_TRANSACTION.getValue() + "_查询列表"),
+    FINANCE_REIMBURSE_TRANSACTION_TYPE_GET_SELECT(ClzConstant.FINANCE_REIMBURSE_TRANSACTION_QUERY + ".getSelect", ModelEnum.FINANCE_REIMBURSE_TRANSACTION.getKey(),"getSelect", ModelEnum.FINANCE_REIMBURSE_TRANSACTION.getValue() + "_查询所有(下拉菜单)"),
+    FINANCE_REIMBURSE_TRANSACTION_GET_BY_ID_AND_CONDITION(ClzConstant.FINANCE_REIMBURSE_TRANSACTION_QUERY + ".getByIdAndCondition", ModelEnum.FINANCE_REIMBURSE_TRANSACTION.getKey(),"getByIdAndCondition", ModelEnum.FINANCE_REIMBURSE_TRANSACTION.getValue() + "_根据id和其它条件查询"),
+
+
+    FINANCE_REIMBURSE_ADD(ClzConstant.FINANCE_REIMBURSE_COMMAND + ".add", ModelEnum.FINANCE_REIMBURSE.getKey(),"add", ModelEnum.FINANCE_REIMBURSE.getValue() + "_新增"),
+    FINANCE_REIMBURSE_DEL(ClzConstant.FINANCE_REIMBURSE_COMMAND + ".delete", ModelEnum.FINANCE_REIMBURSE.getKey(),"delete", ModelEnum.FINANCE_REIMBURSE.getValue() + "_删除"),
+    FINANCE_REIMBURSE_UPDATE(ClzConstant.FINANCE_REIMBURSE_COMMAND + ".update", ModelEnum.FINANCE_REIMBURSE.getKey(),"update", ModelEnum.FINANCE_REIMBURSE.getValue() + "_修改"),
+
+    FINANCE_REIMBURSE_LIST_DOWNLOAD(ClzConstant.FINANCE_REIMBURSE_QUERY + ".downloadList", ModelEnum.FINANCE_REIMBURSE.getKey(),"downloadList", ModelEnum.FINANCE_REIMBURSE.getValue() + "_下载"),
+    FINANCE_REIMBURSE_GET(ClzConstant.FINANCE_REIMBURSE_QUERY + ".get", ModelEnum.FINANCE_REIMBURSE.getKey(),"get", ModelEnum.FINANCE_REIMBURSE.getValue() + "_根据id查询"),
+    FINANCE_REIMBURSE_LIST(ClzConstant.FINANCE_REIMBURSE_QUERY + ".getPageList", ModelEnum.FINANCE_REIMBURSE.getKey(),"getPageList", ModelEnum.FINANCE_REIMBURSE.getValue() + "_查询列表"),
+    FINANCE_REIMBURSE_GET_SUM(ClzConstant.FINANCE_REIMBURSE_QUERY + ".getSum", ModelEnum.FINANCE_REIMBURSE.getKey(),"getSum", ModelEnum.FINANCE_REIMBURSE.getValue() + "_查询汇总"),
+    FINANCE_REIMBURSE_GET_IMG(ClzConstant.FINANCE_REIMBURSE_QUERY + ".getBigImg", ModelEnum.FINANCE_REIMBURSE.getKey(),"getBigImg", ModelEnum.FINANCE_REIMBURSE.getValue() + "_获取大图"),
+    FINANCE_REIMBURSE_GET_LAST_DOWNLOAD_COUNT(ClzConstant.FINANCE_REIMBURSE_QUERY + ".getLastDownloadCount", ModelEnum.FINANCE_REIMBURSE.getKey(),"getLastDownloadCount", ModelEnum.FINANCE_REIMBURSE.getValue() + "_获取可导出excel次数"),
+    FINANCE_REIMBURSE_GET_BY_ID_AND_CONDITION(ClzConstant.FINANCE_REIMBURSE_QUERY + ".getByIdAndCondition", ModelEnum.FINANCE_REIMBURSE.getKey(),"getByIdAndCondition", ModelEnum.FINANCE_REIMBURSE.getValue() + "_根据id和其它条件查询"),
+
+
+    FINANCE_TRANSFER_ADD(ClzConstant.FINANCE_TRANSFER_COMMAND + ".add", ModelEnum.FINANCE_TRANSFER.getKey(),"add", ModelEnum.FINANCE_TRANSFER.getValue() + "_新增"),
+    FINANCE_TRANSFER_DEL(ClzConstant.FINANCE_TRANSFER_COMMAND + ".delete", ModelEnum.FINANCE_TRANSFER.getKey(),"delete", ModelEnum.FINANCE_TRANSFER.getValue() + "_删除"),
+    FINANCE_TRANSFER_UPDATE(ClzConstant.FINANCE_TRANSFER_COMMAND + ".update", ModelEnum.FINANCE_TRANSFER.getKey(),"update", ModelEnum.FINANCE_TRANSFER.getValue() + "_修改"),
+
+    FINANCE_TRANSFER_GET(ClzConstant.FINANCE_TRANSFER_QUERY + ".get", ModelEnum.FINANCE_TRANSFER.getKey(),"get", ModelEnum.FINANCE_TRANSFER.getValue() + "_根据id查询"),
+    FINANCE_TRANSFER_LIST(ClzConstant.FINANCE_TRANSFER_QUERY + ".getPageList", ModelEnum.FINANCE_TRANSFER.getKey(),"getPageList", ModelEnum.FINANCE_TRANSFER.getValue() + "_查询列表"),
+    FINANCE_TRANSFER_GET_SELECT(ClzConstant.FINANCE_TRANSFER_QUERY + ".getSelect", ModelEnum.FINANCE_TRANSFER.getKey(),"getSelect", ModelEnum.FINANCE_TRANSFER.getValue() + "_查询所有(下拉菜单)"),
+    FINANCE_TRANSFER_GET_BY_ID_AND_CONDITION(ClzConstant.FINANCE_TRANSFER_QUERY + ".getByIdAndCondition", ModelEnum.FINANCE_TRANSFER.getKey(),"getByIdAndCondition", ModelEnum.FINANCE_TRANSFER.getValue() + "_根据id和其它条件查询"),
 
     //--------------------------------------------- product  start ----------------------------------------------------------------
     PRODUCT_OUTPUT_ADD(ClzConstant.PRODUCT_OUTPUT_COMMAND + ".add", ModelEnum.PRODUCT_OUTPUT.getKey(),"add", ModelEnum.PRODUCT_OUTPUT.getValue() + "_新增"),

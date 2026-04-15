@@ -28,6 +28,17 @@ public class ClzConstant {
 
     public static final String FINANCE_COMMON_QUERY = "com.achilles.server.controller.finance.FinanceCommonQryController";
 
+
+    public static final String FINANCE_TRANSFER_QUERY = "com.achilles.server.controller.finance.FinanceTransferQryController";
+    public static final String FINANCE_TRANSFER_COMMAND = "com.achilles.server.controller.finance.FinanceTransferCommandController";
+
+    public static final String FINANCE_REIMBURSE_QUERY = "com.achilles.server.controller.finance.FinanceReimburseQryController";
+    public static final String FINANCE_REIMBURSE_COMMAND = "com.achilles.server.controller.finance.FinanceReimburseCommandController";
+
+    public static final String FINANCE_REIMBURSE_TRANSACTION_QUERY = "com.achilles.server.controller.finance.FinanceReimburseTransactionQryController";
+    public static final String FINANCE_REIMBURSE_TRANSACTION_COMMAND = "com.achilles.server.controller.finance.FinanceReimburseTransactionCommandController";
+
+
     public static final String PRODUCT_OUTPUT_COMMAND = "com.achilles.server.controller.product.ProductOutputCommandController";
     public static final String PRODUCT_OUTPUT_QUERY = "com.achilles.server.controller.product.ProductOutputQryController";
     public static final String PRODUCT_OUTPUT_DATE_QUERY = "com.achilles.server.controller.product.ProductOutputDateQryController";
