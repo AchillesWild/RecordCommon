@@ -55,6 +55,9 @@ public class ConfigConstant {
     public static final String ONE_MONTH_FINANCE_TRANSFER_IMG_LIMIT_COUNT = "oneMonthFinanceTransferImgLimitCount";
 
 
+    public static final String FINANCE_REIMBURSE_TRANSACTION_LIMIT_COUNT = "financeReimburseTransactionLimitCount";
+
+
     public static final String PRODUCT_LIMIT_COUNT = "productLimitCount";
     public static final String ONE_DAY_PRODUCT_OUTPUT_LIMIT_COUNT = "oneDayProductOutLimitCount";
 
