@@ -178,6 +178,9 @@ public enum ModelFunctionEnum {
     FINANCE_REIMBURSE_ADD(ClzConstant.FINANCE_REIMBURSE_COMMAND + ".add", ModelEnum.FINANCE_REIMBURSE.getKey(),"add", ModelEnum.FINANCE_REIMBURSE.getValue() + "_新增"),
     FINANCE_REIMBURSE_DEL(ClzConstant.FINANCE_REIMBURSE_COMMAND + ".delete", ModelEnum.FINANCE_REIMBURSE.getKey(),"delete", ModelEnum.FINANCE_REIMBURSE.getValue() + "_删除"),
     FINANCE_REIMBURSE_UPDATE(ClzConstant.FINANCE_REIMBURSE_COMMAND + ".update", ModelEnum.FINANCE_REIMBURSE.getKey(),"update", ModelEnum.FINANCE_REIMBURSE.getValue() + "_修改"),
+    FINANCE_REIMBURSE_UPDATE_INITIAL(ClzConstant.FINANCE_REIMBURSE_COMMAND + ".updateInitial", ModelEnum.FINANCE_REIMBURSE.getKey(),"updateInitial", ModelEnum.FINANCE_REIMBURSE.getValue() + "_改为未处理"),
+    FINANCE_REIMBURSE_UPDATE_DOING(ClzConstant.FINANCE_REIMBURSE_COMMAND + ".updateDoing", ModelEnum.FINANCE_REIMBURSE.getKey(),"updateDoing", ModelEnum.FINANCE_REIMBURSE.getValue() + "_改为处理中"),
+    FINANCE_REIMBURSE_UPDATE_DONE(ClzConstant.FINANCE_REIMBURSE_COMMAND + ".updateDone", ModelEnum.FINANCE_REIMBURSE.getKey(),"updateDone", ModelEnum.FINANCE_REIMBURSE.getValue() + "_改为已完成"),
 
     FINANCE_REIMBURSE_LIST_DOWNLOAD(ClzConstant.FINANCE_REIMBURSE_QUERY + ".downloadList", ModelEnum.FINANCE_REIMBURSE.getKey(),"downloadList", ModelEnum.FINANCE_REIMBURSE.getValue() + "_下载"),
     FINANCE_REIMBURSE_GET(ClzConstant.FINANCE_REIMBURSE_QUERY + ".get", ModelEnum.FINANCE_REIMBURSE.getKey(),"get", ModelEnum.FINANCE_REIMBURSE.getValue() + "_根据id查询"),

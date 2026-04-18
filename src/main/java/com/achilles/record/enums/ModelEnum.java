@@ -24,7 +24,7 @@ public enum ModelEnum {
     FINANCE_YEAR("finance_year","账务-年", 4),
     FINANCE_TRANSACTION_TYPE("finance_transaction_type","收/支类型", 4),
     FINANCE_COMMON("finance_common","账务-公用", 4),
-    FINANCE_TRANSFER("finance_transfer","账务-转账", 4),
+    FINANCE_TRANSFER("finance_transfer","账务-转账明细", 4),
     FINANCE_REIMBURSE_TRANSACTION("finance_reimburse_transaction","账务-报销类型", 4),
     FINANCE_REIMBURSE("finance_reimburse","账务-报销明细", 4),
 
