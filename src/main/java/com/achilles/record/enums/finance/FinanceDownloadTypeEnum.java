@@ -33,6 +33,9 @@ public enum FinanceDownloadTypeEnum {
 
     FINANCE_REIMBURSE_LIST(60, "FINANCE_REIMBURSE_LIST"),
 
+
+    FINANCE_TO_INCOME_OR_PAY_LIST(70, "FINANCE_TO_INCOME_OR_PAY_LIST"),
+
     ;
 
     private Integer key;
