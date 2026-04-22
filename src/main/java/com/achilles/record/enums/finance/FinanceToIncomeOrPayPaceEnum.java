@@ -7,11 +7,11 @@ import java.util.Map;
 public enum FinanceToIncomeOrPayPaceEnum {
 
 
-    INITIAL(0,"待处理"),
+    INITIAL(0,"待结款"),
 
-//    DOING(1,"处理中"),
+//    DOING(1,"结算中"),
 
-    DONE(2,"已完成");
+    DONE(2,"已结款");
 
     private Integer key;
     private String value;
