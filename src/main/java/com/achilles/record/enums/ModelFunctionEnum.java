@@ -200,6 +200,27 @@ public enum ModelFunctionEnum {
     FINANCE_TRANSFER_GET_SELECT(ClzConstant.FINANCE_TRANSFER_QUERY + ".getSelect", ModelEnum.FINANCE_TRANSFER.getKey(),"getSelect", ModelEnum.FINANCE_TRANSFER.getValue() + "_查询所有(下拉菜单)"),
     FINANCE_TRANSFER_GET_BY_ID_AND_CONDITION(ClzConstant.FINANCE_TRANSFER_QUERY + ".getByIdAndCondition", ModelEnum.FINANCE_TRANSFER.getKey(),"getByIdAndCondition", ModelEnum.FINANCE_TRANSFER.getValue() + "_根据id和其它条件查询"),
 
+
+    FINANCE_TO_INCOME_ADD(ClzConstant.FINANCE_TO_INCOME_COMMAND + ".add", ModelEnum.FINANCE_TO_INCOME.getKey(),"add", ModelEnum.FINANCE_TO_INCOME.getValue() + "_新增"),
+    FINANCE_TO_INCOME_DEL(ClzConstant.FINANCE_TO_INCOME_COMMAND + ".delete", ModelEnum.FINANCE_TO_INCOME.getKey(),"delete", ModelEnum.FINANCE_TO_INCOME.getValue() + "_删除"),
+    FINANCE_TO_INCOME_UPDATE(ClzConstant.FINANCE_TO_INCOME_COMMAND + ".update", ModelEnum.FINANCE_TO_INCOME.getKey(),"update", ModelEnum.FINANCE_TO_INCOME.getValue() + "_修改"),
+    FINANCE_TO_INCOME_UPDATE_DONE(ClzConstant.FINANCE_TO_INCOME_COMMAND + ".updateDone", ModelEnum.FINANCE_TO_INCOME.getKey(),"updateDone", ModelEnum.FINANCE_TO_INCOME.getValue() + "_改为已完成"),
+
+    FINANCE_TO_INCOME_LIST_DOWNLOAD(ClzConstant.FINANCE_TO_INCOME_QUERY + ".downloadList", ModelEnum.FINANCE_TO_INCOME.getKey(),"downloadList", ModelEnum.FINANCE_TO_INCOME.getValue() + "_下载"),
+    FINANCE_TO_INCOME_GET(ClzConstant.FINANCE_TO_INCOME_QUERY + ".get", ModelEnum.FINANCE_TO_INCOME.getKey(),"get", ModelEnum.FINANCE_TO_INCOME.getValue() + "_根据id查询"),
+    FINANCE_TO_INCOME_LIST(ClzConstant.FINANCE_TO_INCOME_QUERY + ".getPageList", ModelEnum.FINANCE_TO_INCOME.getKey(),"getPageList", ModelEnum.FINANCE_TO_INCOME.getValue() + "_查询列表"),
+    FINANCE_TO_INCOME_GET_BY_ID_AND_CONDITION(ClzConstant.FINANCE_TO_INCOME_QUERY + ".getByIdAndCondition", ModelEnum.FINANCE_TO_INCOME.getKey(),"getByIdAndCondition", ModelEnum.FINANCE_TO_INCOME.getValue() + "_根据id和其它条件查询"),
+
+    FINANCE_TO_PAY_ADD(ClzConstant.FINANCE_TO_PAY_COMMAND + ".add", ModelEnum.FINANCE_TO_PAY.getKey(),"add", ModelEnum.FINANCE_TO_PAY.getValue() + "_新增"),
+    FINANCE_TO_PAY_DEL(ClzConstant.FINANCE_TO_PAY_COMMAND + ".delete", ModelEnum.FINANCE_TO_PAY.getKey(),"delete", ModelEnum.FINANCE_TO_PAY.getValue() + "_删除"),
+    FINANCE_TO_PAY_UPDATE(ClzConstant.FINANCE_TO_PAY_COMMAND + ".update", ModelEnum.FINANCE_TO_PAY.getKey(),"update", ModelEnum.FINANCE_TO_PAY.getValue() + "_修改"),
+    FINANCE_TO_PAY_UPDATE_DONE(ClzConstant.FINANCE_TO_PAY_COMMAND + ".updateDone", ModelEnum.FINANCE_TO_PAY.getKey(),"updateDone", ModelEnum.FINANCE_TO_PAY.getValue() + "_改为已完成"),
+
+    FINANCE_TO_PAY_LIST_DOWNLOAD(ClzConstant.FINANCE_TO_PAY_QUERY + ".downloadList", ModelEnum.FINANCE_TO_PAY.getKey(),"downloadList", ModelEnum.FINANCE_TO_PAY.getValue() + "_下载"),
+    FINANCE_TO_PAY_GET(ClzConstant.FINANCE_TO_PAY_QUERY + ".get", ModelEnum.FINANCE_TO_PAY.getKey(),"get", ModelEnum.FINANCE_TO_PAY.getValue() + "_根据id查询"),
+    FINANCE_TO_PAY_LIST(ClzConstant.FINANCE_TO_PAY_QUERY + ".getPageList", ModelEnum.FINANCE_TO_PAY.getKey(),"getPageList", ModelEnum.FINANCE_TO_PAY.getValue() + "_查询列表"),
+    FINANCE_TO_PAY_GET_BY_ID_AND_CONDITION(ClzConstant.FINANCE_TO_PAY_QUERY + ".getByIdAndCondition", ModelEnum.FINANCE_TO_PAY.getKey(),"getByIdAndCondition", ModelEnum.FINANCE_TO_PAY.getValue() + "_根据id和其它条件查询"),
+
     //--------------------------------------------- product  start ----------------------------------------------------------------
     PRODUCT_OUTPUT_ADD(ClzConstant.PRODUCT_OUTPUT_COMMAND + ".add", ModelEnum.PRODUCT_OUTPUT.getKey(),"add", ModelEnum.PRODUCT_OUTPUT.getValue() + "_新增"),
     PRODUCT_OUTPUT_DEL(ClzConstant.PRODUCT_OUTPUT_COMMAND + ".delete", ModelEnum.PRODUCT_OUTPUT.getKey(),"delete", ModelEnum.PRODUCT_OUTPUT.getValue() + "_删除"),

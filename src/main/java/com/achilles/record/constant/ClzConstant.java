@@ -34,10 +34,14 @@ public class ClzConstant {
 
     public static final String FINANCE_REIMBURSE_QUERY = "com.achilles.server.controller.finance.FinanceReimburseQryController";
     public static final String FINANCE_REIMBURSE_COMMAND = "com.achilles.server.controller.finance.FinanceReimburseCommandController";
-
     public static final String FINANCE_REIMBURSE_TRANSACTION_QUERY = "com.achilles.server.controller.finance.FinanceReimburseTransactionQryController";
     public static final String FINANCE_REIMBURSE_TRANSACTION_COMMAND = "com.achilles.server.controller.finance.FinanceReimburseTransactionCommandController";
 
+    public static final String FINANCE_TO_INCOME_QUERY = "com.achilles.server.controller.finance.FinanceToIncomeQryController";
+    public static final String FINANCE_TO_INCOME_COMMAND = "com.achilles.server.controller.finance.FinanceToIncomeCommandController";
+
+    public static final String FINANCE_TO_PAY_QUERY = "com.achilles.server.controller.finance.FinanceToPayQryController";
+    public static final String FINANCE_TO_PAY_COMMAND = "com.achilles.server.controller.finance.FinanceToPayCommandController";
 
     public static final String PRODUCT_OUTPUT_COMMAND = "com.achilles.server.controller.product.ProductOutputCommandController";
     public static final String PRODUCT_OUTPUT_QUERY = "com.achilles.server.controller.product.ProductOutputQryController";

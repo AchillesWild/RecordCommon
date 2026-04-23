@@ -28,6 +28,9 @@ public enum ModelEnum {
     FINANCE_REIMBURSE_TRANSACTION("finance_reimburse_transaction","账务-报销类型", 4),
     FINANCE_REIMBURSE("finance_reimburse","账务-报销明细", 4),
 
+    FINANCE_TO_INCOME("finance_to_income","账务-待收明细", 4),
+    FINANCE_TO_PAY("finance_to_pay","账务-待付明细", 4),
+
 
     PRODUCT_OUTPUT("product_output", "计量-明细", 5),
     PRODUCT_OUTPUT_CALENDAR("product_output_calendar","计量-日历", 6),
