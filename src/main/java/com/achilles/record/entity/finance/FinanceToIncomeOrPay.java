@@ -22,8 +22,6 @@ public class FinanceToIncomeOrPay extends BaseEntity {
 
     private Integer appointedDate;
 
-    private Integer finishDate;
-
     private Integer hasImg;
 
     private Integer pace;
