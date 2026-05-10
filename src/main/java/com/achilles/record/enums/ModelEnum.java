@@ -34,6 +34,8 @@ public enum ModelEnum {
 
     PRODUCT_OUTPUT("product_output", "计量-明细", 5),
     PRODUCT_OUTPUT_CALENDAR("product_output_calendar","计量-日历", 6),
+    PRODUCT_OUTPUT_DATE("product_output_date", "计量-日", 6),
+    PRODUCT_OUTPUT_WEEK("product_output_week", "计量-周", 6),
     PRODUCT_OUTPUT_MONTH("product_output_month", "计量-月度", 6),
     PRODUCT_OUTPUT_YEAR("product_output_year", "计量-年度", 6),
     PRODUCT("product", "计量物", 7),

@@ -46,11 +46,15 @@ public class ClzConstant {
     public static final String PRODUCT_OUTPUT_COMMAND = "com.achilles.server.controller.product.ProductOutputCommandController";
     public static final String PRODUCT_OUTPUT_QUERY = "com.achilles.server.controller.product.ProductOutputQryController";
     public static final String PRODUCT_OUTPUT_DATE_QUERY = "com.achilles.server.controller.product.ProductOutputDateQryController";
-    public static final String PRODUCT_COMMAND = "com.achilles.server.controller.product.ProductCommandController";
-    public static final String PRODUCT_QUERY = "com.achilles.server.controller.product.ProductQryController";
+
+    public static final String PRODUCT_OUTPUT_WEEK_QUERY = "com.achilles.server.controller.product.ProductOutputWeekQryController";
+
     public static final String PRODUCT_OUTPUT_MONTH_COMMAND = "com.achilles.server.controller.product.ProductOutputMonthCommandController";
     public static final String PRODUCT_OUTPUT_MONTH_QUERY = "com.achilles.server.controller.product.ProductOutputMonthQryController";
     public static final String PRODUCT_OUTPUT_YEAR_QUERY = "com.achilles.server.controller.product.ProductOutputYearQryController";
+
+    public static final String PRODUCT_COMMAND = "com.achilles.server.controller.product.ProductCommandController";
+    public static final String PRODUCT_QUERY = "com.achilles.server.controller.product.ProductQryController";
 
     public static final String GOODS_TRADE_COMMAND = "com.achilles.server.controller.goods.GoodsTradeCommandController";
     public static final String GOODS_TRADE_QUERY = "com.achilles.server.controller.goods.GoodsTradeQryController";

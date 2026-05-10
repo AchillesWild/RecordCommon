@@ -236,6 +236,32 @@ public enum ModelFunctionEnum {
     PRODUCT_OUTPUT_LIST_SIMPLE(ClzConstant.PRODUCT_OUTPUT_QUERY + ".getSimpleListByDate", ModelEnum.PRODUCT_OUTPUT_CALENDAR.getKey(),"getSimpleListByDate", ModelEnum.PRODUCT_OUTPUT_CALENDAR.getValue() + "_日历"),
 
     PRODUCT_OUTPUT_DATE_GET_LIST_MAP(ClzConstant.PRODUCT_OUTPUT_DATE_QUERY + ".getListMapByMonth", ModelEnum.PRODUCT_OUTPUT_CALENDAR.getKey(),"getListMapByMonth", ModelEnum.PRODUCT_OUTPUT_CALENDAR.getValue() + "_日历"),
+    PRODUCT_OUTPUT_DATE_LIST(ClzConstant.PRODUCT_OUTPUT_DATE_QUERY + ".getPageList", ModelEnum.PRODUCT_OUTPUT_DATE.getKey(),"getPageList", ModelEnum.PRODUCT_OUTPUT_DATE.getValue() + "_查询列表"),
+    PRODUCT_OUTPUT_DATE_LIST_DATE(ClzConstant.PRODUCT_OUTPUT_DATE_QUERY + ".getDatePageList", ModelEnum.PRODUCT_OUTPUT_DATE.getKey(),"getDatePageList", ModelEnum.PRODUCT_OUTPUT_DATE.getValue() + "_查询列表"),
+    PRODUCT_OUTPUT_DATE_GET_SUM(ClzConstant.PRODUCT_OUTPUT_DATE_QUERY + ".getSumNumber", ModelEnum.PRODUCT_OUTPUT_DATE.getKey(),"getSumNumber", ModelEnum.PRODUCT_OUTPUT_DATE.getValue() + "_查询某个计量物的汇总"),
+
+    PRODUCT_OUTPUT_WEEK_LIST(ClzConstant.PRODUCT_OUTPUT_WEEK_QUERY + ".getPageList", ModelEnum.PRODUCT_OUTPUT_WEEK.getKey(),"getPageList", ModelEnum.PRODUCT_OUTPUT_WEEK.getValue() + "_查询列表"),
+    PRODUCT_OUTPUT_WEEK_LIST_WEEK(ClzConstant.PRODUCT_OUTPUT_WEEK_QUERY + ".getWeekPageList", ModelEnum.PRODUCT_OUTPUT_WEEK.getKey(),"getWeekPageList", ModelEnum.PRODUCT_OUTPUT_WEEK.getValue() + "_查询列表"),
+    PRODUCT_OUTPUT_WEEK_GET_SUM(ClzConstant.PRODUCT_OUTPUT_WEEK_QUERY + ".getSumNumber", ModelEnum.PRODUCT_OUTPUT_WEEK.getKey(),"getSumNumber", ModelEnum.PRODUCT_OUTPUT_WEEK.getValue() + "_查询某个计量物的汇总"),
+
+    PRODUCT_OUTPUT_MONTH_LIST(ClzConstant.PRODUCT_OUTPUT_MONTH_QUERY + ".getPageList", ModelEnum.PRODUCT_OUTPUT_MONTH.getKey(),"getPageList", ModelEnum.PRODUCT_OUTPUT_MONTH.getValue() + "_查询列表"),
+    PRODUCT_OUTPUT_MONTH_LIST_MONTH(ClzConstant.PRODUCT_OUTPUT_MONTH_QUERY + ".getMonthPageList", ModelEnum.PRODUCT_OUTPUT_MONTH.getKey(),"getMonthPageList", ModelEnum.PRODUCT_OUTPUT_MONTH.getValue() + "_查询列表"),
+    PRODUCT_OUTPUT_MONTH_GET(ClzConstant.PRODUCT_OUTPUT_MONTH_QUERY + ".getByMonth", ModelEnum.PRODUCT_OUTPUT_MONTH.getKey(),"getByMonth", ModelEnum.PRODUCT_OUTPUT_MONTH.getValue() + "_查询某个月"),
+    PRODUCT_OUTPUT_MONTH_DOWNLOAD(ClzConstant.PRODUCT_OUTPUT_MONTH_QUERY + ".download", ModelEnum.PRODUCT_OUTPUT_MONTH.getKey(),"download", ModelEnum.PRODUCT_OUTPUT_MONTH.getValue() + "下载"),
+    PRODUCT_OUTPUT_MONTH_DOWNLOAD_DETAIL(ClzConstant.PRODUCT_OUTPUT_MONTH_QUERY + ".downloadMonthDetail", ModelEnum.PRODUCT_OUTPUT_MONTH.getKey(),"downloadMonthDetail", ModelEnum.PRODUCT_OUTPUT_MONTH.getValue() + "下载某月明细"),
+    PRODUCT_OUTPUT_MONTH_GET_SUM(ClzConstant.PRODUCT_OUTPUT_MONTH_QUERY + ".getSumNumber", ModelEnum.PRODUCT_OUTPUT_MONTH.getKey(),"getSumNumber", ModelEnum.PRODUCT_OUTPUT_MONTH.getValue() + "_查询某个计量物的汇总"),
+    PRODUCT_OUTPUT_MONTH_GET_LAST_DOWNLOAD_COUNT(ClzConstant.PRODUCT_OUTPUT_MONTH_QUERY + ".getLastDownloadCount", ModelEnum.PRODUCT_OUTPUT_MONTH.getKey(),"getLastDownloadCount", ModelEnum.PRODUCT_OUTPUT_MONTH.getValue() + "_获取可导出excel次数"),
+
+    PRODUCT_OUTPUT_MONTH_TO_SUM(ClzConstant.PRODUCT_OUTPUT_MONTH_COMMAND + ".toSumByProductAndMonth", ModelEnum.PRODUCT_OUTPUT_MONTH.getKey(),"toSumByProductAndMonth", ModelEnum.PRODUCT_OUTPUT_MONTH.getValue() + "_汇总某个月"),
+    PRODUCT_OUTPUT_MONTH_TO_SUM_RECENT(ClzConstant.PRODUCT_OUTPUT_MONTH_COMMAND + ".toSumByRecentMonth", ModelEnum.PRODUCT_OUTPUT_MONTH.getKey(),"toSumByRecentMonth", ModelEnum.PRODUCT_OUTPUT_MONTH.getValue() + "_汇总最近几个月"),
+
+    PRODUCT_OUTPUT_YEAR_LIST(ClzConstant.PRODUCT_OUTPUT_YEAR_QUERY + ".getPageList", ModelEnum.PRODUCT_OUTPUT_YEAR.getKey(),"getPageList", ModelEnum.PRODUCT_OUTPUT_YEAR.getValue() + "_查询列表"),
+    PRODUCT_OUTPUT_YEAR_LIST_YEAR(ClzConstant.PRODUCT_OUTPUT_YEAR_QUERY + ".getYearPageList", ModelEnum.PRODUCT_OUTPUT_YEAR.getKey(),"getYearPageList", ModelEnum.PRODUCT_OUTPUT_YEAR.getValue() + "_查询列表"),
+    PRODUCT_OUTPUT_YEAR_DOWNLOAD(ClzConstant.PRODUCT_OUTPUT_YEAR_QUERY + ".download", ModelEnum.PRODUCT_OUTPUT_YEAR.getKey(),"download", ModelEnum.PRODUCT_OUTPUT_YEAR.getValue() + "下载"),
+    PRODUCT_OUTPUT_YEAR_DOWNLOAD_DETAIL(ClzConstant.PRODUCT_OUTPUT_YEAR_QUERY + ".downloadYearDetail", ModelEnum.PRODUCT_OUTPUT_YEAR.getKey(),"downloadYearDetail", ModelEnum.PRODUCT_OUTPUT_YEAR.getValue() + "下载某年明细"),
+    PRODUCT_OUTPUT_YEAR_GET_SUM(ClzConstant.PRODUCT_OUTPUT_YEAR_QUERY + ".getSumNumber", ModelEnum.PRODUCT_OUTPUT_YEAR.getKey(),"getSumNumber", ModelEnum.PRODUCT_OUTPUT_YEAR.getValue() + "_查询某个计量物的汇总"),
+    PRODUCT_OUTPUT_YEAR_GET_LAST_DOWNLOAD_COUNT(ClzConstant.PRODUCT_OUTPUT_YEAR_QUERY + ".getLastDownloadCount", ModelEnum.PRODUCT_OUTPUT_YEAR.getKey(),"getLastDownloadCount", ModelEnum.PRODUCT_OUTPUT_YEAR.getValue() + "_获取可导出excel次数"),
+
 
     PRODUCT_ADD(ClzConstant.PRODUCT_COMMAND + ".add", ModelEnum.PRODUCT.getKey(),"add", ModelEnum.PRODUCT.getValue() + "_新增"),
     PRODUCT_DEL(ClzConstant.PRODUCT_COMMAND + ".delete", ModelEnum.PRODUCT.getKey(),"delete", ModelEnum.PRODUCT.getValue() + "_删除"),
@@ -248,22 +274,6 @@ public enum ModelFunctionEnum {
     PRODUCT_GET_UNIT_SELECT(ClzConstant.PRODUCT_QUERY + ".getUnitSelect", ModelEnum.PRODUCT.getKey(),"getUnitSelect", ModelEnum.PRODUCT.getValue() + "_查询单位下拉"),
     PRODUCT_GET_LAST_DOWNLOAD_COUNT(ClzConstant.PRODUCT_QUERY + ".getLastDownloadCount", ModelEnum.PRODUCT.getKey(),"getLastDownloadCount", ModelEnum.PRODUCT.getValue() + "_获取可导出excel次数"),
     PRODUCT_GET_BY_ID_AND_CONDITION(ClzConstant.PRODUCT_QUERY + ".getByIdAndCondition", ModelEnum.PRODUCT.getKey(),"getByIdAndCondition", ModelEnum.PRODUCT.getValue() + "_根据id和其它条件查询"),
-
-    PRODUCT_OUTPUT_MONTH_LIST(ClzConstant.PRODUCT_OUTPUT_MONTH_QUERY + ".getPageList", ModelEnum.PRODUCT_OUTPUT_MONTH.getKey(),"getPageList", ModelEnum.PRODUCT_OUTPUT_MONTH.getValue() + "_查询列表"),
-    PRODUCT_OUTPUT_MONTH_GET(ClzConstant.PRODUCT_OUTPUT_MONTH_QUERY + ".getByMonth", ModelEnum.PRODUCT_OUTPUT_MONTH.getKey(),"getByMonth", ModelEnum.PRODUCT_OUTPUT_MONTH.getValue() + "_查询某个月"),
-    PRODUCT_OUTPUT_MONTH_DOWNLOAD(ClzConstant.PRODUCT_OUTPUT_MONTH_QUERY + ".download", ModelEnum.PRODUCT_OUTPUT_MONTH.getKey(),"download", ModelEnum.PRODUCT_OUTPUT_MONTH.getValue() + "下载"),
-    PRODUCT_OUTPUT_MONTH_DOWNLOAD_DETAIL(ClzConstant.PRODUCT_OUTPUT_MONTH_QUERY + ".downloadMonthDetail", ModelEnum.PRODUCT_OUTPUT_MONTH.getKey(),"downloadMonthDetail", ModelEnum.PRODUCT_OUTPUT_MONTH.getValue() + "下载某月明细"),
-    PRODUCT_OUTPUT_MONTH_GET_SUM(ClzConstant.PRODUCT_OUTPUT_MONTH_QUERY + ".getSumNumber", ModelEnum.PRODUCT_OUTPUT_MONTH.getKey(),"getSumNumber", ModelEnum.PRODUCT_OUTPUT_MONTH.getValue() + "_查询某个计量物的汇总"),
-    PRODUCT_OUTPUT_MONTH_GET_LAST_DOWNLOAD_COUNT(ClzConstant.PRODUCT_OUTPUT_MONTH_QUERY + ".getLastDownloadCount", ModelEnum.PRODUCT_OUTPUT_MONTH.getKey(),"getLastDownloadCount", ModelEnum.PRODUCT_OUTPUT_MONTH.getValue() + "_获取可导出excel次数"),
-
-    PRODUCT_OUTPUT_MONTH_TO_SUM(ClzConstant.PRODUCT_OUTPUT_MONTH_COMMAND + ".toSumByProductAndMonth", ModelEnum.PRODUCT_OUTPUT_MONTH.getKey(),"toSumByProductAndMonth", ModelEnum.PRODUCT_OUTPUT_MONTH.getValue() + "_汇总某个月"),
-    PRODUCT_OUTPUT_MONTH_TO_SUM_RECENT(ClzConstant.PRODUCT_OUTPUT_MONTH_COMMAND + ".toSumByRecentMonth", ModelEnum.PRODUCT_OUTPUT_MONTH.getKey(),"toSumByRecentMonth", ModelEnum.PRODUCT_OUTPUT_MONTH.getValue() + "_汇总最近几个月"),
-
-    PRODUCT_OUTPUT_YEAR_LIST(ClzConstant.PRODUCT_OUTPUT_YEAR_QUERY + ".getPageList", ModelEnum.PRODUCT_OUTPUT_YEAR.getKey(),"getPageList", ModelEnum.PRODUCT_OUTPUT_YEAR.getValue() + "_查询列表"),
-    PRODUCT_OUTPUT_YEAR_DOWNLOAD(ClzConstant.PRODUCT_OUTPUT_YEAR_QUERY + ".download", ModelEnum.PRODUCT_OUTPUT_YEAR.getKey(),"download", ModelEnum.PRODUCT_OUTPUT_YEAR.getValue() + "下载"),
-    PRODUCT_OUTPUT_YEAR_DOWNLOAD_DETAIL(ClzConstant.PRODUCT_OUTPUT_YEAR_QUERY + ".downloadYearDetail", ModelEnum.PRODUCT_OUTPUT_YEAR.getKey(),"downloadYearDetail", ModelEnum.PRODUCT_OUTPUT_YEAR.getValue() + "下载某年明细"),
-    PRODUCT_OUTPUT_YEAR_GET_SUM(ClzConstant.PRODUCT_OUTPUT_YEAR_QUERY + ".getSumNumber", ModelEnum.PRODUCT_OUTPUT_YEAR.getKey(),"getSumNumber", ModelEnum.PRODUCT_OUTPUT_YEAR.getValue() + "_查询某个计量物的汇总"),
-    PRODUCT_OUTPUT_YEAR_GET_LAST_DOWNLOAD_COUNT(ClzConstant.PRODUCT_OUTPUT_YEAR_QUERY + ".getLastDownloadCount", ModelEnum.PRODUCT_OUTPUT_YEAR.getKey(),"getLastDownloadCount", ModelEnum.PRODUCT_OUTPUT_YEAR.getValue() + "_获取可导出excel次数"),
 
     //--------------------------------------------- goods  start ----------------------------------------------------------------
     GOODS_TRADE_ADD(ClzConstant.GOODS_TRADE_COMMAND + ".add", ModelEnum.GOODS_TRADE.getKey(),"add", ModelEnum.GOODS_TRADE.getValue() + "_新增"),
