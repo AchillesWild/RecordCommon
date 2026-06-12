@@ -12,6 +12,12 @@ public class ConfigConstant {
 
     public static final String CONTACT_EMAIL = "contactEmail";
 
+    public static final String CONTACT_WECHAT = "contactWechat";
+
+    public static final String CONTACT_XHS = "contactXhs";
+
+    public static final String CONTACT_DOU_YIN = "contactDouYin";
+
     public static final String SENDER_EMAIL = "senderEmail";
 
     public static final String SENDER_EMAIL_PASS = "senderEmailPass";
