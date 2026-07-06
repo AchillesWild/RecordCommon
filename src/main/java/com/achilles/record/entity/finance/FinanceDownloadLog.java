@@ -1,11 +1,7 @@
 package com.achilles.record.entity.finance;
 
 import com.achilles.model.entity.BaseEntity;
-import lombok.Getter;
-import lombok.Setter;
 
-@Getter
-@Setter
 public class FinanceDownloadLog extends BaseEntity {
 
     private Integer type;
@@ -16,5 +12,35 @@ public class FinanceDownloadLog extends BaseEntity {
 
     private String traceId;
 
+    public Integer getType() {
+        return type;
+    }
 
+    public void setType(Integer type) {
+        this.type = type;
+    }
+
+    public Integer getDownloadDate() {
+        return downloadDate;
+    }
+
+    public void setDownloadDate(Integer downloadDate) {
+        this.downloadDate = downloadDate;
+    }
+
+    public Integer getDownloadMonth() {
+        return downloadMonth;
+    }
+
+    public void setDownloadMonth(Integer downloadMonth) {
+        this.downloadMonth = downloadMonth;
+    }
+
+    public String getTraceId() {
+        return traceId;
+    }
+
+    public void setTraceId(String traceId) {
+        this.traceId = traceId;
+    }
 }

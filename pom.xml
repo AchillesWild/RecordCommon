@@ -37,13 +37,6 @@
     </build>
 
     <dependencies>
-
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>1.18.46</version>
-            <scope>compile</scope>
-        </dependency>
         <dependency>
             <groupId>org.achilles</groupId>
             <artifactId>tool</artifactId>

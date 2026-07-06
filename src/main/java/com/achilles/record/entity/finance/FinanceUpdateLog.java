@@ -1,11 +1,8 @@
 package com.achilles.record.entity.finance;
 
 import com.achilles.model.entity.BaseEntity;
-import lombok.Getter;
-import lombok.Setter;
 
-@Getter
-@Setter
+
 public class FinanceUpdateLog extends BaseEntity {
 
     private Integer tradeDate;
@@ -18,5 +15,43 @@ public class FinanceUpdateLog extends BaseEntity {
 
     private String traceId;
 
+    public String getTraceId() {
+        return traceId;
+    }
 
+    public void setTraceId(String traceId) {
+        this.traceId = traceId;
+    }
+
+    public Integer getPace() {
+        return pace;
+    }
+
+    public void setPace(Integer pace) {
+        this.pace = pace;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
+
+    public Integer getTradeDatePre() {
+        return tradeDatePre;
+    }
+
+    public void setTradeDatePre(Integer tradeDatePre) {
+        this.tradeDatePre = tradeDatePre;
+    }
+
+    public Integer getTradeDate() {
+        return tradeDate;
+    }
+
+    public void setTradeDate(Integer tradeDate) {
+        this.tradeDate = tradeDate;
+    }
 }
