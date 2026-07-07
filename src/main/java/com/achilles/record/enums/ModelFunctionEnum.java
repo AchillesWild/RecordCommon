@@ -85,11 +85,8 @@ public enum ModelFunctionEnum {
     FINANCE_DOWNLOAD(ClzConstant.FINANCE_QUERY + ".download", ModelEnum.FINANCE.getKey(),"download", ModelEnum.FINANCE.getValue() + "_下载"),
     FINANCE_GET(ClzConstant.FINANCE_QUERY + ".get", ModelEnum.FINANCE.getKey(),"get", ModelEnum.FINANCE.getValue() + "_根据id查询"),
     FINANCE_LIST(ClzConstant.FINANCE_QUERY + ".getPageList", ModelEnum.FINANCE.getKey(),"getPageList", ModelEnum.FINANCE.getValue() + "_查询列表"),
-    FINANCE_COUNT(ClzConstant.FINANCE_QUERY + ".getCount", ModelEnum.FINANCE.getKey(),"getCount", ModelEnum.FINANCE.getValue() + "_查询总数"),
-    FINANCE_GET_SUM(ClzConstant.FINANCE_QUERY + ".getSum", ModelEnum.FINANCE.getKey(),"getSum", ModelEnum.FINANCE.getValue() + "_查询汇总"),
     FINANCE_GET_IMG(ClzConstant.FINANCE_QUERY + ".getBigImg", ModelEnum.FINANCE.getKey(),"getBigImg", ModelEnum.FINANCE.getValue() + "_获取大图"),
     FINANCE_GET_LAST_DOWNLOAD_COUNT(ClzConstant.FINANCE_QUERY + ".getLastDownloadCount", ModelEnum.FINANCE.getKey(),"getLastDownloadCount", ModelEnum.FINANCE.getValue() + "_获取可导出excel次数"),
-    FINANCE_GET_BY_ID_AND_CONDITION(ClzConstant.FINANCE_QUERY + ".getByIdAndCondition", ModelEnum.FINANCE.getKey(),"getByIdAndCondition", ModelEnum.FINANCE.getValue() + "_根据id和其它条件查询"),
     FINANCE_GET_BY_ID_AND_CON(ClzConstant.FINANCE_QUERY + ".getByIdAndCon", ModelEnum.FINANCE.getKey(),"getByIdAndCon", ModelEnum.FINANCE.getValue() + "_根据id和其它条件查询"),
     FINANCE_LIST_SIMPLE(ClzConstant.FINANCE_QUERY + ".getSimpleListByDate", ModelEnum.FINANCE_CALENDAR.getKey(),"getSimpleListByDate", ModelEnum.FINANCE_CALENDAR.getValue() + "_根据日期查询列表"),
 
