@@ -233,8 +233,10 @@ public enum ModelFunctionEnum {
     PRODUCT_OUTPUT_GET_LAST_DOWNLOAD_COUNT(ClzConstant.PRODUCT_OUTPUT_QUERY + ".getLastDownloadCount", ModelEnum.PRODUCT_OUTPUT.getKey(),"getLastDownloadCount", ModelEnum.PRODUCT_OUTPUT.getValue() + "_获取可导出excel次数"),
     PRODUCT_OUTPUT_GET_BY_ID_AND_CONDITION(ClzConstant.PRODUCT_OUTPUT_QUERY + ".getByIdAndCondition", ModelEnum.PRODUCT_OUTPUT.getKey(),"getByIdAndCondition", ModelEnum.PRODUCT_OUTPUT.getValue() + "_根据id和其它条件查询"),
     PRODUCT_OUTPUT_LIST_SIMPLE(ClzConstant.PRODUCT_OUTPUT_QUERY + ".getSimpleListByDate", ModelEnum.PRODUCT_OUTPUT_CALENDAR.getKey(),"getSimpleListByDate", ModelEnum.PRODUCT_OUTPUT_CALENDAR.getValue() + "_日历"),
+    PRODUCT_OUTPUT_LIST_SUM(ClzConstant.PRODUCT_OUTPUT_QUERY + ".getListByDate", ModelEnum.PRODUCT_OUTPUT_CALENDAR.getKey(),"getListByDate", ModelEnum.PRODUCT_OUTPUT_CALENDAR.getValue() + "_日历"),
 
     PRODUCT_OUTPUT_DATE_GET_LIST_MAP(ClzConstant.PRODUCT_OUTPUT_DATE_QUERY + ".getListMapByMonth", ModelEnum.PRODUCT_OUTPUT_CALENDAR.getKey(),"getListMapByMonth", ModelEnum.PRODUCT_OUTPUT_CALENDAR.getValue() + "_日历"),
+    PRODUCT_OUTPUT_DATE_GET_LIST_BY_MONTH(ClzConstant.PRODUCT_OUTPUT_DATE_QUERY + ".getProductNumByMonth", ModelEnum.PRODUCT_OUTPUT_CALENDAR.getKey(),"getProductNumByMonth", ModelEnum.PRODUCT_OUTPUT_CALENDAR.getValue() + "_日历"),
     PRODUCT_OUTPUT_DATE_LIST(ClzConstant.PRODUCT_OUTPUT_DATE_QUERY + ".getPageList", ModelEnum.PRODUCT_OUTPUT_DATE.getKey(),"getPageList", ModelEnum.PRODUCT_OUTPUT_DATE.getValue() + "_查询列表"),
     PRODUCT_OUTPUT_DATE_LIST_DATE(ClzConstant.PRODUCT_OUTPUT_DATE_QUERY + ".getDatePageList", ModelEnum.PRODUCT_OUTPUT_DATE.getKey(),"getDatePageList", ModelEnum.PRODUCT_OUTPUT_DATE.getValue() + "_查询列表"),
     PRODUCT_OUTPUT_DATE_GET_SUM(ClzConstant.PRODUCT_OUTPUT_DATE_QUERY + ".getSumNumber", ModelEnum.PRODUCT_OUTPUT_DATE.getKey(),"getSumNumber", ModelEnum.PRODUCT_OUTPUT_DATE.getValue() + "_查询某个计量物的汇总"),
