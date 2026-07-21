@@ -124,8 +124,8 @@ public enum ModelFunctionEnum {
     FINANCE_MONTH_DOWNLOAD_MONTH_CLASSIFIED(ClzConstant.FINANCE_MONTH_QUERY + ".downloadClassifiedMonth", ModelEnum.FINANCE_MONTH.getKey(),"downloadClassifiedMonth", ModelEnum.FINANCE_MONTH.getValue() + "_下载某月分类汇总"),
     FINANCE_MONTH_DOWNLOAD_CLASSIFIED(ClzConstant.FINANCE_MONTH_QUERY + ".downloadClassified", ModelEnum.FINANCE_MONTH.getKey(),"downloadClassified", ModelEnum.FINANCE_MONTH.getValue() + "_下载分类汇总"),
     FINANCE_MONTH_GET_LAST_DOWNLOAD_COUNT(ClzConstant.FINANCE_MONTH_QUERY + ".getLastDownloadCount", ModelEnum.FINANCE_MONTH.getKey(),"getLastDownloadCount", ModelEnum.FINANCE_MONTH.getValue() + "_获取可导出excel次数"),
+    FINANCE_MONTH_IF_IMG_COUNT_OUT_LIMIT(ClzConstant.FINANCE_MONTH_QUERY + ".ifImgCountOutLimit", ModelEnum.FINANCE_MONTH.getKey(),"ifImgCountOutLimit", ModelEnum.FINANCE_MONTH.getValue() + "_图片个数是否超过限制"),
 
-    FINANCE_MONTH_TO_SUM_MONTH(ClzConstant.FINANCE_MONTH_COMMAND + ".toSumByMonth", ModelEnum.FINANCE_MONTH.getKey(),"toSumByMonth", ModelEnum.FINANCE_MONTH.getValue() + "_汇总某月"),
 
     FINANCE_SEASON_DOWNLOAD_LIST(ClzConstant.FINANCE_SEASON_QUERY + ".downloadList", ModelEnum.FINANCE_SEASON.getKey(),"downloadList", ModelEnum.FINANCE_SEASON.getValue() + "_下载列表"),
     FINANCE_SEASON_LIST(ClzConstant.FINANCE_SEASON_QUERY + ".getPageList", ModelEnum.FINANCE_SEASON.getKey(),"getPageList", ModelEnum.FINANCE_SEASON.getValue() + "_查询列表"),
