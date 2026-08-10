@@ -16,7 +16,7 @@ public enum UserHomePageEnum {
 
     PRODUCT(5, "计量"),
 
-    GOODS(6, "买/卖"),
+//    GOODS(6, "买/卖"),
 
     ;
 
