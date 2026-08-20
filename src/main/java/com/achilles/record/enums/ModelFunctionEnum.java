@@ -101,8 +101,8 @@ public enum ModelFunctionEnum {
     FINANCE_DATE_GET_SUM(ClzConstant.FINANCE_DATE_QUERY + ".getSumAmount", ModelEnum.FINANCE_DATE.getKey(),"getSumAmount", ModelEnum.FINANCE_DATE.getValue() + "_获取汇总值"),
     FINANCE_DATE_DOWNLOAD_LIST(ClzConstant.FINANCE_DATE_QUERY + ".downloadList", ModelEnum.FINANCE_DATE.getKey(),"downloadList", ModelEnum.FINANCE_DATE.getValue() + "_下载列表"),
     FINANCE_DATE_DOWNLOAD_CLASSIFIED(ClzConstant.FINANCE_DATE_QUERY + ".downloadClassified", ModelEnum.FINANCE_DATE.getKey(),"downloadClassified", ModelEnum.FINANCE_DATE.getValue() + "_下载分类汇总"),
+    FINANCE_DATE_DOWNLOAD_CLASSIFIED_DATE(ClzConstant.FINANCE_DATE_QUERY + ".downloadClassifiedDate", ModelEnum.FINANCE_DATE.getKey(),"downloadClassifiedDate", ModelEnum.FINANCE_DATE.getValue() + "_下载日分类汇总"),
     FINANCE_DATE_GET_LAST_DOWNLOAD_COUNT(ClzConstant.FINANCE_DATE_QUERY + ".getLastDownloadCount", ModelEnum.FINANCE_DATE.getKey(),"getLastDownloadCount", ModelEnum.FINANCE_DATE.getValue() + "_获取可导出excel次数"),
-
     FINANCE_DATE_TO_SUM_DATE(ClzConstant.FINANCE_DATE_COMMAND + ".toSumByDate", ModelEnum.FINANCE_DATE.getKey(),"toSumByDate", ModelEnum.FINANCE_DATE.getValue() + "_汇总某月"),
 
     FINANCE_WEEK_DOWNLOAD_LIST(ClzConstant.FINANCE_WEEK_QUERY + ".downloadList", ModelEnum.FINANCE_WEEK.getKey(),"downloadList", ModelEnum.FINANCE_WEEK.getValue() + "_下载列表"),
@@ -162,6 +162,7 @@ public enum ModelFunctionEnum {
     FINANCE_COMMON_CLASSIFIED(ClzConstant.FINANCE_COMMON_QUERY + ".getClassified", ModelEnum.FINANCE_COMMON.getKey(),"getClassified", ModelEnum.FINANCE_COMMON.getValue() + "_获取分类汇总"),
     FINANCE_COMMON_GET_SUM(ClzConstant.FINANCE_COMMON_QUERY + ".getSumAmount", ModelEnum.FINANCE_COMMON.getKey(),"getSumAmount", ModelEnum.FINANCE_COMMON.getValue() + "_获取总额"),
     FINANCE_COMMON_GET_THIS_SUM(ClzConstant.FINANCE_COMMON_QUERY + ".getThisSum", ModelEnum.FINANCE_COMMON.getKey(),"getThisSum", ModelEnum.FINANCE_COMMON.getValue() + "_获取当天,本周..汇总"),
+    FINANCE_COMMON_GET_THIS_SUM_COMPARE(ClzConstant.FINANCE_COMMON_QUERY + ".getThisSumCompare", ModelEnum.FINANCE_COMMON.getKey(),"getThisSumCompare", ModelEnum.FINANCE_COMMON.getValue() + "_获取当天,本周..汇总"),
 
 
     FINANCE_REIMBURSE_TRANSACTION_TYPE_ADD(ClzConstant.FINANCE_REIMBURSE_TRANSACTION_COMMAND + ".add", ModelEnum.FINANCE_REIMBURSE_TRANSACTION.getKey(),"add", ModelEnum.FINANCE_REIMBURSE_TRANSACTION.getValue() + "_新增"),
