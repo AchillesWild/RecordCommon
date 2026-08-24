@@ -85,6 +85,7 @@ public enum ModelFunctionEnum {
     FINANCE_DOWNLOAD(ClzConstant.FINANCE_QUERY + ".download", ModelEnum.FINANCE.getKey(),"download", ModelEnum.FINANCE.getValue() + "_下载"),
     FINANCE_GET(ClzConstant.FINANCE_QUERY + ".get", ModelEnum.FINANCE.getKey(),"get", ModelEnum.FINANCE.getValue() + "_根据id查询"),
     FINANCE_LIST(ClzConstant.FINANCE_QUERY + ".getPageList", ModelEnum.FINANCE.getKey(),"getPageList", ModelEnum.FINANCE.getValue() + "_查询列表"),
+    FINANCE_LIST_TYPE(ClzConstant.FINANCE_QUERY + ".getPageListByTransactionType", ModelEnum.FINANCE.getKey(),"getPageListByTransactionType", ModelEnum.FINANCE.getValue() + "_根据类型查询列表"),
     FINANCE_GET_IMG(ClzConstant.FINANCE_QUERY + ".getBigImg", ModelEnum.FINANCE.getKey(),"getBigImg", ModelEnum.FINANCE.getValue() + "_获取大图"),
     FINANCE_GET_LAST_DOWNLOAD_COUNT(ClzConstant.FINANCE_QUERY + ".getLastDownloadCount", ModelEnum.FINANCE.getKey(),"getLastDownloadCount", ModelEnum.FINANCE.getValue() + "_获取可导出excel次数"),
     FINANCE_GET_BY_ID_AND_CON(ClzConstant.FINANCE_QUERY + ".getByIdAndCon", ModelEnum.FINANCE.getKey(),"getByIdAndCon", ModelEnum.FINANCE.getValue() + "_根据id和其它条件查询"),
