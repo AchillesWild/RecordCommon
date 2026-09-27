@@ -90,6 +90,7 @@ public enum ModelFunctionEnum {
     FINANCE_GET_LAST_DOWNLOAD_COUNT(ClzConstant.FINANCE_QUERY + ".getLastDownloadCount", ModelEnum.FINANCE.getKey(),"getLastDownloadCount", ModelEnum.FINANCE.getValue() + "_获取可导出excel次数"),
     FINANCE_GET_BY_ID_AND_CON(ClzConstant.FINANCE_QUERY + ".getByIdAndCon", ModelEnum.FINANCE.getKey(),"getByIdAndCon", ModelEnum.FINANCE.getValue() + "_根据id和其它条件查询"),
     FINANCE_LIST_SIMPLE(ClzConstant.FINANCE_QUERY + ".getSimpleListByDate", ModelEnum.FINANCE_CALENDAR.getKey(),"getSimpleListByDate", ModelEnum.FINANCE_CALENDAR.getValue() + "_根据日期查询列表"),
+    FINANCE_LIST_SIMPLE_2(ClzConstant.FINANCE_QUERY + ".getSimpleListByTradeDate", ModelEnum.FINANCE_CALENDAR.getKey(),"getSimpleListByTradeDate", ModelEnum.FINANCE_CALENDAR.getValue() + "_根据日期查询列表"),
 
 
     FINANCE_DATE_CLASSIFIED(ClzConstant.FINANCE_DATE_QUERY + ".getClassified", ModelEnum.FINANCE_DATE.getKey(),"getClassified", ModelEnum.FINANCE_DATE.getValue() + "_根据条件查询分类汇总"),
