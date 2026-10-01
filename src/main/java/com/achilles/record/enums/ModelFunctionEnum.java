@@ -20,6 +20,7 @@ public enum ModelFunctionEnum {
     MISSION_GET_CONTENT(ClzConstant.MISSION_QUERY + ".getContentById", ModelEnum.MISSION.getKey(),"getContentById", ModelEnum.MISSION.getValue() + "_根据id查询内容"),
     MISSION_LIST(ClzConstant.MISSION_QUERY + ".getPageList", ModelEnum.MISSION.getKey(),"getPageList", ModelEnum.MISSION.getValue() + "_查询列表"),
     MISSION_LIST_SIMPLE(ClzConstant.MISSION_QUERY + ".getSimpleListByDate", ModelEnum.MISSION_CALENDAR.getKey(),"getSimpleListByDate", ModelEnum.MISSION_CALENDAR.getValue() + "_日历"),
+    MISSION_LIST_SIMPLE_1(ClzConstant.MISSION_QUERY + ".getSimpleList", ModelEnum.MISSION_CALENDAR.getKey(),"getSimpleList", ModelEnum.MISSION_CALENDAR.getValue() + "_日历"),
     MISSION_COUNT(ClzConstant.MISSION_QUERY + ".getCount", ModelEnum.MISSION.getKey(),"getCount", ModelEnum.MISSION.getValue() + "_查询总数"),
     MISSION_TYPE(ClzConstant.MISSION_QUERY + ".getType", ModelEnum.MISSION.getKey(),"getType", ModelEnum.MISSION.getValue() + "_查询所有类型"),
     MISSION_PACE(ClzConstant.MISSION_QUERY + ".getPace", ModelEnum.MISSION.getKey(),"getPace", ModelEnum.MISSION.getValue() + "_查询所有进度"),
