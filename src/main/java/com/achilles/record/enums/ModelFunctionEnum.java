@@ -374,6 +374,7 @@ public enum ModelFunctionEnum {
     USER_CHECK_PASSWORD(ClzConstant.USER_COMMAND + ".checkPassword", ModelEnum.USER.getKey(),"checkPassword", ModelEnum.USER.getValue() + "_校验密码"),
     USER_CANCEL(ClzConstant.USER_COMMAND + ".cancel", ModelEnum.USER.getKey(),"cancel", ModelEnum.USER.getValue() + "_注销"),
     USER_JUST_UPDATE_PASS(ClzConstant.USER_COMMAND + ".justUpdatePass", ModelEnum.USER.getKey(),"justUpdatePass", ModelEnum.USER.getValue() + "_刚刚修改密码"),
+    USER_CHECK_PASS(ClzConstant.USER_COMMAND + ".checkPass", ModelEnum.USER.getKey(),"checkPass", ModelEnum.USER.getValue() + "_校验密码"),
 
 
     USER_GET(ClzConstant.USER_QUERY + ".get", ModelEnum.USER.getKey(),"get", ModelEnum.USER.getValue() + "_查询一个"),
@@ -383,6 +384,10 @@ public enum ModelFunctionEnum {
     USER_GET_QUESTION_ANSWER(ClzConstant.USER_QUERY + ".getQuestionAndAnswer", ModelEnum.USER.getKey(),"getQuestionAndAnswer", ModelEnum.USER.getValue() + "_查询问题和答案"),
     USER_IF_HAS_SET_QUESTION(ClzConstant.USER_QUERY + ".ifHasSetQuestion", ModelEnum.USER.getKey(),"ifHasSetQuestion", ModelEnum.USER.getValue() + "_是否已设置问题"),
     USER_GET_ACTIVE_DAYS(ClzConstant.USER_QUERY + ".getActiveDays", ModelEnum.USER.getKey(),"getActiveDays", ModelEnum.USER.getValue() + "_查询活跃天数"),
+    USER_CHECK_ANSWER(ClzConstant.USER_QUERY + ".checkAnswer", ModelEnum.USER.getKey(),"checkAnswer", ModelEnum.USER.getValue() + "_验证问题和答案"),
+    USER_get_All_QUESTION(ClzConstant.USER_QUERY + ".getAllQuestion", ModelEnum.USER.getKey(),"getAllQuestion", ModelEnum.USER.getValue() + "_获取所有问题"),
+    USER_GET_QUESTION_ANSWER2(ClzConstant.USER_QUERY + ".getQuestionAnswer", ModelEnum.USER.getKey(),"getQuestionAnswer", ModelEnum.USER.getValue() + "_获取问题和答案"),
+
 
     USER_NOTICE_READ_ONE(ClzConstant.USER_NOTICE + ".readOne", ModelEnum.USER_NOTICE.getKey(),"readOne", ModelEnum.USER_NOTICE.getValue() + "_读一条"),
     USER_NOTICE_GET_ONE(ClzConstant.USER_NOTICE + ".getOne", ModelEnum.USER_NOTICE.getKey(),"getOne", ModelEnum.USER_NOTICE.getValue() + "_查一条"),
